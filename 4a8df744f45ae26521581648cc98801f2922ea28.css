@@ -234,12 +234,6 @@ sub {
 img {
     border: 0
     }
-/**
- * Correct overflow not hidden in IE 9/10/11.
- */
-svg:not(:root) {
-    overflow: hidden
-    }
 /* Grouping content
    ========================================================================== */
 /**
@@ -477,6 +471,10 @@ mention token. */
 .notion-focusable-within:focus-within {
     box-shadow: rgba(35, 131, 226, 0.57) 0 0 0 1px inset, rgba(35, 131, 226, 0.35) 0 0 0 2px !important
     }
+/* Focusable tokens inside the editor should show focus ring */
+.notion-focusable-token:focus-visible {
+    box-shadow: rgba(35, 131, 226, 0.57) 0 0 0 1px inset, rgba(35, 131, 226, 0.35) 0 0 0 2px !important
+    }
 /* ==================================================================== */
 /* Cursor */
 /* ==================================================================== */
@@ -501,6 +499,11 @@ mention token. */
 /* ==================================================================== */
 /* Animation */
 /* ==================================================================== */
+/* TODO(pm-announcement): Remove after launch */
+.pm-announcement-modal-fadein {
+    animation: fadein ease-in 1s;
+    animation-fill-mode: both
+    }
 .notion-fadein {
     animation: fadein ease-in 330ms
     }
@@ -855,6 +858,69 @@ input[type="number"].input-hide-arrows {
 /** Conditional style when a content-editable root is editable */
 /** Conditional style when an element is or is inside a focused contentEditable. */
 /** Conditional styles for :after when we are composing text */
+/* ==================================================================== */
+/* Layout components
+/* 
+/* See Layout.tsx
+/* ==================================================================== */
+/**
+ * The Notion grid
+ *
+ *  FULL         CONTENT                        CONTENT         FULL
+ *  ┌─           ┌─                                  ─┐           ─┐
+ *  │            │                                    │            │
+ *  │            │                                    │            │
+ *  │    1fr     │       var(--content-width)         │    1fr     │
+ *  │            │                                    │            │
+ *  │            │                                    │            │
+ *  └─           └─                                  ─┘           ─┘
+ *
+ */
+.layout {
+    display: grid
+    }
+/**
+ * Place content in the centered "content" area
+ */
+.layout-content {
+    grid-column: content
+    }
+/**
+ * Place content spanning the entire grid
+ */
+.layout-full {
+    grid-column: full
+    }
+/**
+ * Place content in the left margin
+ */
+.layout-margin-left {
+    grid-column: full-start/content-start
+    }
+/**
+ * Place content in the right margin
+ */
+.layout-margin-right {
+    grid-column: content-end/full-end
+    }
+/**
+ * A nested grid which can serve as a container for child layout components.
+ */
+.layout-nested-grid {
+    grid-column: full;
+    display: grid;
+    grid-template-columns: inherit
+    }
+/**
+ * A utility class which can make a layout component (usually a full-width one)
+ * scrollable.
+ */
+.layout-margin-scrollable {
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    scrollbar-width: none
+    }
 /*!*************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./src/client/css/react-datetime.css ***!
   \*************************************************************************************/
@@ -1062,6 +1128,19 @@ table > tr {
 *::selection {
     /* Notion brand blue */
     background: rgba(35, 131, 226, 0.28)
+    }
+/**
+ * Safari 16.4 applies the ::selection pseudo-element to selectable
+ * blocks that are part of the user's selection, which makes
+ * it look like the user is making both a block selection *and* a
+ * multi-text selection.  This ensures that the selectable blocks
+ * don't appear selected in this case.
+ *
+ * (Note that actual block selections will still appear normally, as
+ * that styling is done through a completely different code path.)
+ */
+.notion-selectable::selection {
+    background: transparent
     }
 #notion-app b {
     font-weight: 600
