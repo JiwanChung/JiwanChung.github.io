@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><Key>_assets/_assets/permanent-marker-a6d62939e7c920a184ddddcf4149e62c.woff</Key><RequestId>T9SEFBY79KPPEKSW</RequestId><HostId>3BC5ZW41/N++mIeKNnB1+QUwsuOYEzIOU4GJ7oiT4F+iJPPWgJ1XmNKeYYzEaX4vnKgKULLl1/U=</HostId></Error>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>D297X9DHR8S29G42</RequestId><HostId>l+wEuKzew0rwi67ajWyvcj6cfVzTNh8Xqd+r8+BZ+Ktn2mrMHYP9lJlIfJYfb8qhZZiso6qowfPnjZBh2jCn7A==</HostId></Error>
