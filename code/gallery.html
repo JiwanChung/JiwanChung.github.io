@@ -1,0 +1,15 @@
+---
+layout: default
+title: Album Gallery
+---
+
+<link rel="stylesheet" href="{{ '/libs/custom/gallery.css' | relative_url }}">
+
+<div class="wrap" style="max-width:1200px;margin:56px auto;padding:0 20px;">
+  <header style="display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-bottom:18px;">
+    <h4 margin-bottom: 40px;>Music</h4>
+    <!-- <p style="margin:0;color:var(--muted);">Data-driven via <code>_data/albums.yml</code></p> -->
+  </header>
+
+  {% include album_gallery.html %}
+</div>
