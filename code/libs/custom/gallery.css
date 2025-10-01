@@ -3,12 +3,36 @@
   --r:16px; --gap:14px; --shadow:0 6px 18px rgba(0,0,0,.25);
 }
 .gallery{
-  display:grid; grid-template-columns:repeat(auto-fill, minmax(160px,1fr));
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
   gap:var(--gap);
 }
 .album{
-  background:var(--tile); border-radius:var(--r); overflow:hidden; box-shadow:var(--shadow);
-  position:relative; transition:transform .18s ease, filter .18s ease; outline:none;
+  /* background:var(--tile); border-radius:var(--r); overflow:hidden; box-shadow:var(--shadow); */
+  /* position:relative; transition:transform .18s ease, filter .18s ease; outline:none; */
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #222;
+  box-shadow: 0 4px 12px rgba(0,0,0,.25);
+  aspect-ratio: 1 / 1;   /* square */
+}
+/* enforce square */
+.album .art {
+  width: 100%;
+  aspect-ratio: 1 / 1;   /* square */
+  overflow: hidden;
+  position: relative;
+  background: #111;
+  margin: 0;
+}
+
+.album .art img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .album:hover{ transform:translateY(-2px); }
 .album:focus-visible{ box-shadow:0 0 0 3px #7aa2ff, var(--shadow); }

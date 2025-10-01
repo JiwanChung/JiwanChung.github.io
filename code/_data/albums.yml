@@ -1,3 +1,11 @@
 - cover: /assets/albums/bon_iver.jpg
-  title: Bon Iver, Bon Iver — Bon Iver
-  link: https://example.com/albums/midnight-circuits
+  title: Bon Iver, Bon Iver<br>— Bon Iver
+  link: https://www.youtube.com/playlist?list=PL3A4A38A32151F5B9
+
+- cover: /assets/albums/for_emma.jpg
+  title: For Emma, Forever Ago<br>— Bon Iver
+  link: https://www.youtube.com/playlist?list=OLAK5uy_mAWxeOHR1Vk1QbLM81k2wTBalzXEVrtLQ
+
+- cover: /assets/albums/either_or.jpg
+  title: Either/Or<br>— Elliot Smith
+  link: https://www.youtube.com/playlist?list=OLAK5uy_m4EZ95AgI9beJA-uVamuqELm9ZchAZzJM
