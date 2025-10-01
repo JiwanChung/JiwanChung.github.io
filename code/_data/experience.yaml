@@ -1,0 +1,42 @@
+experiences:
+
+- place: "Microsoft Research, AI Frontiers"
+  location: Redmond, U.S.
+  time: "Summer 2025"
+  title: "Research Scientist Intern"
+  logo: msr.jpeg
+  width: 100
+  category: work
+
+- place: "LG AI Research, AML"
+  location: Seoul, South Korea
+  time: "Summer 2024"
+  title: "Research Scientist Intern"
+  logo: "lgresearch.jpg"
+  width: 100
+  category: work
+
+- place: "Naver, Foundational Research"
+  location: Seongnam, South Korea
+  time: "Summer 2023"
+  title: "Research Scientist Intern"
+  logo: "naver.png"
+  width: 100
+  category: work
+  # supervisor: "Host: Vibhav Vineet"
+
+- place: "Yonsei University"
+  location: Seoul, South Korea
+  time: "Mar. 2024 - Present"
+  title: "Ph.D. Student"
+  supervisor: "Advisor: Seon Joo Kim"
+  logo: yonsei.png
+  width: 55
+
+- place: "Seoul National University"
+  location: Seoul, South Korea
+  time: "Mar. 2020 - Feb. 2023"
+  title: "M.Sc. Student"
+  supervisor: "Advisor: Gunhee Kim"
+  logo: snu.png
+  width: 55

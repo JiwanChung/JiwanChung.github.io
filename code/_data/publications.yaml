@@ -1,0 +1,155 @@
+papers:
+
+  - title: "What MLLMs Learn When They Learn Multimodal Reasoning: Perception, Reasoning, or Integration?"
+    authors: "<b>Jiwan Chung</b>, Neel Joshi, Pratyusha Sharma, Youngjae Yu, Vibhav Vineet"
+    venue: "arXiv. 2025."
+    paper_pdf: "tbu"
+    note: "Work done as part of an internship in Microsoft"
+    selected: y
+
+  - title: "v1: Learning to Point Visual Tokens for Multimodal Grounded Reasoning"
+    authors: "<b>Jiwan Chung‡</b>, Junhyeok Kim‡, Siyeol Kim, Jaeyoung Lee, Min Soo Kim, Youngjae Yu"
+    venue: "arXiv. 2025."
+    paper_pdf: "https://arxiv.org/abs/2505.18842"
+    code: "https://github.com/jun297/v1"
+    model: "https://huggingface.co/kjunh/v1-7B"
+    data: "https://huggingface.co/datasets/kjunh/v1g-sample"
+    selected: y
+
+  - title: "Teaching Metric Distance to Discrete Autoregressive Language Models"
+    authors: "<b>Jiwan Chung</b>, Saejin Kim, Yongrae Jo, Jaewoo Park, Dongjun Min, Youngjae Yu"
+    venue: "arXiv. 2025."
+    paper_pdf: "https://arxiv.org/abs/2503.02379"
+    selected: y
+
+  - title: "VisEscape: A Benchmark for Evaluating Exploration-driven Decision-making in Virtual Escape Rooms"
+    authors: "Seungwon Lim, Sungwoong Kim, Jihwan Yu, Sungjae Lee, <b>Jiwan Chung</b>, Youngjae Yu"
+    venue: "EMNLP. 2025."
+    paper_pdf: "https://arxiv.org/abs/2503.14427"
+    selected: n
+
+  - title: "VAGUE: Visual Contexts Clarify Ambiguous Expressions"
+    authors: "Heejeong Nam, Jinwoo Ahn, Keummin Ka, <b>Jiwan Chung</b>, Youngjae Yu"
+    venue: "ICCV. 2025."
+    paper_pdf: "https://arxiv.org/abs/2411.14137"
+    selected: n
+
+  - title: "Are Any-to-Any Models More Consistent Across Modality Transfers Than Specialists?"
+    authors: "<b>Jiwan Chung</b>, Janghan Yoon, Junhyeong Park, Sangeyl Lee, Joowon Yang, Sooyeon Park, Youngjae Yu"
+    venue: "ACL. 2025."
+    paper_pdf: "https://arxiv.org/abs/2505.24211"
+    data: "https://huggingface.co/datasets/jiwan-chung/ACON"
+    selected: y
+
+  - title: "Speaking Beyond Language: A Large-Scale Multimodal Dataset for Learning Nonverbal Cues from Video-Grounded Dialogues"
+    authors: "<b>Jiwan Chung‡</b>, Youngmin Kim‡, Jisoo Kim, sunghyun lee, Sangkyu Lee, Junhyeok Kim, Cheoljong Yang, Youngjae Yu"
+    venue: "ACL. 2025."
+    paper_pdf: "https://arxiv.org/abs/2506.00958"
+    selected: y
+
+  - title: "CANVAS: Commonsense-Aware Navigation System for Intuitive Human-Robot Interaction"
+    authors: "Suhwan Choi, Yongjun Cho, Minchan Kim, Jaeyoon Jung, Myunchul Joe, Yubeen Park, Minseo Kim, Sungwoong Kim, Sungjae Lee, Hwiseong Park, <b>Jiwan Chung</b>, Youngjae Yu"
+    venue: "ICRA. 2025."
+    paper_pdf: "https://arxiv.org/abs/2410.01273"
+    selected: n
+
+  - title: "EgoSpeak: Learning When to Speak for Egocentric Conversational Agents in the Wild"
+    authors: "Junhyeok Kim, Min Soo Kim, <b>Jiwan Chung</b>, Jungbin Cho, Jisoo Kim, Sungwoong Kim, Gyeongbo Sim, Youngjae Yu"
+    venue: "NAACL Findings. 2025."
+    paper_pdf: "https://arxiv.org/abs/2502.14892"
+    selected: n
+
+  - title: "Do LLMs Have Distinct and Consistent Personality? TRAIT: Personality Testset designed for LLMs with Psychometrics"
+    authors: "Seungbeen Lee, Seungwon Lim, Seungju Han, Giyeong Oh, Hyungjoo Chae, <b>Jiwan Chung</b>, Minju Kim, Beong-woo Kwak, Yeonsoo Lee, Dongha Lee, Jinyoung Yeo, Youngjae Yu"
+    venue: "NAACL Findings. 2025."
+    paper_pdf: "https://arxiv.org/abs/2406.14703"
+    selected: n
+
+  - title: "MASS: Overcoming Language Bias in Image-Text Matching"
+    authors: "<b>Jiwan Chung</b>, Seungwon Lim, Sangkyu Lee, Youngjae Yu"
+    venue: "AAAI. 2025."
+    paper_pdf: "https://arxiv.org/abs/2501.11469"
+    selected: y
+
+  - title: "Towards Visual Text Design Transfer Across Languages"
+    authors: "<b>Jiwan Chung‡</b>, Yejin Choi‡, Sumin Shim, Giyeong Oh, Youngjae Yu"
+    venue: "NeurIPS Datasets and Benchmarks. 2024."
+    paper_pdf: "https://arxiv.org/abs/2410.18823v1"
+    data: "https://huggingface.co/datasets/yejinc/MuST-Bench"
+    selected: y
+
+  - title: "Selective Vision is the Challenge for Visual Reasoning: A Benchmark for Visual Argument Understanding"
+    authors: "<b>Jiwan Chung‡</b>, Sungjae Lee‡, Minseo Kim, Seungju Han, Ashkan Yousefpour, Jack Hessel, Youngjae Yu"
+    venue: "EMNLP. 2024."
+    paper_pdf: "https://arxiv.org/abs/2406.18925"
+    code: "https://github.com/JiwanChung/VisArgs"
+    data: "https://huggingface.co/datasets/jiwan-chung/visargs"
+    selected: y
+
+  - title: "Can visual language models resolve textual ambiguity with visual cues? Let visual puns tell you!"
+    authors: "<b>Jiwan Chung</b>, Seungwon Lim, Jaehyun Jeon, Seungbeen Lee, Youngjae Yu"
+    venue: "EMNLP. 2024."
+    paper_pdf: "https://arxiv.org/abs/2410.01023"
+    code: "https://github.com/JiwanChung/VisualPun_UNPIE"
+    data: "https://huggingface.co/datasets/jiwan-chung/VisualPun_UNPIE"
+    selected: y
+
+  - title: "Language models as compilers: Simulating pseudocode execution improves algorithmic reasoning in language models"
+    authors: "Hyungjoo Chae, Yeonghyeon Kim, Seungone Kim, Kai Tzu-iunn Ong, Beong-woo Kwak, Moohyeon Kim, Seonghwan Kim, Taeyoon Kwon, <b>Jiwan Chung</b>, Youngjae Yu, Jinyoung Yeo"
+    venue: "EMNLP. 2024."
+    paper_pdf: "https://arxiv.org/abs/2404.02575"
+    selected: n
+
+  - title: "HyperCLOVA X Technical Report"
+    authors: "HyperCLOVA X Team"
+    venue: "arXiv. 2024."
+    paper_pdf: "https://arxiv.org/abs/2404.01954"
+    selected: n
+
+  - title: "Long Story Short: a Summarize-then-Search Method for Long Video Question Answering"
+    authors: "<b>Jiwan Chung</b>, Youngjae Yu"
+    venue: "BMVC. 2023."
+    paper_pdf: "https://arxiv.org/abs/2311.01233"
+    code: "https://github.com/JiwanChung/long-story-short"
+    selected: n
+
+  - title: "VLIS: Unimodal Language Models Guide Multimodal Language Generation"
+    authors: "<b>Jiwan Chung</b>, Youngjae Yu"
+    venue: "EMNLP. 2023."
+    paper_pdf: "https://arxiv.org/abs/2310.09767"
+    code: "https://github.com/JiwanChung/vlis"
+    selected: y
+
+  - title: "Reading books is great, but not if you are driving! Visually grounded reasoning about defeasible commonsense norms"
+    authors: "Seungju Han, Junhyeok Kim, Jack Hessel, Liwei Jiang, <b>Jiwan Chung</b>, Yejin Son, Yejin Choi, Youngjae Yu"
+    venue: "EMNLP. 2023."
+    paper_pdf: "https://arxiv.org/abs/2310.10418"
+    selected: n
+
+  - title: "Fusing pre-trained language models with multimodal prompts through reinforcement learning"
+    authors: "<b>Jiwan Chung‡</b>, Youngjae Yu‡, Heeseung Yun, Jack Hessel, Jae Sung Park, Ximing Lu, Rowan Zellers, Prithviraj Ammanabrolu, Ronan Le Bras, Gunhee Kim, Yejin Choi"
+    venue: "CVPR. 2023."
+    paper_pdf: "https://openaccess.thecvf.com/content/CVPR2023/html/Yu_Fusing_Pre-Trained_Language_Models_With_Multimodal_Prompts_Through_Reinforcement_Learning_CVPR_2023_paper.html"
+    code: "https://github.com/JiwanChung/esper"
+    selected: y
+
+  - title: "ACAV100M: Automatic curation of large-scale datasets for audio-visual video representation learning"
+    authors: "<b>Jiwan Chung‡</b>, Sangho Lee‡, Youngjae Yu, Gunhee Kim, Thomas Breuel, Gal Chechik, Yale Song"
+    venue: "ICCV. 2021."
+    paper_pdf: "https://openaccess.thecvf.com/content/ICCV2021/html/Lee_ACAV100M_Automatic_Curation_of_Large-Scale_Datasets_for_Audio-Visual_Video_Representation_ICCV_2021_paper.html"
+    code: "https://github.com/sangho-vision/acav100m"
+    webpage: "https://acav100m.github.io/"
+    selected: y
+
+  - title: "Transitional adaptation of pretrained models for visual storytelling"
+    authors: "<b>Jiwan Chung‡</b>, Youngjae Yu‡, Heeseung Yun, Jongseok Kim, Gunhee Kim"
+    venue: "CVPR. 2021."
+    paper_pdf: "https://openaccess.thecvf.com/content/CVPR2021/html/Yu_Transitional_Adaptation_of_Pretrained_Models_for_Visual_Storytelling_CVPR_2021_paper.html"
+    code: "https://github.com/JiwanChung/tapm"
+    selected: y
+
+  - title: "Character grounding and re-identification in story of videos and text descriptions"
+    authors: "Youngjae Yu, Jongseok Kim, Heeseung Yun, <b>Jiwan Chung</b>, Gunhee Kim"
+    venue: "ECCV. 2020."
+    paper_pdf: "/assets/papers/2020eccv_cisin.pdf"
+    selected: n
