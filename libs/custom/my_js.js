@@ -88,9 +88,6 @@ $(document).ready(function() {
     })
   }
 
-
-
-  /* === APPENDED: pastel poem tiles + modal popup === */
   var $tiles = $('.gallery .poem-album');
   var $modal = $('#poem-modal');
   var $titleEl = $('#poem-title');
