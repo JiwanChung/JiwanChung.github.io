@@ -1,0 +1,36 @@
+---
+layout: default
+title: Miscellaneous
+---
+
+<link rel="stylesheet" href="{{ '/libs/custom/gallery.css' | relative_url }}">
+
+<div class="wrap" style="max-width:1200px;margin:56px auto;padding:0 20px;">
+  <header style="display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-bottom:18px;">
+    <h4 margin-bottom: 40px;>Personal Life</h4>
+  </header>
+
+  Below are my personal favourites outside of research:<br><br>
+  <ul>
+    <li>I studied English literature as a sub-major in college and enjoy reading and writing poetry.</li>
+    <li>I have a distinctive taste in media, including music, film, and more.</li>
+    <li>I have always been, and still aspire to remain, an avid video gamer; even if research life has taken much of that time away.</li>
+  </ul>
+</div>
+
+<div class="wrap" style="max-width:1200px;margin:56px auto;padding:0 20px;">
+  <header style="display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-bottom:18px;">
+    <h4 margin-bottom: 40px;>Poetry</h4>
+    <!-- <p style="margin:0;color:var(--muted);">Data-driven via <code>_data/albums.yml</code></p> -->
+  </header>
+  {% include poem_gallery.html %}
+</div>
+
+<div class="wrap" style="max-width:1200px;margin:56px auto;padding:0 20px;">
+  <header style="display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-bottom:18px;">
+    <h4 margin-bottom: 40px;>Music</h4>
+    <!-- <p style="margin:0;color:var(--muted);">Data-driven via <code>_data/albums.yml</code></p> -->
+  </header>
+
+  {% include album_gallery.html %}
+</div>
