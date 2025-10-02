@@ -4,7 +4,5 @@ includes:    ./_includes
 baseurl: 
 
 collections:
-  projects:
-    output: true
   poems:
     output: true
