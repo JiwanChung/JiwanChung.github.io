@@ -3,7 +3,7 @@ papers:
   - title: "What MLLMs Learn When They Learn Multimodal Reasoning: Perception, Reasoning, or Integration?"
     authors: "<b>Jiwan Chung</b>, Neel Joshi, Pratyusha Sharma, Youngjae Yu, Vibhav Vineet"
     venue: "arXiv. 2025."
-    paper_pdf: "tbu"
+    paper_pdf: "https://arxiv.org/abs/2510.01719"
     note: "Work done as part of an internship in Microsoft"
     selected: y
 
