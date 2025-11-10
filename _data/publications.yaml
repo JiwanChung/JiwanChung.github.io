@@ -82,11 +82,11 @@ papers:
     venue: "NeurIPS Datasets and Benchmarks. 2024."
     paper_pdf: "https://arxiv.org/abs/2410.18823v1"
     data: "https://huggingface.co/datasets/yejinc/MuST-Bench"
-    selected: y
+    selected: n
 
   - title: "Selective Vision is the Challenge for Visual Reasoning: A Benchmark for Visual Argument Understanding"
     authors: "<b>Jiwan Chung‡</b>, Sungjae Lee‡, Minseo Kim, Seungju Han, Ashkan Yousefpour, Jack Hessel, Youngjae Yu"
-    venue: "EMNLP. 2024."
+    venue: "EMNLP. 2024. (Oral)"
     paper_pdf: "https://arxiv.org/abs/2406.18925"
     code: "https://github.com/JiwanChung/VisArgs"
     data: "https://huggingface.co/datasets/jiwan-chung/visargs"
@@ -98,7 +98,7 @@ papers:
     paper_pdf: "https://arxiv.org/abs/2410.01023"
     code: "https://github.com/JiwanChung/VisualPun_UNPIE"
     data: "https://huggingface.co/datasets/jiwan-chung/VisualPun_UNPIE"
-    selected: y
+    selected: n
 
   - title: "Language models as compilers: Simulating pseudocode execution improves algorithmic reasoning in language models"
     authors: "Hyungjoo Chae, Yeonghyeon Kim, Seungone Kim, Kai Tzu-iunn Ong, Beong-woo Kwak, Moohyeon Kim, Seonghwan Kim, Taeyoon Kwon, <b>Jiwan Chung</b>, Youngjae Yu, Jinyoung Yeo"
@@ -128,7 +128,7 @@ papers:
 
   - title: "Reading books is great, but not if you are driving! Visually grounded reasoning about defeasible commonsense norms"
     authors: "Seungju Han, Junhyeok Kim, Jack Hessel, Liwei Jiang, <b>Jiwan Chung</b>, Yejin Son, Yejin Choi, Youngjae Yu"
-    venue: "EMNLP. 2023."
+    venue: "EMNLP. 2023. (Oral)"
     paper_pdf: "https://arxiv.org/abs/2310.10418"
     selected: n
 
