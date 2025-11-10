@@ -1,5 +1,11 @@
 papers:
 
+  - title: "Explain with Visual Keypoints Like a Real Mentor! A Benchmark for Multimodal Solution Explanation"
+    authors: "Jaewoo Park, Jungyang Park, Dongju Jang, <b>Jiwan Chung</b>, Byungwoo Yoo, Jaewoo Shin, Seonjoon Park, Taehyeong Kim, Youngjae Yu"
+    venue: "AAAI. 2026."
+    paper_pdf: "https://arxiv.org/pdf/2504.03197"
+    selected: n
+
   - title: "What MLLMs Learn When They Learn Multimodal Reasoning: Perception, Reasoning, or Integration?"
     authors: "<b>Jiwan Chung</b>, Neel Joshi, Pratyusha Sharma, Youngjae Yu, Vibhav Vineet"
     venue: "arXiv. 2025."
