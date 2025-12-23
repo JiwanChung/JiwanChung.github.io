@@ -1,7 +1,9 @@
 source:      .
 destination: ./_site
 includes:    ./_includes
-baseurl: 
+baseurl:
+
+permalink: /blog/:title/
 
 collections:
   poems:

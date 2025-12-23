@@ -161,6 +161,32 @@ $(document).ready(function() {
     }
   });
 
+  // Blog tag filtering
+  var $tagFilters = $('.tag-filter');
+  var $blogPosts = $('.blog-post');
+
+  $tagFilters.on('click', function () {
+    var selectedTag = $(this).data('tag');
+
+    // Update active state
+    $tagFilters.removeClass('active');
+    $(this).addClass('active');
+
+    // Filter posts
+    if (selectedTag === 'all') {
+      $blogPosts.show();
+    } else {
+      $blogPosts.each(function () {
+        var postTags = $(this).data('tags');
+        if (postTags && postTags.split(',').indexOf(selectedTag) !== -1) {
+          $(this).show();
+        } else {
+          $(this).hide();
+        }
+      });
+    }
+  });
+
   init();
 
 });

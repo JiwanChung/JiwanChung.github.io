@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="docs-section" id="blog-post">
+  <p class="post-meta">
+    <a href="{{ '/blog/' | prepend: site.baseurl }}">&larr; Back to Blog</a>
+  </p>
+
+  <h3>{{ page.title }}</h3>
+
+  <p class="post-meta">
+    {{ page.date | date: "%B %d, %Y" }}
+    {% if page.tags.size > 0 %}
+      &nbsp;&bull;&nbsp;
+      {% for tag in page.tags %}
+        <span class="tag">{{ tag }}</span>
+      {% endfor %}
+    {% endif %}
+  </p>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+</div>
