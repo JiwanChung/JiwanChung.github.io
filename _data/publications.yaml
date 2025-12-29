@@ -5,6 +5,16 @@ papers:
     venue: "AAAI. 2026."
     paper_pdf: "https://arxiv.org/pdf/2504.03197"
     selected: n
+    type: conference
+    year: 2026
+    keywords: ["visual grounding", "math reasoning", "education", "benchmark"]
+    bibtex: |
+      @inproceedings{park2026explain,
+        title={Explain with Visual Keypoints Like a Real Mentor! A Benchmark for Multimodal Solution Explanation},
+        author={Park, Jaewoo and Park, Jungyang and Jang, Dongju and Chung, Jiwan and Yoo, Byungwoo and Shin, Jaewoo and Park, Seonjoon and Kim, Taehyeong and Yu, Youngjae},
+        booktitle={AAAI},
+        year={2026}
+      }
 
   - title: "What MLLMs Learn When They Learn Multimodal Reasoning: Perception, Reasoning, or Integration?"
     authors: "<b>Jiwan Chung</b>, Neel Joshi, Pratyusha Sharma, Youngjae Yu, Vibhav Vineet"
@@ -12,6 +22,16 @@ papers:
     paper_pdf: "https://arxiv.org/abs/2510.01719"
     note: "Work done as part of an internship in Microsoft"
     selected: y
+    type: preprint
+    year: 2025
+    keywords: ["multimodal reasoning", "perception", "geometry", "benchmark"]
+    bibtex: |
+      @article{chung2025whatmllms,
+        title={What MLLMs Learn When They Learn Multimodal Reasoning: Perception, Reasoning, or Integration?},
+        author={Chung, Jiwan and Joshi, Neel and Sharma, Pratyusha and Yu, Youngjae and Vineet, Vibhav},
+        journal={arXiv preprint arXiv:2510.01719},
+        year={2025}
+      }
 
   - title: "v1: Learning to Point Visual Tokens for Multimodal Grounded Reasoning"
     authors: "<b>Jiwan Chung‡</b>, Junhyeok Kim‡, Siyeol Kim, Jaeyoung Lee, Min Soo Kim, Youngjae Yu"
@@ -21,24 +41,64 @@ papers:
     model: "https://huggingface.co/kjunh/v1-7B"
     data: "https://huggingface.co/datasets/kjunh/v1g-sample"
     selected: y
+    type: preprint
+    year: 2025
+    keywords: ["visual grounding", "reasoning", "VLM", "pointing"]
+    bibtex: |
+      @article{chung2025v1,
+        title={v1: Learning to Point Visual Tokens for Multimodal Grounded Reasoning},
+        author={Chung, Jiwan and Kim, Junhyeok and Kim, Siyeol and Lee, Jaeyoung and Kim, Min Soo and Yu, Youngjae},
+        journal={arXiv preprint arXiv:2505.18842},
+        year={2025}
+      }
 
   - title: "Teaching Metric Distance to Discrete Autoregressive Language Models"
     authors: "<b>Jiwan Chung</b>, Saejin Kim, Yongrae Jo, Jaewoo Park, Dongjun Min, Youngjae Yu"
     venue: "arXiv. 2025."
     paper_pdf: "https://arxiv.org/abs/2503.02379"
     selected: y
+    type: preprint
+    year: 2025
+    keywords: ["training", "distance learning", "multimodal", "robotics"]
+    bibtex: |
+      @article{chung2025teaching,
+        title={Teaching Metric Distance to Discrete Autoregressive Language Models},
+        author={Chung, Jiwan and Kim, Saejin and Jo, Yongrae and Park, Jaewoo and Min, Dongjun and Yu, Youngjae},
+        journal={arXiv preprint arXiv:2503.02379},
+        year={2025}
+      }
 
   - title: "VisEscape: A Benchmark for Evaluating Exploration-driven Decision-making in Virtual Escape Rooms"
     authors: "Seungwon Lim, Sungwoong Kim, Jihwan Yu, Sungjae Lee, <b>Jiwan Chung</b>, Youngjae Yu"
     venue: "EMNLP. 2025."
     paper_pdf: "https://arxiv.org/abs/2503.14427"
     selected: n
+    type: conference
+    year: 2025
+    keywords: ["agents", "exploration", "decision-making", "benchmark"]
+    bibtex: |
+      @inproceedings{lim2025visescape,
+        title={VisEscape: A Benchmark for Evaluating Exploration-driven Decision-making in Virtual Escape Rooms},
+        author={Lim, Seungwon and Kim, Sungwoong and Yu, Jihwan and Lee, Sungjae and Chung, Jiwan and Yu, Youngjae},
+        booktitle={EMNLP},
+        year={2025}
+      }
 
   - title: "VAGUE: Visual Contexts Clarify Ambiguous Expressions"
     authors: "Heejeong Nam, Jinwoo Ahn, Keummin Ka, <b>Jiwan Chung</b>, Youngjae Yu"
     venue: "ICCV. 2025."
     paper_pdf: "https://arxiv.org/abs/2411.14137"
     selected: n
+    type: conference
+    year: 2025
+    keywords: ["ambiguity", "VLM", "disambiguation", "benchmark"]
+    bibtex: |
+      @inproceedings{nam2025vague,
+        title={VAGUE: Visual Contexts Clarify Ambiguous Expressions},
+        author={Nam, Heejeong and Ahn, Jinwoo and Ka, Keummin and Chung, Jiwan and Yu, Youngjae},
+        booktitle={ICCV},
+        year={2025}
+      }
 
   - title: "Are Any-to-Any Models More Consistent Across Modality Transfers Than Specialists?"
     authors: "<b>Jiwan Chung</b>, Janghan Yoon, Junhyeong Park, Sangeyl Lee, Joowon Yang, Sooyeon Park, Youngjae Yu"
@@ -46,36 +106,96 @@ papers:
     paper_pdf: "https://arxiv.org/abs/2505.24211"
     data: "https://huggingface.co/datasets/jiwan-chung/ACON"
     selected: y
+    type: conference
+    year: 2025
+    keywords: ["any-to-any", "consistency", "multimodal", "evaluation"]
+    bibtex: |
+      @inproceedings{chung2025anytoany,
+        title={Are Any-to-Any Models More Consistent Across Modality Transfers Than Specialists?},
+        author={Chung, Jiwan and Yoon, Janghan and Park, Junhyeong and Lee, Sangeyl and Yang, Joowon and Park, Sooyeon and Yu, Youngjae},
+        booktitle={ACL},
+        year={2025}
+      }
 
   - title: "Speaking Beyond Language: A Large-Scale Multimodal Dataset for Learning Nonverbal Cues from Video-Grounded Dialogues"
     authors: "<b>Jiwan Chung‡</b>, Youngmin Kim‡, Jisoo Kim, sunghyun lee, Sangkyu Lee, Junhyeok Kim, Cheoljong Yang, Youngjae Yu"
     venue: "ACL. 2025."
     paper_pdf: "https://arxiv.org/abs/2506.00958"
     selected: y
+    type: conference
+    year: 2025
+    keywords: ["nonverbal", "dialogue", "video", "dataset"]
+    bibtex: |
+      @inproceedings{chung2025speaking,
+        title={Speaking Beyond Language: A Large-Scale Multimodal Dataset for Learning Nonverbal Cues from Video-Grounded Dialogues},
+        author={Chung, Jiwan and Kim, Youngmin and Kim, Jisoo and Lee, Sunghyun and Lee, Sangkyu and Kim, Junhyeok and Yang, Cheoljong and Yu, Youngjae},
+        booktitle={ACL},
+        year={2025}
+      }
 
   - title: "CANVAS: Commonsense-Aware Navigation System for Intuitive Human-Robot Interaction"
     authors: "Suhwan Choi, Yongjun Cho, Minchan Kim, Jaeyoon Jung, Myunchul Joe, Yubeen Park, Minseo Kim, Sungwoong Kim, Sungjae Lee, Hwiseong Park, <b>Jiwan Chung</b>, Youngjae Yu"
     venue: "ICRA. 2025."
     paper_pdf: "https://arxiv.org/abs/2410.01273"
     selected: n
+    type: conference
+    year: 2025
+    keywords: ["robotics", "navigation", "commonsense", "embodied AI"]
+    bibtex: |
+      @inproceedings{choi2025canvas,
+        title={CANVAS: Commonsense-Aware Navigation System for Intuitive Human-Robot Interaction},
+        author={Choi, Suhwan and Cho, Yongjun and Kim, Minchan and Jung, Jaeyoon and Joe, Myunchul and Park, Yubeen and Kim, Minseo and Kim, Sungwoong and Lee, Sungjae and Park, Hwiseong and Chung, Jiwan and Yu, Youngjae},
+        booktitle={ICRA},
+        year={2025}
+      }
 
   - title: "EgoSpeak: Learning When to Speak for Egocentric Conversational Agents in the Wild"
     authors: "Junhyeok Kim, Min Soo Kim, <b>Jiwan Chung</b>, Jungbin Cho, Jisoo Kim, Sungwoong Kim, Gyeongbo Sim, Youngjae Yu"
     venue: "NAACL Findings. 2025."
     paper_pdf: "https://arxiv.org/abs/2502.14892"
     selected: n
+    type: conference
+    year: 2025
+    keywords: ["egocentric", "dialogue", "agents", "video"]
+    bibtex: |
+      @inproceedings{kim2025egospeak,
+        title={EgoSpeak: Learning When to Speak for Egocentric Conversational Agents in the Wild},
+        author={Kim, Junhyeok and Kim, Min Soo and Chung, Jiwan and Cho, Jungbin and Kim, Jisoo and Kim, Sungwoong and Sim, Gyeongbo and Yu, Youngjae},
+        booktitle={NAACL Findings},
+        year={2025}
+      }
 
   - title: "Do LLMs Have Distinct and Consistent Personality? TRAIT: Personality Testset designed for LLMs with Psychometrics"
     authors: "Seungbeen Lee, Seungwon Lim, Seungju Han, Giyeong Oh, Hyungjoo Chae, <b>Jiwan Chung</b>, Minju Kim, Beong-woo Kwak, Yeonsoo Lee, Dongha Lee, Jinyoung Yeo, Youngjae Yu"
     venue: "NAACL Findings. 2025."
     paper_pdf: "https://arxiv.org/abs/2406.14703"
     selected: n
+    type: conference
+    year: 2025
+    keywords: ["LLM", "personality", "evaluation", "benchmark"]
+    bibtex: |
+      @inproceedings{lee2025trait,
+        title={Do LLMs Have Distinct and Consistent Personality? TRAIT: Personality Testset designed for LLMs with Psychometrics},
+        author={Lee, Seungbeen and Lim, Seungwon and Han, Seungju and Oh, Giyeong and Chae, Hyungjoo and Chung, Jiwan and Kim, Minju and Kwak, Beong-woo and Lee, Yeonsoo and Lee, Dongha and Yeo, Jinyoung and Yu, Youngjae},
+        booktitle={NAACL Findings},
+        year={2025}
+      }
 
   - title: "MASS: Overcoming Language Bias in Image-Text Matching"
     authors: "<b>Jiwan Chung</b>, Seungwon Lim, Sangkyu Lee, Youngjae Yu"
     venue: "AAAI. 2025."
     paper_pdf: "https://arxiv.org/abs/2501.11469"
     selected: y
+    type: conference
+    year: 2025
+    keywords: ["image-text matching", "bias", "VLM"]
+    bibtex: |
+      @inproceedings{chung2025mass,
+        title={MASS: Overcoming Language Bias in Image-Text Matching},
+        author={Chung, Jiwan and Lim, Seungwon and Lee, Sangkyu and Yu, Youngjae},
+        booktitle={AAAI},
+        year={2025}
+      }
 
   - title: "Towards Visual Text Design Transfer Across Languages"
     authors: "<b>Jiwan Chung‡</b>, Yejin Choi‡, Sumin Shim, Giyeong Oh, Youngjae Yu"
@@ -83,6 +203,16 @@ papers:
     paper_pdf: "https://arxiv.org/abs/2410.18823v1"
     data: "https://huggingface.co/datasets/yejinc/MuST-Bench"
     selected: n
+    type: conference
+    year: 2024
+    keywords: ["visual text", "multilingual", "generation", "benchmark"]
+    bibtex: |
+      @inproceedings{chung2024visual,
+        title={Towards Visual Text Design Transfer Across Languages},
+        author={Chung, Jiwan and Choi, Yejin and Shim, Sumin and Oh, Giyeong and Yu, Youngjae},
+        booktitle={NeurIPS Datasets and Benchmarks},
+        year={2024}
+      }
 
   - title: "Selective Vision is the Challenge for Visual Reasoning: A Benchmark for Visual Argument Understanding"
     authors: "<b>Jiwan Chung‡</b>, Sungjae Lee‡, Minseo Kim, Seungju Han, Ashkan Yousefpour, Jack Hessel, Youngjae Yu"
@@ -91,6 +221,16 @@ papers:
     code: "https://github.com/JiwanChung/VisArgs"
     data: "https://huggingface.co/datasets/jiwan-chung/visargs"
     selected: y
+    type: conference
+    year: 2024
+    keywords: ["visual reasoning", "arguments", "benchmark"]
+    bibtex: |
+      @inproceedings{chung2024selective,
+        title={Selective Vision is the Challenge for Visual Reasoning: A Benchmark for Visual Argument Understanding},
+        author={Chung, Jiwan and Lee, Sungjae and Kim, Minseo and Han, Seungju and Yousefpour, Ashkan and Hessel, Jack and Yu, Youngjae},
+        booktitle={EMNLP},
+        year={2024}
+      }
 
   - title: "Can visual language models resolve textual ambiguity with visual cues? Let visual puns tell you!"
     authors: "<b>Jiwan Chung</b>, Seungwon Lim, Jaehyun Jeon, Seungbeen Lee, Youngjae Yu"
@@ -99,18 +239,48 @@ papers:
     code: "https://github.com/JiwanChung/VisualPun_UNPIE"
     data: "https://huggingface.co/datasets/jiwan-chung/VisualPun_UNPIE"
     selected: n
+    type: conference
+    year: 2024
+    keywords: ["puns", "ambiguity", "VLM", "benchmark"]
+    bibtex: |
+      @inproceedings{chung2024visual,
+        title={Can visual language models resolve textual ambiguity with visual cues? Let visual puns tell you!},
+        author={Chung, Jiwan and Lim, Seungwon and Jeon, Jaehyun and Lee, Seungbeen and Yu, Youngjae},
+        booktitle={EMNLP},
+        year={2024}
+      }
 
   - title: "Language models as compilers: Simulating pseudocode execution improves algorithmic reasoning in language models"
     authors: "Hyungjoo Chae, Yeonghyeon Kim, Seungone Kim, Kai Tzu-iunn Ong, Beong-woo Kwak, Moohyeon Kim, Seonghwan Kim, Taeyoon Kwon, <b>Jiwan Chung</b>, Youngjae Yu, Jinyoung Yeo"
     venue: "EMNLP. 2024."
     paper_pdf: "https://arxiv.org/abs/2404.02575"
     selected: n
+    type: conference
+    year: 2024
+    keywords: ["LLM", "reasoning", "code", "prompting"]
+    bibtex: |
+      @inproceedings{chae2024language,
+        title={Language models as compilers: Simulating pseudocode execution improves algorithmic reasoning in language models},
+        author={Chae, Hyungjoo and Kim, Yeonghyeon and Kim, Seungone and Ong, Kai Tzu-iunn and Kwak, Beong-woo and Kim, Moohyeon and Kim, Seonghwan and Kwon, Taeyoon and Chung, Jiwan and Yu, Youngjae and Yeo, Jinyoung},
+        booktitle={EMNLP},
+        year={2024}
+      }
 
   - title: "HyperCLOVA X Technical Report"
     authors: "HyperCLOVA X Team"
     venue: "arXiv. 2024."
     paper_pdf: "https://arxiv.org/abs/2404.01954"
     selected: n
+    type: preprint
+    year: 2024
+    keywords: ["LLM", "Korean", "multilingual"]
+    bibtex: |
+      @article{hyperclovax2024,
+        title={HyperCLOVA X Technical Report},
+        author={{HyperCLOVA X Team}},
+        journal={arXiv preprint arXiv:2404.01954},
+        year={2024}
+      }
 
   - title: "Long Story Short: a Summarize-then-Search Method for Long Video Question Answering"
     authors: "<b>Jiwan Chung</b>, Youngjae Yu"
@@ -118,6 +288,16 @@ papers:
     paper_pdf: "https://arxiv.org/abs/2311.01233"
     code: "https://github.com/JiwanChung/long-story-short"
     selected: n
+    type: conference
+    year: 2023
+    keywords: ["video QA", "summarization", "long video"]
+    bibtex: |
+      @inproceedings{chung2023longstory,
+        title={Long Story Short: a Summarize-then-Search Method for Long Video Question Answering},
+        author={Chung, Jiwan and Yu, Youngjae},
+        booktitle={BMVC},
+        year={2023}
+      }
 
   - title: "VLIS: Unimodal Language Models Guide Multimodal Language Generation"
     authors: "<b>Jiwan Chung</b>, Youngjae Yu"
@@ -125,12 +305,32 @@ papers:
     paper_pdf: "https://arxiv.org/abs/2310.09767"
     code: "https://github.com/JiwanChung/vlis"
     selected: y
+    type: conference
+    year: 2023
+    keywords: ["VLM", "decoding", "generation"]
+    bibtex: |
+      @inproceedings{chung2023vlis,
+        title={VLIS: Unimodal Language Models Guide Multimodal Language Generation},
+        author={Chung, Jiwan and Yu, Youngjae},
+        booktitle={EMNLP},
+        year={2023}
+      }
 
   - title: "Reading books is great, but not if you are driving! Visually grounded reasoning about defeasible commonsense norms"
     authors: "Seungju Han, Junhyeok Kim, Jack Hessel, Liwei Jiang, <b>Jiwan Chung</b>, Yejin Son, Yejin Choi, Youngjae Yu"
     venue: "EMNLP. 2023. (Oral)"
     paper_pdf: "https://arxiv.org/abs/2310.10418"
     selected: n
+    type: conference
+    year: 2023
+    keywords: ["commonsense", "norms", "VLM", "benchmark"]
+    bibtex: |
+      @inproceedings{han2023reading,
+        title={Reading books is great, but not if you are driving! Visually grounded reasoning about defeasible commonsense norms},
+        author={Han, Seungju and Kim, Junhyeok and Hessel, Jack and Jiang, Liwei and Chung, Jiwan and Son, Yejin and Choi, Yejin and Yu, Youngjae},
+        booktitle={EMNLP},
+        year={2023}
+      }
 
   - title: "Fusing pre-trained language models with multimodal prompts through reinforcement learning"
     authors: "<b>Jiwan Chung‡</b>, Youngjae Yu‡, Heeseung Yun, Jack Hessel, Jae Sung Park, Ximing Lu, Rowan Zellers, Prithviraj Ammanabrolu, Ronan Le Bras, Gunhee Kim, Yejin Choi"
@@ -138,6 +338,16 @@ papers:
     paper_pdf: "https://openaccess.thecvf.com/content/CVPR2023/html/Yu_Fusing_Pre-Trained_Language_Models_With_Multimodal_Prompts_Through_Reinforcement_Learning_CVPR_2023_paper.html"
     code: "https://github.com/JiwanChung/esper"
     selected: y
+    type: conference
+    year: 2023
+    keywords: ["multimodal", "RL", "prompting", "VLM"]
+    bibtex: |
+      @inproceedings{chung2023fusing,
+        title={Fusing pre-trained language models with multimodal prompts through reinforcement learning},
+        author={Chung, Jiwan and Yu, Youngjae and Yun, Heeseung and Hessel, Jack and Park, Jae Sung and Lu, Ximing and Zellers, Rowan and Ammanabrolu, Prithviraj and Le Bras, Ronan and Kim, Gunhee and Choi, Yejin},
+        booktitle={CVPR},
+        year={2023}
+      }
 
   - title: "ACAV100M: Automatic curation of large-scale datasets for audio-visual video representation learning"
     authors: "<b>Jiwan Chung‡</b>, Sangho Lee‡, Youngjae Yu, Gunhee Kim, Thomas Breuel, Gal Chechik, Yale Song"
@@ -146,6 +356,16 @@ papers:
     code: "https://github.com/sangho-vision/acav100m"
     webpage: "https://acav100m.github.io/"
     selected: y
+    type: conference
+    year: 2021
+    keywords: ["audio-visual", "dataset", "video", "representation"]
+    bibtex: |
+      @inproceedings{chung2021acav100m,
+        title={ACAV100M: Automatic curation of large-scale datasets for audio-visual video representation learning},
+        author={Chung, Jiwan and Lee, Sangho and Yu, Youngjae and Kim, Gunhee and Breuel, Thomas and Chechik, Gal and Song, Yale},
+        booktitle={ICCV},
+        year={2021}
+      }
 
   - title: "Transitional adaptation of pretrained models for visual storytelling"
     authors: "<b>Jiwan Chung‡</b>, Youngjae Yu‡, Heeseung Yun, Jongseok Kim, Gunhee Kim"
@@ -153,9 +373,29 @@ papers:
     paper_pdf: "https://openaccess.thecvf.com/content/CVPR2021/html/Yu_Transitional_Adaptation_of_Pretrained_Models_for_Visual_Storytelling_CVPR_2021_paper.html"
     code: "https://github.com/JiwanChung/tapm"
     selected: y
+    type: conference
+    year: 2021
+    keywords: ["visual storytelling", "generation", "VLM"]
+    bibtex: |
+      @inproceedings{chung2021transitional,
+        title={Transitional adaptation of pretrained models for visual storytelling},
+        author={Chung, Jiwan and Yu, Youngjae and Yun, Heeseung and Kim, Jongseok and Kim, Gunhee},
+        booktitle={CVPR},
+        year={2021}
+      }
 
   - title: "Character grounding and re-identification in story of videos and text descriptions"
     authors: "Youngjae Yu, Jongseok Kim, Heeseung Yun, <b>Jiwan Chung</b>, Gunhee Kim"
     venue: "ECCV. 2020."
     paper_pdf: "/assets/papers/2020eccv_cisin.pdf"
     selected: n
+    type: conference
+    year: 2020
+    keywords: ["video", "grounding", "characters", "story"]
+    bibtex: |
+      @inproceedings{yu2020character,
+        title={Character grounding and re-identification in story of videos and text descriptions},
+        author={Yu, Youngjae and Kim, Jongseok and Yun, Heeseung and Chung, Jiwan and Kim, Gunhee},
+        booktitle={ECCV},
+        year={2020}
+      }

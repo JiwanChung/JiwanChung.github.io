@@ -1,0 +1,77 @@
+---
+layout: default
+title: Stats
+permalink: /stats/
+---
+
+<div class="docs-section" id="stats">
+  <h4>Visitor Statistics</h4>
+
+  <div class="stats-container">
+    <div class="stats-box">
+      <div class="stats-number" id="total-visits">-</div>
+      <div class="stats-label">Total Visits</div>
+    </div>
+  </div>
+
+  <div class="stats-flags">
+    <h5>Visitors by Location</h5>
+    <a href="https://info.flagcounter.com/kj89"><img src="https://s05.flagcounter.com/map/kj89/size_l/txt_000000/border_CCCCCC/pageviews_1/viewers_0/flags_0/" alt="Flag Counter" border="0"></a>
+  </div>
+
+  <p style="margin-top: 2rem;">
+    <a href="https://jiwanchung.goatcounter.com" target="_blank" class="button">View Full Analytics</a>
+  </p>
+</div>
+
+<style>
+.stats-container {
+  display: flex;
+  gap: 20px;
+  margin: 2rem 0;
+}
+.stats-box {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 24px 32px;
+  text-align: center;
+}
+.stats-number {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1f2937;
+  line-height: 1;
+}
+.stats-label {
+  font-size: 14px;
+  color: #6b7280;
+  margin-top: 8px;
+}
+.stats-flags {
+  margin-top: 2rem;
+}
+.stats-flags h5 {
+  margin-bottom: 1rem;
+  color: #374151;
+}
+.stats-flags img {
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Fetch total visits from GoatCounter
+  fetch('https://jiwanchung.goatcounter.com/counter/*.json')
+    .then(function(r) { return r.json(); })
+    .then(function(data) {
+      document.getElementById('total-visits').textContent = data.count.toLocaleString();
+    })
+    .catch(function() {
+      document.getElementById('total-visits').textContent = '-';
+    });
+});
+</script>
