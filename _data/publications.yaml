@@ -33,6 +33,54 @@ papers:
         year={2025}
       }
 
+  - title: "A11YN: Aligning LLMs for Accessible Web UI Code Generation"
+    authors: "Janghan Yoon, Jaegwan Cho, Junhyeok Kim, <b>Jiwan Chung</b>, Jaehyun Jeon, Youngjae Yu"
+    venue: "arXiv. 2025."
+    paper_pdf: "https://arxiv.org/abs/2510.13914"
+    selected: n
+    type: preprint
+    year: 2025
+    keywords: ["accessibility", "LLM", "code generation", "web UI"]
+    bibtex: |
+      @article{yoon2025a11yn,
+        title={A11YN: Aligning LLMs for Accessible Web UI Code Generation},
+        author={Yoon, Janghan and Cho, Jaegwan and Kim, Junhyeok and Chung, Jiwan and Jeon, Jaehyun and Yu, Youngjae},
+        journal={arXiv preprint arXiv:2510.13914},
+        year={2025}
+      }
+
+  - title: "GuideDog: A Real-World Egocentric Multimodal Dataset for Blind and Low-Vision Accessibility-Aware Guidance"
+    authors: "Junhyeok Kim, Jaewoo Park, Junhee Park, Sangeyl Lee, <b>Jiwan Chung</b>, Jisung Kim, Ji Hoon Joung, Youngjae Yu"
+    venue: "arXiv. 2025."
+    paper_pdf: "https://arxiv.org/abs/2503.11186"
+    selected: n
+    type: preprint
+    year: 2025
+    keywords: ["accessibility", "dataset", "egocentric", "multimodal"]
+    bibtex: |
+      @article{kim2025guidedog,
+        title={GuideDog: A Real-World Egocentric Multimodal Dataset for Blind and Low-Vision Accessibility-Aware Guidance},
+        author={Kim, Junhyeok and Park, Jaewoo and Park, Junhee and Lee, Sangeyl and Chung, Jiwan and Kim, Jisung and Joung, Ji Hoon and Yu, Youngjae},
+        journal={arXiv preprint arXiv:2503.11186},
+        year={2025}
+      }
+
+  - title: "SEAL: Entangled White-box Watermarks on Low-Rank Adaptation"
+    authors: "Giyeong Oh, Saejin Kim, <b>Jiwan Chung</b>, Dokyung Song, Youngjae Yu"
+    venue: "arXiv. 2025."
+    paper_pdf: "https://arxiv.org/abs/2501.09689"
+    selected: n
+    type: preprint
+    year: 2025
+    keywords: ["watermarking", "LoRA", "security", "LLM"]
+    bibtex: |
+      @article{oh2025seal,
+        title={SEAL: Entangled White-box Watermarks on Low-Rank Adaptation},
+        author={Oh, Giyeong and Kim, Saejin and Chung, Jiwan and Song, Dokyung and Yu, Youngjae},
+        journal={arXiv preprint arXiv:2501.09689},
+        year={2025}
+      }
+
   - title: "v1: Learning to Point Visual Tokens for Multimodal Grounded Reasoning"
     authors: "<b>Jiwan Chung‡</b>, Junhyeok Kim‡, Siyeol Kim, Jaeyoung Lee, Min Soo Kim, Youngjae Yu"
     venue: "arXiv. 2025."
