@@ -39,43 +39,117 @@ $(document).ready(function() {
     var $papers = $('.paper-card');
     var keywordCounts = {};
     var keywordLinks = [];
+    var seenTitles = {};
+    // Block vague/generic keywords to surface topical ones
+    var blockedKeywords = [
+      'generation', 'decoding', 'training', 'evaluation', 'consistency', 
+      'benchmark', 'dataset', 'representation', 'analysis', 'approach', 
+      'framework', 'method', 'model', 'results', 'work', 'paper', 'study'
+    ];
 
-    // Extract keywords
+    // Extract keywords with title-based deduplication
     $papers.each(function() {
+      var title = $(this).find('.paper-title').text().trim();
+      if (seenTitles[title]) return;
+      seenTitles[title] = true;
+
       var keywords = ($(this).data('keywords') || '').toString().split(',');
+      var uniquePaperKeywords = []; // Deduplicate keywords within a single paper
+
       keywords.forEach(function(kw) {
         kw = kw.trim();
-        if (kw) {
+        var lowerKw = kw.toLowerCase();
+        // Filter out blocked keywords
+        if (kw && uniquePaperKeywords.indexOf(kw) === -1 && blockedKeywords.indexOf(lowerKw) === -1) {
+          uniquePaperKeywords.push(kw);
           keywordCounts[kw] = (keywordCounts[kw] || 0) + 1;
-          keywords.forEach(function(other) {
-            other = other.trim();
-            if (other && kw < other) {
-              keywordLinks.push({ source: kw, target: other });
-            }
-          });
         }
+      });
+
+      // Generate links from unique keywords in this paper
+      uniquePaperKeywords.forEach(function(kw) {
+        uniquePaperKeywords.forEach(function(other) {
+          if (kw < other) {
+            keywordLinks.push({ source: kw, target: other });
+          }
+        });
       });
     });
 
-    // Smaller node sizes for better fit
-    var nodes = Object.keys(keywordCounts).map(function(kw) {
+    // Filter: Top 30 keywords only
+    var topKeywords = Object.keys(keywordCounts).sort(function(a, b) {
+      return keywordCounts[b] - keywordCounts[a];
+    }).slice(0, 30);
+
+    var nodes = topKeywords.map(function(kw) {
       return {
         id: kw,
         count: keywordCounts[kw],
-        radius: Math.max(20, Math.min(40, 12 + keywordCounts[kw] * 5))
+        radius: Math.max(25, Math.min(50, 15 + keywordCounts[kw] * 6)) // Slightly larger nodes since fewer
       };
     });
 
-    // Deduplicate links
+    // Deduplicate links & Filter
     var linkMap = {};
     keywordLinks.forEach(function(l) {
-      var key = l.source + '|' + l.target;
-      linkMap[key] = (linkMap[key] || 0) + 1;
+      if (topKeywords.indexOf(l.source) !== -1 && topKeywords.indexOf(l.target) !== -1) {
+        var key = l.source + '|' + l.target;
+        linkMap[key] = (linkMap[key] || 0) + 1;
+      }
     });
     var links = Object.keys(linkMap).map(function(key) {
       var parts = key.split('|');
       return { source: parts[0], target: parts[1], value: linkMap[key] };
     });
+
+    // --- Explicit Semantic Categorization & Positioning ---
+    // Define categories with specific colors and keyword matches
+    var categories = [
+      { // 0: VLM / Multimodal Core (Blue)
+        id: 'vlm', color: '#3b82f6',
+        keywords: ['vlm', 'multimodal', 'image-text', 'visual grounding', 'visual text', 'any-to-any']
+      },
+      { // 1: Reasoning / Math (Violet)
+        id: 'reasoning', color: '#8b5cf6',
+        keywords: ['reasoning', 'logic', 'math', 'geometry', 'algorithm']
+      },
+      { // 2: Agents / Robotics (Amber)
+        id: 'agents', color: '#f59e0b',
+        keywords: ['agents', 'robotics', 'embodied', 'navigation', 'exploration', 'decision', 'rl', 'egocentric']
+      },
+      { // 3: Video / Audio (Rose)
+        id: 'video', color: '#f43f5e',
+        keywords: ['video', 'audio', 'summarization', 'nonverbal', 'storytelling']
+      },
+      { // 4: NLP / LLM (Emerald)
+        id: 'nlp', color: '#10b981',
+        keywords: ['llm', 'dialogue', 'ambiguity', 'puns', 'personality', 'multilingual', 'prompting', 'code', 'web ui']
+      },
+      { // 5: Trust & Safety (Cyan) - Replaces Benchmark
+        id: 'trust', color: '#06b6d4',
+        keywords: ['accessibility', 'bias', 'security', 'watermarking', 'education', 'lora', 'fairness']
+      }
+    ];
+
+    // Assign colors and group indices
+    nodes.forEach(function(n) {
+      var lowerId = n.id.toLowerCase();
+      n.groupIndex = -1; // Default to center
+      n.color = '#94a3b8'; // Default gray
+
+      for (var i = 0; i < categories.length; i++) {
+        var cat = categories[i];
+        for (var j = 0; j < cat.keywords.length; j++) {
+          if (lowerId.indexOf(cat.keywords[j]) !== -1) {
+            n.groupIndex = i;
+            n.color = cat.color;
+            break;
+          }
+        }
+        if (n.groupIndex !== -1) break;
+      }
+    });
+    // -----------------------------------------------
 
     var width = container.clientWidth;
     var height = 420;
@@ -98,14 +172,28 @@ $(document).ready(function() {
     gradient.append('stop').attr('offset', '0%').attr('stop-color', '#94a3b8');
     gradient.append('stop').attr('offset', '100%').attr('stop-color', '#cbd5e1');
 
-    // Tighter force simulation
+    // Calculate foci for semantic positioning (Elliptical arrangement)
+    var radiusX = width * 0.38; // Use more horizontal space
+    var radiusY = height * 0.38;
+    var center = { x: width / 2, y: height / 2 };
+    
+    function getFocus(d) {
+      if (d.groupIndex === -1) return center;
+      // Distribute 6 groups around the ellipse
+      var angle = (d.groupIndex / 6) * 2 * Math.PI - (Math.PI / 2) - (Math.PI / 6);
+      return {
+        x: center.x + radiusX * Math.cos(angle),
+        y: center.y + radiusY * Math.sin(angle)
+      };
+    }
+
+    // Simulation with Strong Semantic Positioning
     var simulation = d3.forceSimulation(nodes)
-      .force('link', d3.forceLink(links).id(function(d) { return d.id; }).distance(70))
-      .force('charge', d3.forceManyBody().strength(-150))
-      .force('center', d3.forceCenter(width / 2, height / 2))
-      .force('collision', d3.forceCollide().radius(function(d) { return d.radius + 8; }))
-      .force('x', d3.forceX(width / 2).strength(0.05))
-      .force('y', d3.forceY(height / 2).strength(0.05));
+      .force('link', d3.forceLink(links).id(function(d) { return d.id; }).distance(80).strength(0.05)) // Weak links
+      .force('charge', d3.forceManyBody().strength(-300)) // Slightly higher repulsion
+      .force('collision', d3.forceCollide().radius(function(d) { return d.radius + 5; }))
+      .force('x', d3.forceX(function(d) { return getFocus(d).x; }).strength(0.35)) // Relaxed pull
+      .force('y', d3.forceY(function(d) { return getFocus(d).y; }).strength(0.35)); // Relaxed pull
 
     // Links
     var link = g.append('g')
@@ -150,25 +238,24 @@ $(document).ready(function() {
         link.classed('highlighted', false);
       });
 
-    // Node circles - vibrant palette
+    // Node circles - refined modern palette with more variety
     node.append('circle')
       .attr('r', function(d) { return d.radius; })
-      .attr('fill', function(d, i) {
-        var colors = ['#2563eb', '#7c3aed', '#db2777', '#0891b2', '#059669', '#d97706', '#dc2626', '#4f46e5'];
-        return colors[i % colors.length];
-      })
+      .attr('fill', function(d) { return d.color; }) // Use explicit color
       .attr('stroke', '#fff')
       .attr('stroke-width', 2);
 
-    // Node labels - smaller font for better fit
+    // Node labels - Modern clean white with soft shadow
     node.append('text')
       .text(function(d) { return d.id; })
       .attr('text-anchor', 'middle')
       .attr('dy', '.35em')
-      .attr('fill', 'white')
-      .attr('font-size', '10px')
-      .attr('font-weight', '600')
-      .style('pointer-events', 'none');
+      .attr('fill', '#ffffff')
+      .style('font-family', '"Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif')
+      .attr('font-size', '11px')
+      .attr('font-weight', '700')
+      .style('pointer-events', 'none')
+      .style('text-shadow', '0 2px 4px rgba(0,0,0,0.5)'); // Soft lift instead of hard stroke
 
     // No pulsing animation - cleaner look
 
