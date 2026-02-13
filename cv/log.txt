@@ -1,0 +1,841 @@
+Rc files read:
+  /Users/jiwan/.latexmkrc
+Latexmk: This is Latexmk, John Collins, 15 June 2025. Version 4.87.
+No specific requests made, so using default for latexmk.
+Latexmk: Doing full clean up for 'advising.tex'
+
+Latexmk: Doing full clean up for 'awards.tex'
+
+Latexmk: Doing full clean up for 'colors.tex'
+
+Latexmk: Doing full clean up for 'education.tex'
+
+Latexmk: Doing full clean up for 'exp_other.tex'
+
+Latexmk: Doing full clean up for 'exp_research.tex'
+
+Latexmk: Doing full clean up for 'interest.tex'
+
+Latexmk: Getting log file 'main.log'
+Latexmk: Examining 'main.log'
+Latexmk: Missing input file 'main.aux' message in .log file:
+  No file main.aux.
+Latexmk: Found input bbl file 'main.bbl'
+Latexmk: References changed.
+====== biblatex/biber in use
+Latexmk: Log file says output to 'main.pdf'
+Latexmk: Using biber to make bibliography file(s).
+Latexmk: Bibliography file(s) from .bcf file:
+  ref_conf.bib
+  ref_preprint.bib
+Sources for biber
+  ref_conf.bib
+  ref_preprint.bib
+  main.bcf
+Latexmk: Doing full clean up for 'main.tex'
+
+Latexmk: Doing full clean up for 'media.tex'
+
+Latexmk: Doing full clean up for 'service.tex'
+
+Latexmk: Doing full clean up for 'teaching.tex'
+
+Latexmk: Doing full clean up for 'tools.tex'
+
+Initial compile...
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./main.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/size11.clo))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/biblatex.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/infwarerr/infwarerr.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/logreq/logreq.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/logreq/logreq.def))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/ifthen.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/blx-dm.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/blx-compat.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/biblatex.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex-nature/nature.bbx
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bb
+x (/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/bbx/standard.bbx)))
+) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex-nature/nature.cbx
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cb
+x)) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/biblatex.cfg)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/l3backend/l3backend-pdftex.d
+ef))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+))) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/bookmark/bookmark.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.
+sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/gettitlestring/gettitlestr
+ing.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)
+)) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/rerunfilecheck/rerunfilechec
+k.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/uniquecounter/uniquecounte
+r.sty)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/bookmark/bkm-pdftex.def))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/fontawesome/fontawesome.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/iftex/ifxetex.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/iftex/ifluatex.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/fontawesome/fontawesomesymbo
+ls-generic.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/fontawesome/fontawesomesymbo
+ls-pdftex.tex))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/ragged2e/ragged2e.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/soul/soul.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/soul/soul-ori.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/etexcmds/etexcmds.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/kpfonts.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsopn.sty)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/t1jkp.fd))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics-def/pdftex.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+No file main.aux.
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/omljkp.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/omsjkp.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/omxjkp.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/ujkpexa.fd)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/lbx/english.lbx)
+(./main.bbl)
+(/usr/local/texlive/2025basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (./colors.tex) (./interest.tex) (./education.tex
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/ot1jkp.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/ujkpmia.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/ujkpsya.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/ujkpsyb.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/ujkpsyc.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/ts1jkp.fd)
+Overfull \hbox (11.99998pt too wide) in alignment at lines 13--20
+[] [] 
+) (./exp_research.tex
+Overfull \hbox (34.44313pt too wide) in alignment at lines 3--7
+[] [] 
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/fontawesome/ufontawesomethre
+e.fd)
+
+LaTeX Warning: Empty bibliography on input line 188.
+
+
+LaTeX Warning: Empty bibliography on input line 199.
+
+[1{/usr/local/texlive/2025basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/
+usr/local/texlive/2025basic/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/
+texlive/2025basic/texmf-dist/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}
+pdfTeX warning (ext4): destination with the same identifier (name{.1}) has been
+ already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.234 \end{document}
+                    {/usr/local/texlive/2025basic/texmf-dist/fonts/enc/dvips/fo
+ntawesome/fontawesomethree.enc}] (./main.aux (./colors.aux))
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
+ )
+(see the transcript file for additional information)</usr/local/texlive/2025bas
+ic/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/local/texliv
+e/2025basic/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a.pfb></usr/local/texli
+ve/2025basic/texmf-dist/fonts/type1/public/kpfonts/jkpmit8a.pfb></usr/local/tex
+live/2025basic/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb></usr/local/te
+xlive/2025basic/texmf-dist/fonts/type1/public/kpfonts/jkpmnc.pfb></usr/local/te
+xlive/2025basic/texmf-dist/fonts/type1/public/kpfonts/jkpmne.pfb></usr/local/te
+xlive/2025basic/texmf-dist/fonts/type1/public/kpfonts/jkpsy.pfb>
+Output written on main.pdf (1 page, 66668 bytes).
+Transcript written on main.log.
+INFO - This is Biber 2.21
+INFO - Logfile is 'main.blg'
+INFO - Reading 'main.bcf'
+INFO - Found 0 citekeys in bib section 0
+INFO - Using all citekeys in bib section 1
+INFO - Found 0 citekeys in bib section 0
+INFO - Using all citekeys in bib section 2
+INFO - Found 0 citekeys in bib section 0
+INFO - Processing section 1
+INFO - Looking for bibtex file 'ref_conf.bib' for section 1
+INFO - LaTeX decoding ...
+INFO - Found BibTeX data source 'ref_conf.bib'
+INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+INFO - No sort tailoring available for locale 'en-US'
+INFO - Processing section 2
+INFO - Looking for bibtex file 'ref_preprint.bib' for section 2
+INFO - LaTeX decoding ...
+INFO - Found BibTeX data source 'ref_preprint.bib'
+INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+INFO - No sort tailoring available for locale 'en-US'
+INFO - Writing 'main.bbl' with encoding 'UTF-8'
+INFO - Output to main.bbl
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./main.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/size11.clo))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/biblatex.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/infwarerr/infwarerr.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/logreq/logreq.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/logreq/logreq.def))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/ifthen.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/blx-dm.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/blx-compat.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/biblatex.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex-nature/nature.bbx
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bb
+x (/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/bbx/standard.bbx)))
+) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex-nature/nature.cbx
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cb
+x)) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/biblatex.cfg)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/l3backend/l3backend-pdftex.d
+ef))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+))) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/bookmark/bookmark.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.
+sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/gettitlestring/gettitlestr
+ing.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)
+)) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/rerunfilecheck/rerunfilechec
+k.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/uniquecounter/uniquecounte
+r.sty)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/bookmark/bkm-pdftex.def))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/fontawesome/fontawesome.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/iftex/ifxetex.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/iftex/ifluatex.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/fontawesome/fontawesomesymbo
+ls-generic.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/fontawesome/fontawesomesymbo
+ls-pdftex.tex))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/ragged2e/ragged2e.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/soul/soul.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/soul/soul-ori.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/etexcmds/etexcmds.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/kpfonts.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsopn.sty)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/t1jkp.fd))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics-def/pdftex.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(./main.aux (./colors.aux))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/omljkp.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/omsjkp.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/omxjkp.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/ujkpexa.fd)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/lbx/english.lbx)
+(./main.bbl)
+(/usr/local/texlive/2025basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (./colors.tex) (./interest.tex) (./education.tex
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/ot1jkp.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/ujkpmia.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/ujkpsya.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/ujkpsyb.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/ujkpsyc.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/ts1jkp.fd)
+Overfull \hbox (11.99998pt too wide) in alignment at lines 13--20
+[] [] 
+) (./exp_research.tex
+Overfull \hbox (34.44313pt too wide) in alignment at lines 3--7
+[] [] 
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/fontawesome/ufontawesomethre
+e.fd)
+Overfull \hbox (7.95973pt too wide) in paragraph at lines 188--188
+ \T1/jkp/b/n/10.95 Ji-wan Chung\T1/jkp/m/n/10.95 , Jang-han Yoon, Jun-hyeong Pa
+rk, Sangeyl Lee, Joowon Yang, Sooyeon Park, Young- 
+[1{/usr/local/texlive/2025basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/
+usr/local/texlive/2025basic/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/
+texlive/2025basic/texmf-dist/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}
+pdfTeX warning (ext4): destination with the same identifier (name{.1}) has been
+ already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.188 ...liography[heading=none,resetnumbers=true]
+                                                  {/usr/local/texlive/2025basic
+/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomethree.enc}]
+Overfull \hbox (11.94547pt too wide) in paragraph at lines 188--188
+ \T1/jkp/m/n/10.95 Jun-hyeok Kim, Min-soo Kim\T1/jkp/b/n/10.95 , Ji-wan Chung\T
+1/jkp/m/n/10.95 , Jung-bin Cho, Jisoo Kim, Sung-woong Kim, Gyeongbo 
+[2] [3]
+Overfull \hbox (30.26491pt too wide) in paragraph at lines 199--199
+[]\T1/jkp/b/n/10.95 GuideDog: A Real-World Ego-cen-tric Mul-ti-modal Dataset fo
+r Blind and Low-Vision Accessibility- 
+[4] (./main.aux (./colors.aux))
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package biblatex Warning: Please rerun LaTeX.
+
+ )
+(see the transcript file for additional information)</usr/local/texlive/2025bas
+ic/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/local/texliv
+e/2025basic/texmf-dist/fonts/type1/public/kpfonts/jkpbit8a.pfb></usr/local/texl
+ive/2025basic/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a.pfb></usr/local/tex
+live/2025basic/texmf-dist/fonts/type1/public/kpfonts/jkpmit8a.pfb></usr/local/t
+exlive/2025basic/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb></usr/local/
+texlive/2025basic/texmf-dist/fonts/type1/public/kpfonts/jkpmnc.pfb></usr/local/
+texlive/2025basic/texmf-dist/fonts/type1/public/kpfonts/jkpmne.pfb></usr/local/
+texlive/2025basic/texmf-dist/fonts/type1/public/kpfonts/jkpsy.pfb>
+Output written on main.pdf (4 pages, 98931 bytes).
+Transcript written on main.log.
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./main.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/size11.clo))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/biblatex.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/infwarerr/infwarerr.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/logreq/logreq.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/logreq/logreq.def))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/ifthen.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/blx-dm.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/blx-compat.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/biblatex.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex-nature/nature.bbx
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bb
+x (/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/bbx/standard.bbx)))
+) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex-nature/nature.cbx
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cb
+x)) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/biblatex.cfg)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/l3backend/l3backend-pdftex.d
+ef))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+))) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/bookmark/bookmark.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.
+sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/gettitlestring/gettitlestr
+ing.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)
+)) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/rerunfilecheck/rerunfilechec
+k.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/uniquecounter/uniquecounte
+r.sty)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/bookmark/bkm-pdftex.def))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/fontawesome/fontawesome.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/iftex/ifxetex.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/iftex/ifluatex.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/fontawesome/fontawesomesymbo
+ls-generic.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/fontawesome/fontawesomesymbo
+ls-pdftex.tex))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/ragged2e/ragged2e.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/soul/soul.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/soul/soul-ori.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/etexcmds/etexcmds.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/kpfonts.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsopn.sty)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/t1jkp.fd))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics-def/pdftex.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(./main.aux (./colors.aux))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/omljkp.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/omsjkp.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/omxjkp.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/ujkpexa.fd)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/lbx/english.lbx)
+(./main.bbl)
+(/usr/local/texlive/2025basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (./colors.tex) (./interest.tex) (./education.tex
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/ot1jkp.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/ujkpmia.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/ujkpsya.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/ujkpsyb.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/ujkpsyc.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/ts1jkp.fd)
+Overfull \hbox (11.99998pt too wide) in alignment at lines 13--20
+[] [] 
+) (./exp_research.tex
+Overfull \hbox (34.44313pt too wide) in alignment at lines 3--7
+[] [] 
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/fontawesome/ufontawesomethre
+e.fd)
+Overfull \hbox (7.95973pt too wide) in paragraph at lines 188--188
+ \T1/jkp/b/n/10.95 Ji-wan Chung\T1/jkp/m/n/10.95 , Jang-han Yoon, Jun-hyeong Pa
+rk, Sangeyl Lee, Joowon Yang, Sooyeon Park, Young- 
+[1{/usr/local/texlive/2025basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/
+usr/local/texlive/2025basic/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/
+texlive/2025basic/texmf-dist/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}
+pdfTeX warning (ext4): destination with the same identifier (name{.1}) has been
+ already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.188 ...liography[heading=none,resetnumbers=true]
+                                                  {/usr/local/texlive/2025basic
+/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomethree.enc}]
+Overfull \hbox (11.94547pt too wide) in paragraph at lines 188--188
+ \T1/jkp/m/n/10.95 Jun-hyeok Kim, Min-soo Kim\T1/jkp/b/n/10.95 , Ji-wan Chung\T
+1/jkp/m/n/10.95 , Jung-bin Cho, Jisoo Kim, Sung-woong Kim, Gyeongbo 
+[2] [3]
+Overfull \hbox (30.26491pt too wide) in paragraph at lines 199--199
+[]\T1/jkp/b/n/10.95 GuideDog: A Real-World Ego-cen-tric Mul-ti-modal Dataset fo
+r Blind and Low-Vision Accessibility- 
+[4] (./main.aux (./colors.aux)) )
+(see the transcript file for additional information)</usr/local/texlive/2025bas
+ic/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/local/texliv
+e/2025basic/texmf-dist/fonts/type1/public/kpfonts/jkpbit8a.pfb></usr/local/texl
+ive/2025basic/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a.pfb></usr/local/tex
+live/2025basic/texmf-dist/fonts/type1/public/kpfonts/jkpmit8a.pfb></usr/local/t
+exlive/2025basic/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb></usr/local/
+texlive/2025basic/texmf-dist/fonts/type1/public/kpfonts/jkpmnc.pfb></usr/local/
+texlive/2025basic/texmf-dist/fonts/type1/public/kpfonts/jkpmne.pfb></usr/local/
+texlive/2025basic/texmf-dist/fonts/type1/public/kpfonts/jkpsy.pfb>
+Output written on main.pdf (4 pages, 98931 bytes).
+Transcript written on main.log.
+Watching for changes... (Ctrl+C to stop)
+11:34:45 - Recompiling...
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./main.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/size11.clo))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/biblatex.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/infwarerr/infwarerr.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/logreq/logreq.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/logreq/logreq.def))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/ifthen.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/blx-dm.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/blx-compat.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/biblatex.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex-nature/nature.bbx
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bb
+x (/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/bbx/standard.bbx)))
+) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex-nature/nature.cbx
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cb
+x)) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/biblatex.cfg)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/l3backend/l3backend-pdftex.d
+ef))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+))) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/bookmark/bookmark.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.
+sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/gettitlestring/gettitlestr
+ing.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)
+)) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/rerunfilecheck/rerunfilechec
+k.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/uniquecounter/uniquecounte
+r.sty)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/bookmark/bkm-pdftex.def))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/fontawesome/fontawesome.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/iftex/ifxetex.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/iftex/ifluatex.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/fontawesome/fontawesomesymbo
+ls-generic.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/fontawesome/fontawesomesymbo
+ls-pdftex.tex))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/ragged2e/ragged2e.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/soul/soul.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/soul/soul-ori.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/etexcmds/etexcmds.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/kpfonts.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsopn.sty)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/t1jkp.fd))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics-def/pdftex.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(./main.aux (./colors.aux))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/omljkp.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/omsjkp.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/omxjkp.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/ujkpexa.fd)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/lbx/english.lbx)
+(./main.bbl)
+(/usr/local/texlive/2025basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (./colors.tex) (./interest.tex) (./education.tex
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/ot1jkp.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/ujkpmia.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/ujkpsya.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/ujkpsyb.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/ujkpsyc.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/ts1jkp.fd)
+Overfull \hbox (11.99998pt too wide) in alignment at lines 13--20
+[] [] 
+) (./exp_research.tex
+Overfull \hbox (34.44313pt too wide) in alignment at lines 3--7
+[] [] 
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/fontawesome/ufontawesomethre
+e.fd)
+Overfull \hbox (7.95973pt too wide) in paragraph at lines 188--188
+ \T1/jkp/b/n/10.95 Ji-wan Chung\T1/jkp/m/n/10.95 , Jang-han Yoon, Jun-hyeong Pa
+rk, Sangeyl Lee, Joowon Yang, Sooyeon Park, Young- 
+[1{/usr/local/texlive/2025basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/
+usr/local/texlive/2025basic/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/
+texlive/2025basic/texmf-dist/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}
+pdfTeX warning (ext4): destination with the same identifier (name{.1}) has been
+ already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.188 ...liography[heading=none,resetnumbers=true]
+                                                  {/usr/local/texlive/2025basic
+/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomethree.enc}]
+Overfull \hbox (11.94547pt too wide) in paragraph at lines 188--188
+ \T1/jkp/m/n/10.95 Jun-hyeok Kim, Min-soo Kim\T1/jkp/b/n/10.95 , Ji-wan Chung\T
+1/jkp/m/n/10.95 , Jung-bin Cho, Jisoo Kim, Sung-woong Kim, Gyeongbo 
+[2] [3]
+Overfull \hbox (30.26491pt too wide) in paragraph at lines 199--199
+[]\T1/jkp/b/n/10.95 GuideDog: A Real-World Ego-cen-tric Mul-ti-modal Dataset fo
+r Blind and Low-Vision Accessibility- 
+[4] (./main.aux (./colors.aux)) )
+(see the transcript file for additional information)</usr/local/texlive/2025bas
+ic/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/local/texliv
+e/2025basic/texmf-dist/fonts/type1/public/kpfonts/jkpbit8a.pfb></usr/local/texl
+ive/2025basic/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a.pfb></usr/local/tex
+live/2025basic/texmf-dist/fonts/type1/public/kpfonts/jkpmit8a.pfb></usr/local/t
+exlive/2025basic/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb></usr/local/
+texlive/2025basic/texmf-dist/fonts/type1/public/kpfonts/jkpmnc.pfb></usr/local/
+texlive/2025basic/texmf-dist/fonts/type1/public/kpfonts/jkpmne.pfb></usr/local/
+texlive/2025basic/texmf-dist/fonts/type1/public/kpfonts/jkpsy.pfb>
+Output written on main.pdf (4 pages, 98931 bytes).
+Transcript written on main.log.
+INFO - This is Biber 2.21
+INFO - Logfile is 'main.blg'
+INFO - Reading 'main.bcf'
+INFO - Found 0 citekeys in bib section 0
+INFO - Using all citekeys in bib section 1
+INFO - Found 0 citekeys in bib section 0
+INFO - Using all citekeys in bib section 2
+INFO - Found 0 citekeys in bib section 0
+INFO - Processing section 1
+INFO - Looking for bibtex file 'ref_conf.bib' for section 1
+INFO - LaTeX decoding ...
+INFO - Found BibTeX data source 'ref_conf.bib'
+INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+INFO - No sort tailoring available for locale 'en-US'
+INFO - Processing section 2
+INFO - Looking for bibtex file 'ref_preprint.bib' for section 2
+INFO - LaTeX decoding ...
+INFO - Found BibTeX data source 'ref_preprint.bib'
+INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+INFO - No sort tailoring available for locale 'en-US'
+INFO - Writing 'main.bbl' with encoding 'UTF-8'
+INFO - Output to main.bbl
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./main.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/size11.clo))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/biblatex.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/infwarerr/infwarerr.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/logreq/logreq.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/logreq/logreq.def))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/ifthen.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/blx-dm.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/blx-compat.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/biblatex.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex-nature/nature.bbx
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bb
+x (/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/bbx/standard.bbx)))
+) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex-nature/nature.cbx
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cb
+x)) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/biblatex.cfg)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/l3backend/l3backend-pdftex.d
+ef))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+))) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/bookmark/bookmark.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.
+sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/gettitlestring/gettitlestr
+ing.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)
+)) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/rerunfilecheck/rerunfilechec
+k.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/uniquecounter/uniquecounte
+r.sty)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/bookmark/bkm-pdftex.def))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/fontawesome/fontawesome.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/iftex/ifxetex.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/iftex/ifluatex.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/fontawesome/fontawesomesymbo
+ls-generic.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/fontawesome/fontawesomesymbo
+ls-pdftex.tex))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/ragged2e/ragged2e.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/soul/soul.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/soul/soul-ori.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/etexcmds/etexcmds.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/kpfonts.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsopn.sty)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/t1jkp.fd))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics-def/pdftex.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(./main.aux (./colors.aux))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/omljkp.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/omsjkp.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/omxjkp.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/ujkpexa.fd)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex/lbx/english.lbx)
+(./main.bbl)
+(/usr/local/texlive/2025basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (./colors.tex) (./interest.tex) (./education.tex
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/ot1jkp.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/ujkpmia.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/ujkpsya.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/ujkpsyb.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/ujkpsyc.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/ts1jkp.fd)
+Overfull \hbox (11.99998pt too wide) in alignment at lines 13--20
+[] [] 
+) (./exp_research.tex
+Overfull \hbox (34.44313pt too wide) in alignment at lines 3--7
+[] [] 
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/fontawesome/ufontawesomethre
+e.fd)
+Overfull \hbox (7.95973pt too wide) in paragraph at lines 188--188
+ \T1/jkp/b/n/10.95 Ji-wan Chung\T1/jkp/m/n/10.95 , Jang-han Yoon, Jun-hyeong Pa
+rk, Sangeyl Lee, Joowon Yang, Sooyeon Park, Young- 
+[1{/usr/local/texlive/2025basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/
+usr/local/texlive/2025basic/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/
+texlive/2025basic/texmf-dist/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}
+pdfTeX warning (ext4): destination with the same identifier (name{.1}) has been
+ already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.188 ...liography[heading=none,resetnumbers=true]
+                                                  {/usr/local/texlive/2025basic
+/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomethree.enc}]
+Overfull \hbox (11.94547pt too wide) in paragraph at lines 188--188
+ \T1/jkp/m/n/10.95 Jun-hyeok Kim, Min-soo Kim\T1/jkp/b/n/10.95 , Ji-wan Chung\T
+1/jkp/m/n/10.95 , Jung-bin Cho, Jisoo Kim, Sung-woong Kim, Gyeongbo 
+[2] [3]
+Overfull \hbox (30.26491pt too wide) in paragraph at lines 199--199
+[]\T1/jkp/b/n/10.95 GuideDog: A Real-World Ego-cen-tric Mul-ti-modal Dataset fo
+r Blind and Low-Vision Accessibility- 
+[4] (./main.aux (./colors.aux)) )
+(see the transcript file for additional information)</usr/local/texlive/2025bas
+ic/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/local/texliv
+e/2025basic/texmf-dist/fonts/type1/public/kpfonts/jkpbit8a.pfb></usr/local/texl
+ive/2025basic/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a.pfb></usr/local/tex
+live/2025basic/texmf-dist/fonts/type1/public/kpfonts/jkpmit8a.pfb></usr/local/t
+exlive/2025basic/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb></usr/local/
+texlive/2025basic/texmf-dist/fonts/type1/public/kpfonts/jkpmnc.pfb></usr/local/
+texlive/2025basic/texmf-dist/fonts/type1/public/kpfonts/jkpmne.pfb></usr/local/
+texlive/2025basic/texmf-dist/fonts/type1/public/kpfonts/jkpsy.pfb>
+Output written on main.pdf (4 pages, 98937 bytes).
+Transcript written on main.log.
+Done.

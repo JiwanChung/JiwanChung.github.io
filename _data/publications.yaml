@@ -1,5 +1,37 @@
 papers:
 
+  - title: "Global Geometry Is Not Enough for Vision Representations"
+    authors: "<b>Jiwan Chung</b>, Seon Joo Kim"
+    venue: "arXiv. 2026."
+    paper_pdf: "https://arxiv.org/abs/2602.03282"
+    selected: y
+    type: preprint
+    year: 2026
+    keywords: ["geometry", "representation learning", "multimodal", "theory"]
+    bibtex: |
+      @article{chung2026global,
+        title={Global Geometry Is Not Enough for Vision Representations},
+        author={Chung, Jiwan and Kim, Seon Joo and others},
+        journal={arXiv preprint arXiv:2602.03282},
+        year={2026}
+      }
+
+  - title: "Teaching Metric Distance to Discrete Autoregressive Language Models"
+    authors: "<b>Jiwan Chung</b>, Saejin Kim, Yongrae Jo, Jaewoo Park, Dongjun Min, Youngjae Yu"
+    venue: "ICLR. 2026."
+    paper_pdf: "https://arxiv.org/abs/2503.02379"
+    selected: y
+    type: conference
+    year: 2026
+    keywords: ["training", "distance learning", "multimodal", "robotics"]
+    bibtex: |
+      @inproceedings{chung2025teaching,
+        title={Teaching Metric Distance to Discrete Autoregressive Language Models},
+        author={Chung, Jiwan and Kim, Saejin and Jo, Yongrae and Park, Jaewoo and Min, Dongjun and Yu, Youngjae and others},
+        booktitle={The Fourteenth International Conference on Learning Representations},
+        year={2026}
+      }
+
   - title: "Explain with Visual Keypoints Like a Real Mentor! A Benchmark for Multimodal Solution Explanation"
     authors: "Jaewoo Park, Jungyang Park, Dongju Jang, <b>Jiwan Chung</b>, Byungwoo Yoo, Jaewoo Shin, Seonjoon Park, Taehyeong Kim, Youngjae Yu"
     venue: "AAAI. 2026."
@@ -100,21 +132,6 @@ papers:
         year={2025}
       }
 
-  - title: "Teaching Metric Distance to Discrete Autoregressive Language Models"
-    authors: "<b>Jiwan Chung</b>, Saejin Kim, Yongrae Jo, Jaewoo Park, Dongjun Min, Youngjae Yu"
-    venue: "arXiv. 2025."
-    paper_pdf: "https://arxiv.org/abs/2503.02379"
-    selected: y
-    type: preprint
-    year: 2025
-    keywords: ["training", "distance learning", "multimodal", "robotics"]
-    bibtex: |
-      @article{chung2025teaching,
-        title={Teaching Metric Distance to Discrete Autoregressive Language Models},
-        author={Chung, Jiwan and Kim, Saejin and Jo, Yongrae and Park, Jaewoo and Min, Dongjun and Yu, Youngjae},
-        journal={arXiv preprint arXiv:2503.02379},
-        year={2025}
-      }
 
   - title: "VisEscape: A Benchmark for Evaluating Exploration-driven Decision-making in Virtual Escape Rooms"
     authors: "Seungwon Lim, Sungwoong Kim, Jihwan Yu, Sungjae Lee, <b>Jiwan Chung</b>, Youngjae Yu"

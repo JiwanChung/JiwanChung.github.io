@@ -1,0 +1,27 @@
+[0] Config.pm:328> INFO - This is Biber 2.21
+[0] Config.pm:331> INFO - Logfile is 'main.blg'
+[25] biber-darwin:342> INFO - === Fri Feb 13, 2026, 11:34:46
+[32] Biber.pm:421> INFO - Reading 'main.bcf'
+[58] Biber.pm:1002> INFO - Found 0 citekeys in bib section 0
+[58] Biber.pm:999> INFO - Using all citekeys in bib section 1
+[58] Biber.pm:1002> INFO - Found 0 citekeys in bib section 0
+[58] Biber.pm:999> INFO - Using all citekeys in bib section 2
+[58] Biber.pm:1002> INFO - Found 0 citekeys in bib section 0
+[68] Biber.pm:4487> INFO - Processing section 1
+[72] Biber.pm:4678> INFO - Looking for bibtex file 'ref_conf.bib' for section 1
+[73] bibtex.pm:1713> INFO - LaTeX decoding ...
+[79] bibtex.pm:1519> INFO - Found BibTeX data source 'ref_conf.bib'
+[187] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[187] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[187] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[187] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[193] Biber.pm:4487> INFO - Processing section 2
+[193] Biber.pm:4678> INFO - Looking for bibtex file 'ref_preprint.bib' for section 2
+[194] bibtex.pm:1713> INFO - LaTeX decoding ...
+[195] bibtex.pm:1519> INFO - Found BibTeX data source 'ref_preprint.bib'
+[223] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[223] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[223] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[223] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[224] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[231] bbl.pm:779> INFO - Output to main.bbl
