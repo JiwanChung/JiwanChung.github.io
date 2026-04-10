@@ -1,5 +1,21 @@
 papers:
 
+  - title: "GuideDog: A Real-World Egocentric Multimodal Dataset for Blind and Low-Vision Accessibility-Aware Guidance"
+    authors: "Junhyeok Kim, Jaewoo Park, Junhee Park, Sangeyl Lee, <b>Jiwan Chung</b>, Jisung Kim, Ji Hoon Joung, Youngjae Yu"
+    venue: "ACL. 2026."
+    paper_pdf: "https://arxiv.org/abs/2503.11186"
+    selected: n
+    type: conference
+    year: 2026
+    keywords: ["accessibility", "dataset", "egocentric", "multimodal"]
+    bibtex: |
+      @inproceedings{kim2025guidedog,
+        title={GuideDog: A Real-World Egocentric Multimodal Dataset for Blind and Low-Vision Accessibility-Aware Guidance},
+        author={Kim, Junhyeok and Park, Jaewoo and Park, Junhee and Lee, Sangeyl and Chung, Jiwan and Kim, Jisung and Joung, Ji Hoon and Yu, Youngjae},
+        booktitle={ACL},
+        year={2026}
+      }
+
   - title: "Global Geometry Is Not Enough for Vision Representations"
     authors: "<b>Jiwan Chung</b>, Seon Joo Kim"
     venue: "arXiv. 2026."
@@ -81,21 +97,6 @@ papers:
         year={2025}
       }
 
-  - title: "GuideDog: A Real-World Egocentric Multimodal Dataset for Blind and Low-Vision Accessibility-Aware Guidance"
-    authors: "Junhyeok Kim, Jaewoo Park, Junhee Park, Sangeyl Lee, <b>Jiwan Chung</b>, Jisung Kim, Ji Hoon Joung, Youngjae Yu"
-    venue: "arXiv. 2025."
-    paper_pdf: "https://arxiv.org/abs/2503.11186"
-    selected: n
-    type: preprint
-    year: 2025
-    keywords: ["accessibility", "dataset", "egocentric", "multimodal"]
-    bibtex: |
-      @article{kim2025guidedog,
-        title={GuideDog: A Real-World Egocentric Multimodal Dataset for Blind and Low-Vision Accessibility-Aware Guidance},
-        author={Kim, Junhyeok and Park, Jaewoo and Park, Junhee and Lee, Sangeyl and Chung, Jiwan and Kim, Jisung and Joung, Ji Hoon and Yu, Youngjae},
-        journal={arXiv preprint arXiv:2503.11186},
-        year={2025}
-      }
 
   - title: "SEAL: Entangled White-box Watermarks on Low-Rank Adaptation"
     authors: "Giyeong Oh, Saejin Kim, <b>Jiwan Chung</b>, Dokyung Song, Youngjae Yu"
