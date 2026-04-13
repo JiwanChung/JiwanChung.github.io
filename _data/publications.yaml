@@ -1,5 +1,17 @@
 papers:
 
+  - title: "Where Did It Go Wrong? Process-Level Evaluation of Web Agents with Semantic State Tracking"
+    authors: "<b>Jiwan Chung</b>, et al."
+    venue: "Preprint. 2026."
+    selected: y
+    featured: y
+    featured_summary: "Developed a controlled benchmark for <strong>diagnosing process-level failures in web agents</strong>, enabling fine-grained analysis of exploration, execution, and decision-making behaviors."
+    paper_pdf: "/assets/papers/2026webstep.pdf"
+    webpage: "https://jiwanchung.github.io/webstep"
+    type: preprint
+    year: 2026
+    keywords: ["agents", "evaluation", "benchmark", "web"]
+
   - title: "GuideDog: A Real-World Egocentric Multimodal Dataset for Blind and Low-Vision Accessibility-Aware Guidance"
     authors: "Junhyeok Kim, Jaewoo Park, Junhee Park, Sangeyl Lee, <b>Jiwan Chung</b>, Jisung Kim, Ji Hoon Joung, Youngjae Yu"
     venue: "ACL. 2026."
@@ -37,9 +49,12 @@ papers:
     venue: "ICLR. 2026."
     paper_pdf: "https://arxiv.org/abs/2503.02379"
     selected: y
+    featured: y
+    featured_summary: "Introduced a training objective that teaches discrete autoregressive language models to represent <strong>metric distance</strong>, improving their ability to capture spatial and relational structure in applications as embodied AI."
     type: conference
     year: 2026
     keywords: ["training", "distance learning", "multimodal", "robotics"]
+    
     bibtex: |
       @inproceedings{chung2025teaching,
         title={Teaching Metric Distance to Discrete Autoregressive Language Models},
@@ -122,6 +137,8 @@ papers:
     model: "https://huggingface.co/kjunh/v1-7B"
     data: "https://huggingface.co/datasets/kjunh/v1g-sample"
     selected: y
+    featured: y
+    featured_summary: "Developed <strong>visual pointing mechanisms to improve grounded reasoning in multimodal LLMs</strong>, enhancing their ability to align visual evidence with multi-step reasoning."
     type: preprint
     year: 2025
     keywords: ["visual grounding", "reasoning", "VLM", "pointing"]
@@ -172,6 +189,8 @@ papers:
     paper_pdf: "https://arxiv.org/abs/2505.24211"
     data: "https://huggingface.co/datasets/jiwan-chung/ACON"
     selected: y
+    featured: y
+    featured_summary: "Developed a benchmark for evaluating consistency across multimodal transfer pathways, enabling fine-grained diagnosis of <strong>cross-modal behavior in any-to-any (omnimodal) LLMs</strong>."
     type: conference
     year: 2025
     keywords: ["any-to-any", "consistency", "multimodal", "evaluation"]
@@ -268,7 +287,7 @@ papers:
     venue: "NeurIPS Datasets and Benchmarks. 2024."
     paper_pdf: "https://arxiv.org/abs/2410.18823v1"
     data: "https://huggingface.co/datasets/yejinc/MuST-Bench"
-    selected: n
+    selected: y
     type: conference
     year: 2024
     keywords: ["visual text", "multilingual", "generation", "benchmark"]
@@ -304,7 +323,7 @@ papers:
     paper_pdf: "https://arxiv.org/abs/2410.01023"
     code: "https://github.com/JiwanChung/VisualPun_UNPIE"
     data: "https://huggingface.co/datasets/jiwan-chung/VisualPun_UNPIE"
-    selected: n
+    selected: y
     type: conference
     year: 2024
     keywords: ["puns", "ambiguity", "VLM", "benchmark"]

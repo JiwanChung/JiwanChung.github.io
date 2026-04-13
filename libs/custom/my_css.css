@@ -359,9 +359,9 @@ h4 { letter-spacing: .1rem; }
 }
 .paper-authors b { color: #1f2937; font-weight: 600; }
 .paper-venue {
-  font-size: 13px;
+  font-size: 15px;
   color: #2563eb;
-  font-style: normal;
+  font-style: bold;
   font-weight: 500;
   margin-bottom: 10px;
 }

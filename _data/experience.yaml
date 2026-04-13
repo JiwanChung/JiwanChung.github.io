@@ -4,6 +4,7 @@ experiences:
   location: Redmond, U.S.
   time: "Summer 2025"
   title: "Research Scientist Intern"
+  summary: "Conducted research on diagnosing multimodal reasoning capabilities in MLLMs (MathLens; arXiv 2025), with the collaboration later continuing into on process-level evaluation of web agents (WebStep; 2026)."
   logo: msr.jpeg
   width: 100
   category: work
@@ -12,6 +13,7 @@ experiences:
   location: Seoul, South Korea
   time: "Summer 2024"
   title: "Research Scientist Intern"
+  summary: "Conducted research on extending multimodal LLMs beyond language-only outputs, including embodied VLA, image generation, and mathematical reasoning (DIST2Loss; ICLR 2026)."
   logo: "lgresearch.jpg"
   width: 100
   category: work
@@ -20,6 +22,7 @@ experiences:
   location: Seongnam, South Korea
   time: "Summer 2023"
   title: "Research Scientist Intern"
+  summary: "Contributed to HyperCLOVA X LLM development and conducted preliminary exploration on omnimodal language modeling."
   logo: "naver.png"
   width: 100
   category: work

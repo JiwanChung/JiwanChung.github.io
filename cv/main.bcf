@@ -2383,17 +2383,61 @@
     <bcf:datasource type="file" datatype="bibtex">ref_conf.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="1">
-    <bcf:citekey order="1" intorder="1" nocite="1">*</bcf:citekey>
+    <bcf:citekey order="1" intorder="1" nocite="1">chung2026teaching</bcf:citekey>
+    <bcf:citekey order="2" intorder="2" nocite="1">chung2025anytoany</bcf:citekey>
+    <bcf:citekey order="3" intorder="3" nocite="1">kim2025speaking</bcf:citekey>
+    <bcf:citekey order="4" intorder="4" nocite="1">chung2025mass</bcf:citekey>
+    <bcf:citekey order="5" intorder="5" nocite="1">choi2024</bcf:citekey>
+    <bcf:citekey order="6" intorder="6" nocite="1">chung2024selective</bcf:citekey>
+    <bcf:citekey order="7" intorder="7" nocite="1">chung2024pun</bcf:citekey>
+    <bcf:citekey order="8" intorder="8" nocite="1">chung2023vlis</bcf:citekey>
+    <bcf:citekey order="9" intorder="9" nocite="1">chung2023long</bcf:citekey>
+    <bcf:citekey order="10" intorder="10" nocite="1">yu2023fusing</bcf:citekey>
+    <bcf:citekey order="11" intorder="11" nocite="1">lee2021acav100m</bcf:citekey>
+    <bcf:citekey order="12" intorder="12" nocite="1">yu2021transitional</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">
   </bcf:section>
   <!-- SECTION 2 -->
   <bcf:bibdata section="2">
-    <bcf:datasource type="file" datatype="bibtex">ref_preprint.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">ref_conf.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="2">
-    <bcf:citekey order="1" intorder="1" nocite="1">*</bcf:citekey>
+    <bcf:citekey order="1" intorder="1" nocite="1">kim2025guidedog</bcf:citekey>
+    <bcf:citekey order="2" intorder="2" nocite="1">park2025explain</bcf:citekey>
+    <bcf:citekey order="3" intorder="3" nocite="1">nam2025iccv</bcf:citekey>
+    <bcf:citekey order="4" intorder="4" nocite="1">lim2025visescape</bcf:citekey>
+    <bcf:citekey order="5" intorder="5" nocite="1">kim2025egospeak</bcf:citekey>
+    <bcf:citekey order="6" intorder="6" nocite="1">lee2024llms</bcf:citekey>
+    <bcf:citekey order="7" intorder="7" nocite="1">choi2025canvas</bcf:citekey>
+    <bcf:citekey order="8" intorder="8" nocite="1">chae2024language</bcf:citekey>
+    <bcf:citekey order="9" intorder="9" nocite="1">han2023reading</bcf:citekey>
+    <bcf:citekey order="10" intorder="10" nocite="1">yu2020character</bcf:citekey>
+  </bcf:section>
+  <!-- SECTION 0 (cont.) -->
+  <bcf:section number="0">
+  </bcf:section>
+  <!-- SECTION 3 -->
+  <bcf:bibdata section="3">
+    <bcf:datasource type="file" datatype="bibtex">ref_preprint.bib</bcf:datasource>
+  </bcf:bibdata>
+  <bcf:section number="3">
+    <bcf:citekey order="1" intorder="1" nocite="1">chung2026webstep</bcf:citekey>
+    <bcf:citekey order="2" intorder="2" nocite="1">chung2026geo</bcf:citekey>
+    <bcf:citekey order="3" intorder="3" nocite="1">chung2025what</bcf:citekey>
+    <bcf:citekey order="4" intorder="4" nocite="1">chung2025don</bcf:citekey>
+  </bcf:section>
+  <!-- SECTION 0 (cont.) -->
+  <bcf:section number="0">
+  </bcf:section>
+  <!-- SECTION 4 -->
+  <bcf:bibdata section="4">
+    <bcf:datasource type="file" datatype="bibtex">ref_preprint.bib</bcf:datasource>
+  </bcf:bibdata>
+  <bcf:section number="4">
+    <bcf:citekey order="1" intorder="1" nocite="1">oh2025seal</bcf:citekey>
+    <bcf:citekey order="2" intorder="2" nocite="1">yoo2024hyperclova</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">
@@ -2407,11 +2451,21 @@
       <bcf:sortitem order="1">intciteorder</bcf:sortitem>
     </bcf:sort>
   </bcf:sortingtemplate>
+  <bcf:sortingtemplate name="cvyear">
+    <bcf:sort order="1" sort_direction="descending">
+      <bcf:sortitem order="1">sortyear</bcf:sortitem>
+      <bcf:sortitem order="2">year</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="2">
+      <bcf:sortitem order="1">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="2">title</bcf:sortitem>
+    </bcf:sort>
+  </bcf:sortingtemplate>
   <!-- DATALISTS -->
   <bcf:datalist section="1"
-                name="none/global//global/global/global"
+                name="cvyear/global//global/global/global"
                 type="entry"
-                sortingtemplatename="none"
+                sortingtemplatename="cvyear"
                 sortingnamekeytemplatename="global"
                 labelprefix=""
                 uniquenametemplatename="global"
@@ -2419,9 +2473,29 @@
                 namehashtemplatename="global">
   </bcf:datalist>
   <bcf:datalist section="2"
-                name="none/global//global/global/global"
+                name="cvyear/global//global/global/global"
                 type="entry"
-                sortingtemplatename="none"
+                sortingtemplatename="cvyear"
+                sortingnamekeytemplatename="global"
+                labelprefix=""
+                uniquenametemplatename="global"
+                labelalphanametemplatename="global"
+                namehashtemplatename="global">
+  </bcf:datalist>
+  <bcf:datalist section="3"
+                name="cvyear/global//global/global/global"
+                type="entry"
+                sortingtemplatename="cvyear"
+                sortingnamekeytemplatename="global"
+                labelprefix=""
+                uniquenametemplatename="global"
+                labelalphanametemplatename="global"
+                namehashtemplatename="global">
+  </bcf:datalist>
+  <bcf:datalist section="4"
+                name="cvyear/global//global/global/global"
+                type="entry"
+                sortingtemplatename="cvyear"
                 sortingnamekeytemplatename="global"
                 labelprefix=""
                 uniquenametemplatename="global"

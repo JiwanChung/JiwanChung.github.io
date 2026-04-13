@@ -6,20 +6,77 @@ title: Home
 <!-- ========== BIO ========== -->
 <div class="docs-section" id="bio">
   <h4>Bio</h4>
-  <p>
-    I'm a Ph.D. candidate at Yonsei University CIP Lab, advised by Professor Seon Joo Kim.
+    <p>
+    I am a Ph.D. candidate in Artificial Intelligence at Yonsei University, advised by Professor Seon Joo Kim.
   </p>
 
   <p>
-    My research focuses on Multimodal Large Language Models (MLLMs), exploring how images and text can be more effectively connected in AI systems.
+    My research focuses on multimodal intelligence, especially reasoning, grounding, and agentic behavior. I develop models and evaluations for systems that reason over visual evidence and make decisions across multiple steps.
   </p>
 
-  <p><b>Current interests:</b></p>
-  <ul>
-    <li>Architectural improvements (<a href="https://arxiv.org/abs/2310.09767">Decoding</a>, <a href="https://arxiv.org/abs/2503.02379">Fine-tuning</a>)</li>
-    <li>Multimodal reasoning (<a href="https://arxiv.org/abs/2505.18842">Grounded reasoning</a>, <a href="https://arxiv.org/abs/2510.01719">Fine-grained analysis</a>)</li>
-    <li>Applications (Computer-use agents, Embodied AI)</li>
-  </ul>
+  <p>
+    <b>Research interests:</b> multimodal reasoning, grounded AI, agentic systems, diagnostic evaluation, and representation learning.
+  </p>
+
+  <p>
+  - Open to Research Scientist opportunities starting in Spring 2027.
+  </p>
+</div>
+
+<!-- <div class="docs-section" id="agenda"> -->
+  <!-- <h4>Research Agenda</h4> -->
+  <!-- <p> -->
+    <!-- Broadly, I aim to build more reliable and interpretable multimodal AI systems by studying how they perceive, reason, and act in complex environments. My work spans multimodal reasoning, grounded interaction, and diagnostic evaluation of intelligent systems, with emphasis on understanding failure modes and improving robustness in real-world and interactive settings, including agentic environments. -->
+  <!-- </p> -->
+<!-- </div> -->
+
+<div class="docs-section" id="featured-research">
+  <h4>Featured Research</h4>
+  {% assign featured_titles = "Where Did It Go Wrong? Process-Level Evaluation of Web Agents with Semantic State Tracking||v1: Learning to Point Visual Tokens for Multimodal Grounded Reasoning||Teaching Metric Distance to Discrete Autoregressive Language Models||Are Any-to-Any Models More Consistent Across Modality Transfers Than Specialists?" | split: "||" %}
+  {% for featured_title in featured_titles %}
+    {% assign featured_papers = site.data.publications.papers | where: "title", featured_title %}
+    {% for paper in featured_papers %}
+    <div class="paper-card featured-paper-card" data-type="{{ paper.type }}" data-year="{{ paper.year }}">
+      <div class="paper-year-badge">{{ paper.year }}</div>
+      <div class="paper-type-indicator {{ paper.type }}"></div>
+      <div class="paper-content">
+        <h5 class="paper-title">{{ paper.title }}</h5>
+        <p class="paper-authors">{{ paper.authors }}</p>
+        <p class="paper-venue">{{ paper.venue }}</p>
+        {% if paper.featured_summary %}
+          <p class="paper-summary">{{ paper.featured_summary }}</p>
+        {% endif %}
+        <div class="paper-actions">
+          {% if paper.paper_pdf %}
+            <a class="action-btn" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank" title="Paper">
+              <i class="fa-solid fa-file-pdf"></i>
+            </a>
+          {% endif %}
+          {% if paper.code %}
+            <a class="action-btn" href="{{ paper.code }}" target="_blank" title="Code">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          {% endif %}
+          {% if paper.data %}
+            <a class="action-btn" href="{{ paper.data }}" target="_blank" title="Data">
+              <i class="fa-solid fa-database"></i>
+            </a>
+          {% endif %}
+          {% if paper.model %}
+            <a class="action-btn" href="{{ paper.model }}" target="_blank" title="Model">
+              <i class="fa-solid fa-cube"></i>
+            </a>
+          {% endif %}
+          {% if paper.webpage %}
+            <a class="action-btn" href="{{ paper.webpage }}" target="_blank" title="Website">
+              <i class="fa-solid fa-globe"></i>
+            </a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  {% endfor %}
 </div>
 
 <div class="docs-section" id="experience">
@@ -42,6 +99,9 @@ title: Home
             {% if exp.supervisor %}
               <p>{{ exp.supervisor }}</p>
             {% endif %}
+            {% if exp.summary %}
+              <p>{{ exp.summary }}</p>
+            {% endif %}
           </div>
       </div>
     </div>
@@ -50,8 +110,8 @@ title: Home
 
 <!-- ========== RESEARCH KEYWORD MAP ========== -->
 <div class="docs-section" id="research-map">
-  <h4>Research Keywords</h4>
-  <p class="section-subtitle">Click a keyword to filter publications below.</p>
+  <h4>Research Topic</h4>
+  <p class="section-subtitle">Click a topic to filter publications below.</p>
   <div id="neural-map-container">
     <div id="neural-tooltip"></div>
   </div>
@@ -75,7 +135,7 @@ title: Home
   <!-- Sleek Filter Bar -->
   <div class="filter-bar">
     <div class="filter-pills" id="view-toggle">
-      <button class="pill active" data-ref="#papers-selected">Highlights</button>
+      <button class="pill active" data-ref="#papers-selected">First Author</button>
       <button class="pill" data-ref="#papers-all">Archive</button>
     </div>
     <div class="filter-divider"></div>
@@ -254,7 +314,15 @@ title: Home
           <span class="flag">{{ exp.place }}</span>
           <span class="time-wrapper"><span class="time">{{ exp.time }}</span></span>
         </div>
-        <div class="desc"><b>{{ exp.title }}</b> <br/> {{ exp.subtitle }}</div>
+        <div class="desc">
+          <b>{{ exp.title }}</b>
+          {% if exp.subtitle %}
+            <br/>{{ exp.subtitle }}
+          {% endif %}
+          {% if exp.summary %}
+            <p style="margin-top: 8px;">{{ exp.summary }}</p>
+          {% endif %}
+      </div>
       </div>
     </li>
     {% endfor %}

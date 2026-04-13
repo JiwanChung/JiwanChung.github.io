@@ -39,10 +39,10 @@
 
 % Set the citation style
 \usepackage[
-    % backend=biber,      % Specifies the backend to be used by BibLaTeX for processing the bibliography. 'biber' is the default backend.
+    backend=biber,      % Specifies the backend to be used by BibLaTeX for processing the bibliography. 'biber' is the default backend.
     maxnames=20,        % Limits the maximum number of author names to display before abbreviating with "et al."
     style=nature,       % Sets the citation style to 'nature,' which is commonly used in scientific papers.
-    sorting=none,       % Specifies the sorting order of entries in the bibliography:
+    sorting=none,       % Overall default; publication sections below use explicit per-section sorting.
                         % y - year (descending)
                         % d - descending order
                         % n - name
@@ -50,6 +50,17 @@
     defernumbers=true,  % Delays the assignment of citation numbers until the end of the document, allowing for the correct order of citations within each bibliography section.
 ]{biblatex}
 \DeclareFieldFormat{labelnumber}{\null} % Makes the numbers invisible
+\DeclareSortingTemplate{cvyear}{
+  \sort[direction=descending]{
+    \field{sortyear}
+    \field{year}
+  }
+  \sort{
+    \field{sorttitle}
+    \field{title}
+  }
+}
+
 \renewbibmacro*{name:andothers}{% Disable "and others" truncation
   \ifboolexpr{ test {\ifnumcomp{\value{listcount}}{>}{1}}}{}{}
 }
@@ -105,19 +116,45 @@
     urlcolor=cornflowerblue,     % Color of URL links
     anchorcolor=cornflowerblue,  % Color of anchors
     citecolor=cornflowerblue,    % Color of citations
-    pdftitle={Your Title},    % Title of the PDF
-    pdfauthor={Your Name}, % Author of the PDF
+    pdftitle={Jiwan Chung CV},    % Title of the PDF
+    pdfauthor={Jiwan Chung}, % Author of the PDF
     bookmarksopen=true,      % Open bookmarks panel at start
+}
+
+\newcommand{\cvvenuebooktitle}{%
+  \iffieldequalstr{booktitle}{Proceedings of the Association for Computational Linguistics: ACL}{\textbf{\textcolor{cornflowerblue}{ACL}}}{%
+  \iffieldequalstr{booktitle}{The Thirteenth International Conference on Learning Representations}{\textbf{\textcolor{cornflowerblue}{ICLR}}}{%
+  \iffieldequalstr{booktitle}{The 40th Annual AAAI Conference on Artificial Intelligence: AAAI}{\textbf{\textcolor{cornflowerblue}{AAAI}}}{%
+  \iffieldequalstr{booktitle}{Proceedings of the IEEE/CVF International Conference on Computer Vision: ICCV}{\textbf{\textcolor{cornflowerblue}{ICCV}}}{%
+  \iffieldequalstr{booktitle}{Proceedings of the Conference on Empirical Methods in Natural Language Processing: EMNLP}{\textbf{\textcolor{cornflowerblue}{EMNLP}}}{%
+  \iffieldequalstr{booktitle}{Findings of the Association for Computational Linguistics: NAACL Findings}{\textbf{\textcolor{cornflowerblue}{NAACL Findings}}}{%
+  \iffieldequalstr{booktitle}{IEEE International Conference on Robotics and Automation: ICRA}{\textbf{\textcolor{cornflowerblue}{ICRA}}}{%
+  \iffieldequalstr{booktitle}{Advances in Neural Information Processing Systems, Datasets and Benchmarks: NeurIPS D\&B}{\textbf{\textcolor{cornflowerblue}{NeurIPS D\&B}}}{%
+  \iffieldequalstr{booktitle}{British Machine Vision Conference: BMVC}{\textbf{\textcolor{cornflowerblue}{BMVC}}}{%
+  \iffieldequalstr{booktitle}{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition: CVPR}{\textbf{\textcolor{cornflowerblue}{CVPR}}}{%
+  \iffieldequalstr{booktitle}{European Conference on Computer Vision: ECCV}{\textbf{\textcolor{cornflowerblue}{ECCV}}}{%
+  \printfield{booktitle}}}}}}}}}}}}%
+}
+
+\newcommand{\cvvenuejournal}{%
+  \iffieldequalstr{journaltitle}{arXiv preprint arXiv:2602.03282}{\textbf{\textcolor{cornflowerblue}{arXiv}}}{%
+  \iffieldequalstr{journaltitle}{arXiv preprint arXiv:2510.01719}{\textbf{\textcolor{cornflowerblue}{arXiv}}}{%
+  \iffieldequalstr{journaltitle}{arXiv preprint arXiv:2505.18842}{\textbf{\textcolor{cornflowerblue}{arXiv}}}{%
+  \iffieldequalstr{journaltitle}{arXiv preprint arXiv:2501.09284}{\textbf{\textcolor{cornflowerblue}{arXiv}}}{%
+  \iffieldequalstr{journaltitle}{arXiv preprint arXiv:2404.01954}{\textbf{\textcolor{cornflowerblue}{arXiv}}}{%
+  \iffieldequalstr{journaltitle}{to be updated}{\textbf{\textcolor{cornflowerblue}{Preprint}}}{%
+  \printfield{journaltitle}}}}}}}%
 }
 
 %%% CONVENIENCE FUNCTIONS GO HERE %%%
 %%% ----------------------------- %%%
-\newcommand{\mytitle}[4]{
+\newcommand{\mytitle}[5]{
   \begin{center}
     \Large\textbf{#1}\normalsize \\ % Name in large bold font
     \href{mailto:#2}{#2} \\ % Email with mailto: link
     \href{https://#3}{#3} \\ % Website with link
-    #4 % Address
+    #4 \\ % Scholar link
+    #5 % Extra line
   \end{center}
 }
 %%% ----------------------------- %%%
@@ -126,28 +163,28 @@
 \DeclareBibliographyDriver{inproceedings}{%
   \textbf{\printfield{title}}\newline % Paper title
   \printnames{author}\newline % Authors
-  \printfield{booktitle}\space % Conference Name
-  \printfield{year}% Year
+  \cvvenuebooktitle\space % Conference Name
+  \textbf{\printfield{year}}% Year
 }
 
 \DeclareBibliographyDriver{article}{%
   \textbf{\printfield{title}}\newline % Paper title
   \printnames{author}\newline % Authors
-  \printfield{journaltitle}\space % Conference Name
-  \printfield{year}% Year
+  \cvvenuejournal\space % Journal / preprint venue
+  \textbf{\printfield{year}}% Year
 }
 
 
 \begin{document}
 \include{colors.tex} % Load custom colors from colors file
-\mytitle{Jiwan Chung}{jiwan.chung.research@gmail.com}{jiwanchung.github.io} % Insert your custom title
+\mytitle{Jiwan Chung}{jiwan.chung.research@gmail.com}{jiwanchung.github.io}{\href{https://scholar.google.co.kr/citations?user=l4UBOZAAAAAJ}{Google Scholar}}{}
 
 
 % Ensure right side margin is not surpassed by bibliography and the right margin is aligned throughout
 \RaggedRight
 
-\pdfbookmark[1]{Research Interest}{}
-\section*{Research Interest}
+\pdfbookmark[1]{Research Profile}{}
+\section*{Research Profile}
 \input{interest.tex}
 
 % These \pdfbookmark lines create bookmarks in the exported PDF document that display in the left pane.
@@ -157,21 +194,41 @@
 \vspace{-1.2em}
 \input{education.tex}
 
-\vspace{-1.5em}
+\vspace{-1.0em}
 \pdfbookmark[1]{Research Experience}{exp_research}
 \section*{Research Experience}
 \label{exp_research}
 \vspace{-1.5em}
 \input{exp_research.tex}
 
+\vspace{-1.0em}
+\pdfbookmark[1]{Selected Research}{selected_pubs}
+\section*{Selected Research}
+\begin{longtable}{@{}p{0.16\textwidth} p{0.80\textwidth}@{}}
 
+\textbf{2026} &
+\textbf{Where Did It Go Wrong? Process-Level Evaluation of Web Agents with Semantic State Tracking} \\
+& \emph{Preprint}. \\
+& Developed a controlled benchmark for diagnosing process-level failures in web agents, enabling fine-grained analysis of exploration, execution, and decision-making behaviors. \\[0.8em]
 
-%\pdfbookmark[1]{Awards \& Honors}{awards}
-%\section*{Awards \& Honors}
-%\label{awards}
-%\input{awards.tex}
+\textbf{2025} &
+\textbf{v1: Learning to Point Visual Tokens for Multimodal Grounded Reasoning} \\
+& \emph{Preprint}. \\
+& Developed visual pointing mechanisms to improve grounded reasoning in multimodal LLMs, enhancing their ability to align visual evidence with multi-step reasoning. \\[0.8em]
 
-%\vspace{-1.5em}
+\textbf{2026} &
+\textbf{Teaching Metric Distance to Discrete Autoregressive Language Models} \\
+& \emph{ICLR 2026}. \\
+& Introduced a training objective that teaches discrete autoregressive language models to represent metric distance, improving their ability to capture spatial and relational structure for embodied AI applications. \\[0.8em]
+
+\textbf{2025} &
+\textbf{Are Any-to-Any Models More Consistent Across Modality Transfers Than Specialists?} \\
+& \emph{ACL 2025}. \\
+& Developed a benchmark for evaluating consistency across multimodal transfer pathways, enabling fine-grained diagnosis of cross-modal behavior in any-to-any multimodal LLMs. \\
+
+\end{longtable}
+
+\vspace{-1.0em}
 \pdfbookmark[1]{Peer-reviewed Conference Proceedings}{pubs_conf}
 \section*{Conference Papers}
 \label{pubs_conf}
@@ -184,45 +241,50 @@ $\dagger \rightarrow$ Equal contribution
 \normalsize
 
 \begin{refsection}[ref_conf.bib]
-\nocite{*}
+\begin{refcontext}[sorting=cvyear]
+\nocite{chung2026teaching,chung2025anytoany,kim2025speaking,chung2025mass,choi2024,chung2024selective,chung2024pun,chung2023vlis,chung2023long,yu2023fusing,lee2021acav100m,yu2021transitional}
 \printbibliography[heading=none,resetnumbers=true]
+\end{refcontext}
+\end{refsection}
+
+\begin{refsection}[ref_conf.bib]
+\begin{refcontext}[sorting=cvyear]
+\nocite{kim2025guidedog,park2025explain,nam2025iccv,lim2025visescape,kim2025egospeak,lee2024llms,choi2025canvas,chae2024language,han2023reading,yu2020character}
+\printbibliography[heading=none,resetnumbers=true]
+\end{refcontext}
 \end{refsection}
 
 
-\vspace{-1.5em}
+\vspace{-1.0em}
 \pdfbookmark[2]{Preprints}{pubs_preprint}
 \section*{Preprints}
 \label{pubs_preprint}
 
 \begin{refsection}[ref_preprint.bib]
-\nocite{*}
+\begin{refcontext}[sorting=cvyear]
+\nocite{chung2026webstep,chung2026geo,chung2025what,chung2025don}
 \printbibliography[heading=none,resetnumbers=true]
+\end{refcontext}
 \end{refsection}
 
+\begin{refsection}[ref_preprint.bib]
+\begin{refcontext}[sorting=cvyear]
+\nocite{oh2025seal,yoo2024hyperclova}
+\printbibliography[heading=none,resetnumbers=true]
+\end{refcontext}
+\end{refsection}
 
+\vspace{-1.0em}
+\pdfbookmark[1]{Awards \& Honors}{awards}
+\section*{Awards \& Honors}
+\label{awards}
+\input{awards.tex}
 
-
-%\pdfbookmark[1]{Presentations}{presentations}
-%\section*{Presentations}
-%\label{presentations}
-
-% Include any additional details here
-% \vspace{-.75em}
-% \small
-% $\dagger \rightarrow$ Equal contribution
-% \normalsize
-
-
-%\pdfbookmark[1]{Teaching}{teaching}
-%\section*{Teaching}
-%\label{teaching}
-%\input{teaching.tex}
-
-
-%\pdfbookmark[1]{Academic Service}{service}
-%\section*{Academic Service}
-%\label{service}
-%\input{service.tex}
+\vspace{-1.0em}
+\pdfbookmark[1]{Academic Service}{service}
+\section*{Academic Service}
+\label{service}
+\input{service.tex}
 
 
 % Pretty ending with the date last updated
