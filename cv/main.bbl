@@ -19,6 +19,36 @@
 
 \refsection{1}
   \datalist[entry]{cvyear/global//global/global/global}
+    \entry{chung2026geo}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=cd085ea7b890d266a6057330bf8953f8}{%
+           family={Chung},
+           familyi={C\bibinitperiod},
+           given={Jiwan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=84d75ea672ebe26a483b0af3366044c8}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Seon\bibnamedelima Joo},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{f381c3a182dc5b7ea7206290288b06d7}
+      \strng{fullhash}{f381c3a182dc5b7ea7206290288b06d7}
+      \strng{fullhashraw}{f381c3a182dc5b7ea7206290288b06d7}
+      \strng{bibnamehash}{f381c3a182dc5b7ea7206290288b06d7}
+      \strng{authorbibnamehash}{f381c3a182dc5b7ea7206290288b06d7}
+      \strng{authornamehash}{f381c3a182dc5b7ea7206290288b06d7}
+      \strng{authorfullhash}{f381c3a182dc5b7ea7206290288b06d7}
+      \strng{authorfullhashraw}{f381c3a182dc5b7ea7206290288b06d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Forty-third International Conference on Machine Learning: ICML}
+      \field{title}{Global Geometry Is Not Enough for Vision Representations}
+      \field{year}{2026}
+      \true{nocite}
+    \endentry
     \entry{chung2026teaching}{inproceedings}{}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -66,7 +96,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{The Thirteenth International Conference on Learning Representations}
+      \field{booktitle}{The Thirteenth International Conference on Learning Representations: ICLR}
       \field{title}{Teaching Metric Distance to Discrete Autoregressive Language Models}
       \field{year}{2026}
       \true{nocite}
@@ -627,6 +657,36 @@
     \endentry
   \enddatalist
   \datalist[entry]{none/global//global/global/global}
+    \entry{chung2026geo}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=cd085ea7b890d266a6057330bf8953f8}{%
+           family={Chung},
+           familyi={C\bibinitperiod},
+           given={Jiwan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=84d75ea672ebe26a483b0af3366044c8}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Seon\bibnamedelima Joo},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{f381c3a182dc5b7ea7206290288b06d7}
+      \strng{fullhash}{f381c3a182dc5b7ea7206290288b06d7}
+      \strng{fullhashraw}{f381c3a182dc5b7ea7206290288b06d7}
+      \strng{bibnamehash}{f381c3a182dc5b7ea7206290288b06d7}
+      \strng{authorbibnamehash}{f381c3a182dc5b7ea7206290288b06d7}
+      \strng{authornamehash}{f381c3a182dc5b7ea7206290288b06d7}
+      \strng{authorfullhash}{f381c3a182dc5b7ea7206290288b06d7}
+      \strng{authorfullhashraw}{f381c3a182dc5b7ea7206290288b06d7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Forty-third International Conference on Machine Learning: ICML}
+      \field{title}{Global Geometry Is Not Enough for Vision Representations}
+      \field{year}{2026}
+      \true{nocite}
+    \endentry
     \entry{chung2026teaching}{inproceedings}{}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -670,11 +730,11 @@
       \strng{authornamehash}{75ff552ab813a1af88e8b2eab32dcf74}
       \strng{authorfullhash}{75ff552ab813a1af88e8b2eab32dcf74}
       \strng{authorfullhashraw}{75ff552ab813a1af88e8b2eab32dcf74}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{The Thirteenth International Conference on Learning Representations}
+      \field{booktitle}{The Thirteenth International Conference on Learning Representations: ICLR}
       \field{title}{Teaching Metric Distance to Discrete Autoregressive Language Models}
       \field{year}{2026}
       \true{nocite}
@@ -727,8 +787,8 @@
       \strng{authornamehash}{93ddb1f19d866f5deb5e57680a5616b1}
       \strng{authorfullhash}{93ddb1f19d866f5deb5e57680a5616b1}
       \strng{authorfullhashraw}{93ddb1f19d866f5deb5e57680a5616b1}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the Association for Computational Linguistics: ACL}
@@ -789,8 +849,8 @@
       \strng{authornamehash}{c79546e12e30878e58fc964c9f466b34}
       \strng{authorfullhash}{c79546e12e30878e58fc964c9f466b34}
       \strng{authorfullhashraw}{c79546e12e30878e58fc964c9f466b34}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the Association for Computational Linguistics: ACL}
@@ -831,8 +891,8 @@
       \strng{authornamehash}{a298f3d8e5e3b1f44ff2f6f52246cb20}
       \strng{authorfullhash}{a298f3d8e5e3b1f44ff2f6f52246cb20}
       \strng{authorfullhashraw}{a298f3d8e5e3b1f44ff2f6f52246cb20}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{The 39th Annual AAAI Conference on Artificial Intelligence: AAAI}
@@ -878,8 +938,8 @@
       \strng{authornamehash}{056cf1bef294ed90095acf8a33e0db5f}
       \strng{authorfullhash}{056cf1bef294ed90095acf8a33e0db5f}
       \strng{authorfullhashraw}{056cf1bef294ed90095acf8a33e0db5f}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Advances in Neural Information Processing Systems, Datasets and Benchmarks: NeurIPS D\&B}
@@ -935,8 +995,8 @@
       \strng{authornamehash}{a7acb147b8c38a9482a061559dd8d65c}
       \strng{authorfullhash}{a7acb147b8c38a9482a061559dd8d65c}
       \strng{authorfullhashraw}{a7acb147b8c38a9482a061559dd8d65c}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the Conference on Empirical Methods in Natural Language Processing: EMNLP}
@@ -982,8 +1042,8 @@
       \strng{authornamehash}{fc499b0c4a60f5cf1e2d5cb8f93b98f6}
       \strng{authorfullhash}{fc499b0c4a60f5cf1e2d5cb8f93b98f6}
       \strng{authorfullhashraw}{fc499b0c4a60f5cf1e2d5cb8f93b98f6}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the Conference on Empirical Methods in Natural Language Processing: EMNLP}
@@ -1015,8 +1075,8 @@
       \strng{authorfullhash}{ab1b0b8fabbed60617f344298fefc71f}
       \strng{authorfullhashraw}{ab1b0b8fabbed60617f344298fefc71f}
       \field{extraname}{1}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the Conference on Empirical Methods in Natural Language Processing: EMNLP}
@@ -1048,8 +1108,8 @@
       \strng{authorfullhash}{ab1b0b8fabbed60617f344298fefc71f}
       \strng{authorfullhashraw}{ab1b0b8fabbed60617f344298fefc71f}
       \field{extraname}{2}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{British Machine Vision Conference: BMVC}
@@ -2525,36 +2585,6 @@
 
 \refsection{3}
   \datalist[entry]{cvyear/global//global/global/global}
-    \entry{chung2026geo}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=cd085ea7b890d266a6057330bf8953f8}{%
-           family={Chung},
-           familyi={C\bibinitperiod},
-           given={Jiwan},
-           giveni={J\bibinitperiod}}}%
-        {{hash=84d75ea672ebe26a483b0af3366044c8}{%
-           family={Kim},
-           familyi={K\bibinitperiod},
-           given={Seon\bibnamedelima Joo},
-           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-      }
-      \strng{namehash}{f381c3a182dc5b7ea7206290288b06d7}
-      \strng{fullhash}{f381c3a182dc5b7ea7206290288b06d7}
-      \strng{fullhashraw}{f381c3a182dc5b7ea7206290288b06d7}
-      \strng{bibnamehash}{f381c3a182dc5b7ea7206290288b06d7}
-      \strng{authorbibnamehash}{f381c3a182dc5b7ea7206290288b06d7}
-      \strng{authornamehash}{f381c3a182dc5b7ea7206290288b06d7}
-      \strng{authorfullhash}{f381c3a182dc5b7ea7206290288b06d7}
-      \strng{authorfullhashraw}{f381c3a182dc5b7ea7206290288b06d7}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{arXiv preprint arXiv:2602.03282}
-      \field{title}{Global Geometry Is Not Enough for Vision Representations}
-      \field{year}{2026}
-      \true{nocite}
-    \endentry
     \entry{chung2026webstep}{article}{}{}
       \name{author}{4}{}{%
         {{hash=cd085ea7b890d266a6057330bf8953f8}{%
@@ -2748,36 +2778,6 @@
       \verb https://jiwanchung.github.io/webstep/
       \endverb
     \endentry
-    \entry{chung2026geo}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=cd085ea7b890d266a6057330bf8953f8}{%
-           family={Chung},
-           familyi={C\bibinitperiod},
-           given={Jiwan},
-           giveni={J\bibinitperiod}}}%
-        {{hash=84d75ea672ebe26a483b0af3366044c8}{%
-           family={Kim},
-           familyi={K\bibinitperiod},
-           given={Seon\bibnamedelima Joo},
-           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-      }
-      \strng{namehash}{f381c3a182dc5b7ea7206290288b06d7}
-      \strng{fullhash}{f381c3a182dc5b7ea7206290288b06d7}
-      \strng{fullhashraw}{f381c3a182dc5b7ea7206290288b06d7}
-      \strng{bibnamehash}{f381c3a182dc5b7ea7206290288b06d7}
-      \strng{authorbibnamehash}{f381c3a182dc5b7ea7206290288b06d7}
-      \strng{authornamehash}{f381c3a182dc5b7ea7206290288b06d7}
-      \strng{authorfullhash}{f381c3a182dc5b7ea7206290288b06d7}
-      \strng{authorfullhashraw}{f381c3a182dc5b7ea7206290288b06d7}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{arXiv preprint arXiv:2602.03282}
-      \field{title}{Global Geometry Is Not Enough for Vision Representations}
-      \field{year}{2026}
-      \true{nocite}
-    \endentry
     \entry{chung2025what}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -2816,8 +2816,8 @@
       \strng{authornamehash}{0f1a9c107bf786d8651c2c75db3ee2a0}
       \strng{authorfullhash}{0f1a9c107bf786d8651c2c75db3ee2a0}
       \strng{authorfullhashraw}{0f1a9c107bf786d8651c2c75db3ee2a0}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{arXiv preprint arXiv:2510.01719}
@@ -2868,8 +2868,8 @@
       \strng{authornamehash}{97518c23e20c94c81524891f7b2f01f2}
       \strng{authorfullhash}{97518c23e20c94c81524891f7b2f01f2}
       \strng{authorfullhashraw}{97518c23e20c94c81524891f7b2f01f2}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{arXiv preprint arXiv:2505.18842}

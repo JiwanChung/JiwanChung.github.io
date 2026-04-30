@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.1.27)  13 APR 2026 14:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.1.27)  1 MAY 2026 06:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1229,11 +1229,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  21618 strings out of 469005
  365851 string characters out of 5454798
- 1201310 words of memory out of 5000000
+ 1201313 words of memory out of 5000000
  49997 multiletter control sequences out of 15000+600000
  708213 words of font info for 129 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 77i,10n,81p,693b,1607s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 77i,10n,81p,693b,1609s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/fontawesome/FontA
 wesome.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/kpfonts/
 jkpbit8a.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/kpfont
@@ -1242,7 +1242,7 @@ ts/jkpmit8a.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/kpf
 onts/jkpmn8a.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/kp
 fonts/jkpmnc.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/kp
 fonts/jkpsy.pfb>
-Output written on main.pdf (5 pages, 97343 bytes).
+Output written on main.pdf (5 pages, 97863 bytes).
 PDF statistics:
  154 PDF objects out of 1000 (max. 8388607)
  131 compressed objects within 2 object streams
