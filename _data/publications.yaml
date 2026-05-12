@@ -1,4 +1,20 @@
 papers:
+  - title: "Rethinking State Tracking in Recurrent Models Through Error Control Dynamics"
+    authors: "<b>Jiwan Chung</b>, Heechan Choi, Seon Joo Kim"
+    venue: "Preprint. 2026."
+    paper_pdf: "https://arxiv.org/abs/2605.07755"
+    selected: y
+    type: preprint
+    year: 2026
+    keywords: ["ssm", "state-tracking", "theory"]
+    bibtex: |
+      @article{chung2026rethinking,
+        title={Rethinking State Tracking in Recurrent Models Through Error Control Dynamics}, 
+        author={Chung, Jiwan and Choi, Heechan and Kim Seon Joo},
+        journal={arXiv preprint arXiv:2605.07755},
+        year={2026},
+      }
+
   - title: "Global Geometry Is Not Enough for Vision Representations"
     authors: "<b>Jiwan Chung</b>, Seon Joo Kim"
     venue: "ICML. 2026."
