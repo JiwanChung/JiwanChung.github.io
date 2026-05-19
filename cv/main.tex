@@ -123,8 +123,10 @@
 
 \newcommand{\cvvenuebooktitle}{%
   \iffieldequalstr{booktitle}{Proceedings of the Association for Computational Linguistics: ACL}{\textbf{\textcolor{cornflowerblue}{ACL}}}{%
-  \iffieldequalstr{booktitle}{The Thirteenth International Conference on Learning Representations}{\textbf{\textcolor{cornflowerblue}{ICLR}}}{%
+  \iffieldequalstr{booktitle}{The Thirteenth International Conference on Learning Representations: ICLR}{\textbf{\textcolor{cornflowerblue}{ICLR}}}{%
+  \iffieldequalstr{booktitle}{Forty-third International Conference on Machine Learning: ICML}{\textbf{\textcolor{cornflowerblue}{ICML}}}{%
   \iffieldequalstr{booktitle}{The 40th Annual AAAI Conference on Artificial Intelligence: AAAI}{\textbf{\textcolor{cornflowerblue}{AAAI}}}{%
+  \iffieldequalstr{booktitle}{The 39th Annual AAAI Conference on Artificial Intelligence: AAAI}{\textbf{\textcolor{cornflowerblue}{AAAI}}}{%
   \iffieldequalstr{booktitle}{Proceedings of the IEEE/CVF International Conference on Computer Vision: ICCV}{\textbf{\textcolor{cornflowerblue}{ICCV}}}{%
   \iffieldequalstr{booktitle}{Proceedings of the Conference on Empirical Methods in Natural Language Processing: EMNLP}{\textbf{\textcolor{cornflowerblue}{EMNLP}}}{%
   \iffieldequalstr{booktitle}{Findings of the Association for Computational Linguistics: NAACL Findings}{\textbf{\textcolor{cornflowerblue}{NAACL Findings}}}{%
@@ -133,17 +135,18 @@
   \iffieldequalstr{booktitle}{British Machine Vision Conference: BMVC}{\textbf{\textcolor{cornflowerblue}{BMVC}}}{%
   \iffieldequalstr{booktitle}{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition: CVPR}{\textbf{\textcolor{cornflowerblue}{CVPR}}}{%
   \iffieldequalstr{booktitle}{European Conference on Computer Vision: ECCV}{\textbf{\textcolor{cornflowerblue}{ECCV}}}{%
-  \printfield{booktitle}}}}}}}}}}}}%
+  \printfield{booktitle}}}}}}}}}}}}}}%
 }
 
 \newcommand{\cvvenuejournal}{%
   \iffieldequalstr{journaltitle}{arXiv preprint arXiv:2602.03282}{\textbf{\textcolor{cornflowerblue}{arXiv}}}{%
+  \iffieldequalstr{journaltitle}{arXiv preprint arXiv:2605.07755}{\textbf{\textcolor{cornflowerblue}{arXiv}}}{%
   \iffieldequalstr{journaltitle}{arXiv preprint arXiv:2510.01719}{\textbf{\textcolor{cornflowerblue}{arXiv}}}{%
   \iffieldequalstr{journaltitle}{arXiv preprint arXiv:2505.18842}{\textbf{\textcolor{cornflowerblue}{arXiv}}}{%
   \iffieldequalstr{journaltitle}{arXiv preprint arXiv:2501.09284}{\textbf{\textcolor{cornflowerblue}{arXiv}}}{%
   \iffieldequalstr{journaltitle}{arXiv preprint arXiv:2404.01954}{\textbf{\textcolor{cornflowerblue}{arXiv}}}{%
   \iffieldequalstr{journaltitle}{to be updated}{\textbf{\textcolor{cornflowerblue}{Preprint}}}{%
-  \printfield{journaltitle}}}}}}}%
+  \printfield{journaltitle}}}}}}}}%
 }
 
 %%% CONVENIENCE FUNCTIONS GO HERE %%%
@@ -262,7 +265,7 @@ $\dagger \rightarrow$ Equal contribution
 
 \begin{refsection}[ref_preprint.bib]
 \begin{refcontext}[sorting=cvyear]
-\nocite{chung2026webstep,chung2025what,chung2025don}
+\nocite{chung2026rethinking,chung2026webstep,chung2025what,chung2025don}
 \printbibliography[heading=none,resetnumbers=true]
 \end{refcontext}
 \end{refsection}

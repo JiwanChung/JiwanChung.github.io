@@ -2585,6 +2585,41 @@
 
 \refsection{3}
   \datalist[entry]{cvyear/global//global/global/global}
+    \entry{chung2026rethinking}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=cd085ea7b890d266a6057330bf8953f8}{%
+           family={Chung},
+           familyi={C\bibinitperiod},
+           given={Jiwan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d5ad99845faf7736c4c67c7a6ca14dd5}{%
+           family={Choi},
+           familyi={C\bibinitperiod},
+           given={Heechan},
+           giveni={H\bibinitperiod}}}%
+        {{hash=84d75ea672ebe26a483b0af3366044c8}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Seon\bibnamedelima Joo},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{949dee22be4b419b475e5eaa2d12c7cf}
+      \strng{fullhash}{949dee22be4b419b475e5eaa2d12c7cf}
+      \strng{fullhashraw}{949dee22be4b419b475e5eaa2d12c7cf}
+      \strng{bibnamehash}{949dee22be4b419b475e5eaa2d12c7cf}
+      \strng{authorbibnamehash}{949dee22be4b419b475e5eaa2d12c7cf}
+      \strng{authornamehash}{949dee22be4b419b475e5eaa2d12c7cf}
+      \strng{authorfullhash}{949dee22be4b419b475e5eaa2d12c7cf}
+      \strng{authorfullhashraw}{949dee22be4b419b475e5eaa2d12c7cf}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2605.07755}
+      \field{title}{Rethinking State Tracking in Recurrent Models Through Error Control Dynamics}
+      \field{year}{2026}
+      \true{nocite}
+    \endentry
     \entry{chung2026webstep}{article}{}{}
       \name{author}{4}{}{%
         {{hash=cd085ea7b890d266a6057330bf8953f8}{%
@@ -2732,6 +2767,41 @@
     \endentry
   \enddatalist
   \datalist[entry]{none/global//global/global/global}
+    \entry{chung2026rethinking}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=cd085ea7b890d266a6057330bf8953f8}{%
+           family={Chung},
+           familyi={C\bibinitperiod},
+           given={Jiwan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d5ad99845faf7736c4c67c7a6ca14dd5}{%
+           family={Choi},
+           familyi={C\bibinitperiod},
+           given={Heechan},
+           giveni={H\bibinitperiod}}}%
+        {{hash=84d75ea672ebe26a483b0af3366044c8}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Seon\bibnamedelima Joo},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{949dee22be4b419b475e5eaa2d12c7cf}
+      \strng{fullhash}{949dee22be4b419b475e5eaa2d12c7cf}
+      \strng{fullhashraw}{949dee22be4b419b475e5eaa2d12c7cf}
+      \strng{bibnamehash}{949dee22be4b419b475e5eaa2d12c7cf}
+      \strng{authorbibnamehash}{949dee22be4b419b475e5eaa2d12c7cf}
+      \strng{authornamehash}{949dee22be4b419b475e5eaa2d12c7cf}
+      \strng{authorfullhash}{949dee22be4b419b475e5eaa2d12c7cf}
+      \strng{authorfullhashraw}{949dee22be4b419b475e5eaa2d12c7cf}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2605.07755}
+      \field{title}{Rethinking State Tracking in Recurrent Models Through Error Control Dynamics}
+      \field{year}{2026}
+      \true{nocite}
+    \endentry
     \entry{chung2026webstep}{article}{}{}
       \name{author}{4}{}{%
         {{hash=cd085ea7b890d266a6057330bf8953f8}{%
@@ -2763,8 +2833,8 @@
       \strng{authornamehash}{c727fec3f74eb771f1a8c3a8169c00b3}
       \strng{authorfullhash}{c727fec3f74eb771f1a8c3a8169c00b3}
       \strng{authorfullhashraw}{c727fec3f74eb771f1a8c3a8169c00b3}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{to be updated}
@@ -2816,8 +2886,8 @@
       \strng{authornamehash}{0f1a9c107bf786d8651c2c75db3ee2a0}
       \strng{authorfullhash}{0f1a9c107bf786d8651c2c75db3ee2a0}
       \strng{authorfullhashraw}{0f1a9c107bf786d8651c2c75db3ee2a0}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{arXiv preprint arXiv:2510.01719}
@@ -2868,8 +2938,8 @@
       \strng{authornamehash}{97518c23e20c94c81524891f7b2f01f2}
       \strng{authorfullhash}{97518c23e20c94c81524891f7b2f01f2}
       \strng{authorfullhashraw}{97518c23e20c94c81524891f7b2f01f2}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{arXiv preprint arXiv:2505.18842}
