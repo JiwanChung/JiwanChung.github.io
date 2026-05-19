@@ -8,3 +8,6 @@ permalink: /blog/:title/
 collections:
   poems:
     output: true
+
+exclude:
+  - cv
