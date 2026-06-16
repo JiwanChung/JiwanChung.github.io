@@ -32,12 +32,12 @@ papers:
       }
 
   - title: "Where Did It Go Wrong? Process-Level Evaluation of Web Agents with Semantic State Tracking"
-    authors: "<b>Jiwan Chung</b>, et al."
+    authors: "<b>Jiwan Chung</b>, JiHyuk Byun, Vibhav Vineet, Seon Joo Kim"
     venue: "Preprint. 2026."
     selected: y
     featured: y
     featured_summary: "Developed a controlled benchmark for <strong>diagnosing process-level failures in web agents</strong>, enabling fine-grained analysis of exploration, execution, and decision-making behaviors."
-    paper_pdf: "/assets/papers/2026webstep.pdf"
+    paper_pdf: "https://arxiv.org/abs/2606.15673"
     webpage: "https://jiwanchung.github.io/webstep"
     type: preprint
     year: 2026
