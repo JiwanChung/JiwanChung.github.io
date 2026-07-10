@@ -1,0 +1,25 @@
+<section class="gallery" aria-label="Films">
+  {% assign films = site.data.films %}
+  {% for f in films %}
+    {% if f.link %}
+      <a class="album{% unless f.cover %} no-art{% endunless %}"
+         href="{{ f.link | escape }}" aria-label="Watch: {{ f.title | escape }}">
+        <figure class="art">
+          {% if f.cover %}
+            <img loading="lazy" src="{{ f.cover | relative_url }}" alt="{{ f.title | escape }}" />
+          {% endif %}
+          <figcaption class="title">{{ f.title }}</figcaption>
+        </figure>
+      </a>
+    {% else %}
+      <div class="album{% unless f.cover %} no-art{% endunless %}">
+        <figure class="art">
+          {% if f.cover %}
+            <img loading="lazy" src="{{ f.cover | relative_url }}" alt="{{ f.title | escape }}" />
+          {% endif %}
+          <figcaption class="title">{{ f.title }}</figcaption>
+        </figure>
+      </div>
+    {% endif %}
+  {% endfor %}
+</section>

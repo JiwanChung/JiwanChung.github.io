@@ -1,4 +1,4 @@
-- cover: boyhood.png
+- cover: /assets/boyhood.png
   title: Boyhood (2014)
   link: https://www.imdb.com/title/tt1065073
 
@@ -15,15 +15,11 @@
   link:
 
 - cover:
-  title: Chunking Express
+  title: Chungking Express
   link:
 
 - cover:
   title: Happy Together
-  link:
-
-- cover:
-  title: 
   link:
 
 - cover:

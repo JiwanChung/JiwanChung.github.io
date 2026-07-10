@@ -1,7 +1,63 @@
 papers:
+  - title: "Where Did It Go Wrong? Process-Level Evaluation of Web Agents with Semantic State Tracking"
+    authors: "<b>Jiwan Chung</b>, JiHyuk Byun, Vibhav Vineet, Seon Joo Kim"
+    venue: "COLM. 2026."
+    selected: y
+    featured: y
+    featured_summary: "Developed a controlled benchmark for <strong>diagnosing process-level failures in web agents</strong>, enabling fine-grained analysis of exploration, execution, and decision-making behaviors."
+    paper_pdf: "https://arxiv.org/abs/2606.15673"
+    webpage: "https://jiwanchung.github.io/webstep"
+    type: conference
+    year: 2026
+    keywords: ["agents", "evaluation", "benchmark", "web"]
+    bibtex: |
+      @inproceedings{chung2026webstep,
+        title={Where Did It Go Wrong? Process-Level Evaluation of Web Agents with Semantic State Tracking},
+        author={Chung, Jiwan and Byun, JiHyuk and Vineet, Vibhav and Kim, Seon Joo},
+        booktitle={Conference on Language Modeling: COLM},
+        year={2026}
+      }
+
+  - title: "v1: Learning to Point Visual Tokens for Multimodal Grounded Reasoning"
+    authors: "<b>Jiwan Chung‡</b>, Junhyeok Kim‡, Siyeol Kim, Jaeyoung Lee, Min Soo Kim, Youngjae Yu"
+    venue: "COLM. 2026."
+    paper_pdf: "https://arxiv.org/abs/2505.18842"
+    code: "https://github.com/jun297/v1"
+    model: "https://huggingface.co/kjunh/v1-7B"
+    data: "https://huggingface.co/datasets/kjunh/v1g-sample"
+    selected: y
+    featured: y
+    featured_summary: "Developed <strong>visual pointing mechanisms to improve grounded reasoning in multimodal LLMs</strong>, enhancing their ability to align visual evidence with multi-step reasoning."
+    type: conference
+    year: 2026
+    keywords: ["visual grounding", "reasoning", "VLM", "pointing"]
+    bibtex: |
+      @inproceedings{chung2026v1,
+        title={v1: Learning to Point Visual Tokens for Multimodal Grounded Reasoning},
+        author={Chung, Jiwan and Kim, Junhyeok and Kim, Siyeol and Lee, Jaeyoung and Kim, Min Soo and Yu, Youngjae},
+        booktitle={Conference on Language Modeling: COLM},
+        year={2026}
+      }
+
+  - title: "A11YN: Aligning LLMs for Accessible Web UI Code Generation"
+    authors: "Janghan Yoon, Jaegwan Cho, Junhyeok Kim, <b>Jiwan Chung</b>, Jaehyun Jeon, Youngjae Yu"
+    venue: "COLM. 2026."
+    paper_pdf: "https://arxiv.org/abs/2510.13914"
+    selected: n
+    type: conference
+    year: 2026
+    keywords: ["accessibility", "LLM", "code generation", "web UI"]
+    bibtex: |
+      @inproceedings{yoon2026a11yn,
+        title={A11YN: Aligning LLMs for Accessible Web UI Code Generation},
+        author={Yoon, Janghan and Cho, Jaegwan and Kim, Junhyeok and Chung, Jiwan and Jeon, Jaehyun and Yu, Youngjae},
+        booktitle={Conference on Language Modeling: COLM},
+        year={2026}
+      }
+
   - title: "Rethinking State Tracking in Recurrent Models Through Error Control Dynamics"
     authors: "<b>Jiwan Chung</b>, Heechan Choi, Seon Joo Kim"
-    venue: "Preprint. 2026."
+    venue: "arXiv. 2026."
     paper_pdf: "https://arxiv.org/abs/2605.07755"
     selected: y
     type: preprint
@@ -31,22 +87,10 @@ papers:
         year={2026}
       }
 
-  - title: "Where Did It Go Wrong? Process-Level Evaluation of Web Agents with Semantic State Tracking"
-    authors: "<b>Jiwan Chung</b>, JiHyuk Byun, Vibhav Vineet, Seon Joo Kim"
-    venue: "Preprint. 2026."
-    selected: y
-    featured: y
-    featured_summary: "Developed a controlled benchmark for <strong>diagnosing process-level failures in web agents</strong>, enabling fine-grained analysis of exploration, execution, and decision-making behaviors."
-    paper_pdf: "https://arxiv.org/abs/2606.15673"
-    webpage: "https://jiwanchung.github.io/webstep"
-    type: preprint
-    year: 2026
-    keywords: ["agents", "evaluation", "benchmark", "web"]
-
   - title: "GuideDog: A Real-World Egocentric Multimodal Dataset for Blind and Low-Vision Accessibility-Aware Guidance"
     authors: "Junhyeok Kim, Jaewoo Park, Junhee Park, Sangeyl Lee, <b>Jiwan Chung</b>, Jisung Kim, Ji Hoon Joung, Youngjae Yu"
     venue: "ACL. 2026."
-    paper_pdf: "https://arxiv.org/abs/2503.11186"
+    paper_pdf: "https://arxiv.org/abs/2503.12844"
     selected: n
     type: conference
     year: 2026
@@ -111,27 +155,10 @@ papers:
         year={2025}
       }
 
-  - title: "A11YN: Aligning LLMs for Accessible Web UI Code Generation"
-    authors: "Janghan Yoon, Jaegwan Cho, Junhyeok Kim, <b>Jiwan Chung</b>, Jaehyun Jeon, Youngjae Yu"
-    venue: "arXiv. 2025."
-    paper_pdf: "https://arxiv.org/abs/2510.13914"
-    selected: n
-    type: preprint
-    year: 2025
-    keywords: ["accessibility", "LLM", "code generation", "web UI"]
-    bibtex: |
-      @article{yoon2025a11yn,
-        title={A11YN: Aligning LLMs for Accessible Web UI Code Generation},
-        author={Yoon, Janghan and Cho, Jaegwan and Kim, Junhyeok and Chung, Jiwan and Jeon, Jaehyun and Yu, Youngjae},
-        journal={arXiv preprint arXiv:2510.13914},
-        year={2025}
-      }
-
-
   - title: "SEAL: Entangled White-box Watermarks on Low-Rank Adaptation"
-    authors: "Giyeong Oh, Saejin Kim, <b>Jiwan Chung</b>, Dokyung Song, Youngjae Yu"
+    authors: "Giyeong Oh, Saejin Kim, Woohyun Cho, Sangkyu Lee, <b>Jiwan Chung</b>, Dokyung Song, Youngjae Yu"
     venue: "arXiv. 2025."
-    paper_pdf: "https://arxiv.org/abs/2501.09689"
+    paper_pdf: "https://arxiv.org/abs/2501.09284"
     selected: n
     type: preprint
     year: 2025
@@ -139,32 +166,10 @@ papers:
     bibtex: |
       @article{oh2025seal,
         title={SEAL: Entangled White-box Watermarks on Low-Rank Adaptation},
-        author={Oh, Giyeong and Kim, Saejin and Chung, Jiwan and Song, Dokyung and Yu, Youngjae},
-        journal={arXiv preprint arXiv:2501.09689},
+        author={Oh, Giyeong and Kim, Saejin and Cho, Woohyun and Lee, Sangkyu and Chung, Jiwan and Song, Dokyung and Yu, Youngjae},
+        journal={arXiv preprint arXiv:2501.09284},
         year={2025}
       }
-
-  - title: "v1: Learning to Point Visual Tokens for Multimodal Grounded Reasoning"
-    authors: "<b>Jiwan Chung‡</b>, Junhyeok Kim‡, Siyeol Kim, Jaeyoung Lee, Min Soo Kim, Youngjae Yu"
-    venue: "arXiv. 2025."
-    paper_pdf: "https://arxiv.org/abs/2505.18842"
-    code: "https://github.com/jun297/v1"
-    model: "https://huggingface.co/kjunh/v1-7B"
-    data: "https://huggingface.co/datasets/kjunh/v1g-sample"
-    selected: y
-    featured: y
-    featured_summary: "Developed <strong>visual pointing mechanisms to improve grounded reasoning in multimodal LLMs</strong>, enhancing their ability to align visual evidence with multi-step reasoning."
-    type: preprint
-    year: 2025
-    keywords: ["visual grounding", "reasoning", "VLM", "pointing"]
-    bibtex: |
-      @article{chung2025v1,
-        title={v1: Learning to Point Visual Tokens for Multimodal Grounded Reasoning},
-        author={Chung, Jiwan and Kim, Junhyeok and Kim, Siyeol and Lee, Jaeyoung and Kim, Min Soo and Yu, Youngjae},
-        journal={arXiv preprint arXiv:2505.18842},
-        year={2025}
-      }
-
 
   - title: "VisEscape: A Benchmark for Evaluating Exploration-driven Decision-making in Virtual Escape Rooms"
     authors: "Seungwon Lim, Sungwoong Kim, Jihwan Yu, Sungjae Lee, <b>Jiwan Chung</b>, Youngjae Yu"

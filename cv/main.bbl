@@ -50,8 +50,6 @@
       \true{nocite}
     \endentry
     \entry{chung2026teaching}{inproceedings}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
       \name{author}{6}{}{%
         {{hash=cd085ea7b890d266a6057330bf8953f8}{%
            family={Chung},
@@ -84,14 +82,14 @@
            given={Youngjae},
            giveni={Y\bibinitperiod}}}%
       }
-      \strng{namehash}{75ff552ab813a1af88e8b2eab32dcf74}
-      \strng{fullhash}{75ff552ab813a1af88e8b2eab32dcf74}
-      \strng{fullhashraw}{75ff552ab813a1af88e8b2eab32dcf74}
-      \strng{bibnamehash}{75ff552ab813a1af88e8b2eab32dcf74}
-      \strng{authorbibnamehash}{75ff552ab813a1af88e8b2eab32dcf74}
-      \strng{authornamehash}{75ff552ab813a1af88e8b2eab32dcf74}
-      \strng{authorfullhash}{75ff552ab813a1af88e8b2eab32dcf74}
-      \strng{authorfullhashraw}{75ff552ab813a1af88e8b2eab32dcf74}
+      \strng{namehash}{f76679738b09a7d407e0f16e034beced}
+      \strng{fullhash}{f76679738b09a7d407e0f16e034beced}
+      \strng{fullhashraw}{f76679738b09a7d407e0f16e034beced}
+      \strng{bibnamehash}{f76679738b09a7d407e0f16e034beced}
+      \strng{authorbibnamehash}{f76679738b09a7d407e0f16e034beced}
+      \strng{authornamehash}{f76679738b09a7d407e0f16e034beced}
+      \strng{authorfullhash}{f76679738b09a7d407e0f16e034beced}
+      \strng{authorfullhashraw}{f76679738b09a7d407e0f16e034beced}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -101,9 +99,97 @@
       \field{year}{2026}
       \true{nocite}
     \endentry
+    \entry{chung2025don}{inproceedings}{}{}
+      \name{author}{6}{}{%
+        {{hash=93e8df296029c0f7709f5d83c195b1e0}{%
+           family={Chung$\dagger$},
+           familyi={C\bibinitperiod},
+           given={Jiwan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=93f5142041c56a52c41d5e47b96f8da9}{%
+           family={Kim$\dagger$},
+           familyi={K\bibinitperiod},
+           given={Junhyeok},
+           giveni={J\bibinitperiod}}}%
+        {{hash=171932d3ace06446fe95d4b54bcecd33}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Siyeol},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a9d27299f16d7baaf16502a4d7b27266}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Jaeyoung},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c25f07e73f3066a004a60e1e969de93b}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Min\bibnamedelima Soo},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=200883e8fe54d4ac8aca152db92a5d8d}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Youngjae},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{dc44e4bddde9a266f98adf182ba337e5}
+      \strng{fullhash}{dc44e4bddde9a266f98adf182ba337e5}
+      \strng{fullhashraw}{dc44e4bddde9a266f98adf182ba337e5}
+      \strng{bibnamehash}{dc44e4bddde9a266f98adf182ba337e5}
+      \strng{authorbibnamehash}{dc44e4bddde9a266f98adf182ba337e5}
+      \strng{authornamehash}{dc44e4bddde9a266f98adf182ba337e5}
+      \strng{authorfullhash}{dc44e4bddde9a266f98adf182ba337e5}
+      \strng{authorfullhashraw}{dc44e4bddde9a266f98adf182ba337e5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Conference on Language Modeling: COLM}
+      \field{title}{v1: Learning to Point Visual Tokens for Multimodal Grounded Reasoning}
+      \field{year}{2026}
+      \true{nocite}
+    \endentry
+    \entry{chung2026webstep}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=cd085ea7b890d266a6057330bf8953f8}{%
+           family={Chung},
+           familyi={C\bibinitperiod},
+           given={Jiwan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f13a623500d91be39733822b5c3c0189}{%
+           family={Byun},
+           familyi={B\bibinitperiod},
+           given={JiHyuk},
+           giveni={J\bibinitperiod}}}%
+        {{hash=919bdbb82e6940f3a8a29ffaa5b4c177}{%
+           family={Vineet},
+           familyi={V\bibinitperiod},
+           given={Vibhav},
+           giveni={V\bibinitperiod}}}%
+        {{hash=84d75ea672ebe26a483b0af3366044c8}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Seon\bibnamedelima Joo},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{4b221872ab3c17bf750051512e4972d4}
+      \strng{fullhash}{4b221872ab3c17bf750051512e4972d4}
+      \strng{fullhashraw}{4b221872ab3c17bf750051512e4972d4}
+      \strng{bibnamehash}{4b221872ab3c17bf750051512e4972d4}
+      \strng{authorbibnamehash}{4b221872ab3c17bf750051512e4972d4}
+      \strng{authornamehash}{4b221872ab3c17bf750051512e4972d4}
+      \strng{authorfullhash}{4b221872ab3c17bf750051512e4972d4}
+      \strng{authorfullhashraw}{4b221872ab3c17bf750051512e4972d4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Conference on Language Modeling: COLM}
+      \field{title}{Where Did It Go Wrong? Process-Level Evaluation of Web Agents with Semantic State Tracking}
+      \field{year}{2026}
+      \true{nocite}
+    \endentry
     \entry{chung2025anytoany}{inproceedings}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
       \name{author}{7}{}{%
         {{hash=cd085ea7b890d266a6057330bf8953f8}{%
            family={Chung},
@@ -141,14 +227,14 @@
            given={Youngjae},
            giveni={Y\bibinitperiod}}}%
       }
-      \strng{namehash}{93ddb1f19d866f5deb5e57680a5616b1}
-      \strng{fullhash}{93ddb1f19d866f5deb5e57680a5616b1}
-      \strng{fullhashraw}{93ddb1f19d866f5deb5e57680a5616b1}
-      \strng{bibnamehash}{93ddb1f19d866f5deb5e57680a5616b1}
-      \strng{authorbibnamehash}{93ddb1f19d866f5deb5e57680a5616b1}
-      \strng{authornamehash}{93ddb1f19d866f5deb5e57680a5616b1}
-      \strng{authorfullhash}{93ddb1f19d866f5deb5e57680a5616b1}
-      \strng{authorfullhashraw}{93ddb1f19d866f5deb5e57680a5616b1}
+      \strng{namehash}{71aff0087372e1d962a167ae0c69ae3b}
+      \strng{fullhash}{71aff0087372e1d962a167ae0c69ae3b}
+      \strng{fullhashraw}{71aff0087372e1d962a167ae0c69ae3b}
+      \strng{bibnamehash}{71aff0087372e1d962a167ae0c69ae3b}
+      \strng{authorbibnamehash}{71aff0087372e1d962a167ae0c69ae3b}
+      \strng{authornamehash}{71aff0087372e1d962a167ae0c69ae3b}
+      \strng{authorfullhash}{71aff0087372e1d962a167ae0c69ae3b}
+      \strng{authorfullhashraw}{71aff0087372e1d962a167ae0c69ae3b}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -159,8 +245,6 @@
       \true{nocite}
     \endentry
     \entry{chung2025mass}{inproceedings}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
       \name{author}{4}{}{%
         {{hash=cd085ea7b890d266a6057330bf8953f8}{%
            family={Chung},
@@ -183,14 +267,14 @@
            given={Youngjae},
            giveni={Y\bibinitperiod}}}%
       }
-      \strng{namehash}{a298f3d8e5e3b1f44ff2f6f52246cb20}
-      \strng{fullhash}{a298f3d8e5e3b1f44ff2f6f52246cb20}
-      \strng{fullhashraw}{a298f3d8e5e3b1f44ff2f6f52246cb20}
-      \strng{bibnamehash}{a298f3d8e5e3b1f44ff2f6f52246cb20}
-      \strng{authorbibnamehash}{a298f3d8e5e3b1f44ff2f6f52246cb20}
-      \strng{authornamehash}{a298f3d8e5e3b1f44ff2f6f52246cb20}
-      \strng{authorfullhash}{a298f3d8e5e3b1f44ff2f6f52246cb20}
-      \strng{authorfullhashraw}{a298f3d8e5e3b1f44ff2f6f52246cb20}
+      \strng{namehash}{fab6e793d9128414013fe57d6024d696}
+      \strng{fullhash}{fab6e793d9128414013fe57d6024d696}
+      \strng{fullhashraw}{fab6e793d9128414013fe57d6024d696}
+      \strng{bibnamehash}{fab6e793d9128414013fe57d6024d696}
+      \strng{authorbibnamehash}{fab6e793d9128414013fe57d6024d696}
+      \strng{authornamehash}{fab6e793d9128414013fe57d6024d696}
+      \strng{authorfullhash}{fab6e793d9128414013fe57d6024d696}
+      \strng{authorfullhashraw}{fab6e793d9128414013fe57d6024d696}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -201,8 +285,6 @@
       \true{nocite}
     \endentry
     \entry{kim2025speaking}{inproceedings}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
       \name{author}{8}{}{%
         {{hash=93e8df296029c0f7709f5d83c195b1e0}{%
            family={Chung$\dagger$},
@@ -245,14 +327,14 @@
            given={Youngjae},
            giveni={Y\bibinitperiod}}}%
       }
-      \strng{namehash}{c79546e12e30878e58fc964c9f466b34}
-      \strng{fullhash}{c79546e12e30878e58fc964c9f466b34}
-      \strng{fullhashraw}{c79546e12e30878e58fc964c9f466b34}
-      \strng{bibnamehash}{c79546e12e30878e58fc964c9f466b34}
-      \strng{authorbibnamehash}{c79546e12e30878e58fc964c9f466b34}
-      \strng{authornamehash}{c79546e12e30878e58fc964c9f466b34}
-      \strng{authorfullhash}{c79546e12e30878e58fc964c9f466b34}
-      \strng{authorfullhashraw}{c79546e12e30878e58fc964c9f466b34}
+      \strng{namehash}{9b4d03eab3ccfec46f59fc459434f676}
+      \strng{fullhash}{9b4d03eab3ccfec46f59fc459434f676}
+      \strng{fullhashraw}{9b4d03eab3ccfec46f59fc459434f676}
+      \strng{bibnamehash}{9b4d03eab3ccfec46f59fc459434f676}
+      \strng{authorbibnamehash}{9b4d03eab3ccfec46f59fc459434f676}
+      \strng{authornamehash}{9b4d03eab3ccfec46f59fc459434f676}
+      \strng{authorfullhash}{9b4d03eab3ccfec46f59fc459434f676}
+      \strng{authorfullhashraw}{9b4d03eab3ccfec46f59fc459434f676}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -263,8 +345,6 @@
       \true{nocite}
     \endentry
     \entry{chung2024pun}{inproceedings}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
       \name{author}{5}{}{%
         {{hash=cd085ea7b890d266a6057330bf8953f8}{%
            family={Chung},
@@ -286,20 +366,20 @@
            familyi={L\bibinitperiod},
            given={Seungbeen},
            giveni={S\bibinitperiod}}}%
-        {{hash=aa928b78f6def6712d29845dcb749a9b}{%
-           family={Youngjae},
+        {{hash=200883e8fe54d4ac8aca152db92a5d8d}{%
+           family={Yu},
            familyi={Y\bibinitperiod},
-           given={Yu},
+           given={Youngjae},
            giveni={Y\bibinitperiod}}}%
       }
-      \strng{namehash}{fc499b0c4a60f5cf1e2d5cb8f93b98f6}
-      \strng{fullhash}{fc499b0c4a60f5cf1e2d5cb8f93b98f6}
-      \strng{fullhashraw}{fc499b0c4a60f5cf1e2d5cb8f93b98f6}
-      \strng{bibnamehash}{fc499b0c4a60f5cf1e2d5cb8f93b98f6}
-      \strng{authorbibnamehash}{fc499b0c4a60f5cf1e2d5cb8f93b98f6}
-      \strng{authornamehash}{fc499b0c4a60f5cf1e2d5cb8f93b98f6}
-      \strng{authorfullhash}{fc499b0c4a60f5cf1e2d5cb8f93b98f6}
-      \strng{authorfullhashraw}{fc499b0c4a60f5cf1e2d5cb8f93b98f6}
+      \strng{namehash}{a6d277fa4c65295311c9228aa178ba5a}
+      \strng{fullhash}{a6d277fa4c65295311c9228aa178ba5a}
+      \strng{fullhashraw}{a6d277fa4c65295311c9228aa178ba5a}
+      \strng{bibnamehash}{a6d277fa4c65295311c9228aa178ba5a}
+      \strng{authorbibnamehash}{a6d277fa4c65295311c9228aa178ba5a}
+      \strng{authornamehash}{a6d277fa4c65295311c9228aa178ba5a}
+      \strng{authorfullhash}{a6d277fa4c65295311c9228aa178ba5a}
+      \strng{authorfullhashraw}{a6d277fa4c65295311c9228aa178ba5a}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -310,8 +390,6 @@
       \true{nocite}
     \endentry
     \entry{chung2024selective}{inproceedings}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
       \name{author}{7}{}{%
         {{hash=93e8df296029c0f7709f5d83c195b1e0}{%
            family={Chung$\dagger$},
@@ -349,14 +427,14 @@
            given={Youngjae},
            giveni={Y\bibinitperiod}}}%
       }
-      \strng{namehash}{a7acb147b8c38a9482a061559dd8d65c}
-      \strng{fullhash}{a7acb147b8c38a9482a061559dd8d65c}
-      \strng{fullhashraw}{a7acb147b8c38a9482a061559dd8d65c}
-      \strng{bibnamehash}{a7acb147b8c38a9482a061559dd8d65c}
-      \strng{authorbibnamehash}{a7acb147b8c38a9482a061559dd8d65c}
-      \strng{authornamehash}{a7acb147b8c38a9482a061559dd8d65c}
-      \strng{authorfullhash}{a7acb147b8c38a9482a061559dd8d65c}
-      \strng{authorfullhashraw}{a7acb147b8c38a9482a061559dd8d65c}
+      \strng{namehash}{8e71d5fa5f0a615f1b100f99e13fde2a}
+      \strng{fullhash}{8e71d5fa5f0a615f1b100f99e13fde2a}
+      \strng{fullhashraw}{8e71d5fa5f0a615f1b100f99e13fde2a}
+      \strng{bibnamehash}{8e71d5fa5f0a615f1b100f99e13fde2a}
+      \strng{authorbibnamehash}{8e71d5fa5f0a615f1b100f99e13fde2a}
+      \strng{authornamehash}{8e71d5fa5f0a615f1b100f99e13fde2a}
+      \strng{authorfullhash}{8e71d5fa5f0a615f1b100f99e13fde2a}
+      \strng{authorfullhashraw}{8e71d5fa5f0a615f1b100f99e13fde2a}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -367,8 +445,6 @@
       \true{nocite}
     \endentry
     \entry{choi2024}{inproceedings}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
       \name{author}{5}{}{%
         {{hash=93e8df296029c0f7709f5d83c195b1e0}{%
            family={Chung$\dagger$},
@@ -396,14 +472,14 @@
            given={Youngjae},
            giveni={Y\bibinitperiod}}}%
       }
-      \strng{namehash}{056cf1bef294ed90095acf8a33e0db5f}
-      \strng{fullhash}{056cf1bef294ed90095acf8a33e0db5f}
-      \strng{fullhashraw}{056cf1bef294ed90095acf8a33e0db5f}
-      \strng{bibnamehash}{056cf1bef294ed90095acf8a33e0db5f}
-      \strng{authorbibnamehash}{056cf1bef294ed90095acf8a33e0db5f}
-      \strng{authornamehash}{056cf1bef294ed90095acf8a33e0db5f}
-      \strng{authorfullhash}{056cf1bef294ed90095acf8a33e0db5f}
-      \strng{authorfullhashraw}{056cf1bef294ed90095acf8a33e0db5f}
+      \strng{namehash}{efe55afa150d2fd2624318351110cd5d}
+      \strng{fullhash}{efe55afa150d2fd2624318351110cd5d}
+      \strng{fullhashraw}{efe55afa150d2fd2624318351110cd5d}
+      \strng{bibnamehash}{efe55afa150d2fd2624318351110cd5d}
+      \strng{authorbibnamehash}{efe55afa150d2fd2624318351110cd5d}
+      \strng{authornamehash}{efe55afa150d2fd2624318351110cd5d}
+      \strng{authorfullhash}{efe55afa150d2fd2624318351110cd5d}
+      \strng{authorfullhashraw}{efe55afa150d2fd2624318351110cd5d}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -414,9 +490,7 @@
       \true{nocite}
     \endentry
     \entry{yu2023fusing}{inproceedings}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{10}{}{%
+      \name{author}{11}{}{%
         {{hash=93e8df296029c0f7709f5d83c195b1e0}{%
            family={Chung$\dagger$},
            familyi={C\bibinitperiod},
@@ -467,15 +541,20 @@
            familyi={K\bibinitperiod},
            given={Gunhee},
            giveni={G\bibinitperiod}}}%
+        {{hash=64d48b2f4b0370b6692c87cfc65f19b9}{%
+           family={Choi},
+           familyi={C\bibinitperiod},
+           given={Yejin},
+           giveni={Y\bibinitperiod}}}%
       }
-      \strng{namehash}{3ec5d4b51892301a5acdd472487b5d77}
-      \strng{fullhash}{3ec5d4b51892301a5acdd472487b5d77}
-      \strng{fullhashraw}{3ec5d4b51892301a5acdd472487b5d77}
-      \strng{bibnamehash}{3ec5d4b51892301a5acdd472487b5d77}
-      \strng{authorbibnamehash}{3ec5d4b51892301a5acdd472487b5d77}
-      \strng{authornamehash}{3ec5d4b51892301a5acdd472487b5d77}
-      \strng{authorfullhash}{3ec5d4b51892301a5acdd472487b5d77}
-      \strng{authorfullhashraw}{3ec5d4b51892301a5acdd472487b5d77}
+      \strng{namehash}{a8a3f93e0738a9008cab48fbfab64009}
+      \strng{fullhash}{a8a3f93e0738a9008cab48fbfab64009}
+      \strng{fullhashraw}{a8a3f93e0738a9008cab48fbfab64009}
+      \strng{bibnamehash}{a8a3f93e0738a9008cab48fbfab64009}
+      \strng{authorbibnamehash}{a8a3f93e0738a9008cab48fbfab64009}
+      \strng{authornamehash}{a8a3f93e0738a9008cab48fbfab64009}
+      \strng{authorfullhash}{a8a3f93e0738a9008cab48fbfab64009}
+      \strng{authorfullhashraw}{a8a3f93e0738a9008cab48fbfab64009}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -486,8 +565,6 @@
       \true{nocite}
     \endentry
     \entry{chung2023long}{inproceedings}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
       \name{author}{2}{}{%
         {{hash=cd085ea7b890d266a6057330bf8953f8}{%
            family={Chung},
@@ -500,14 +577,14 @@
            given={Youngjae},
            giveni={Y\bibinitperiod}}}%
       }
-      \strng{namehash}{ab1b0b8fabbed60617f344298fefc71f}
-      \strng{fullhash}{ab1b0b8fabbed60617f344298fefc71f}
-      \strng{fullhashraw}{ab1b0b8fabbed60617f344298fefc71f}
-      \strng{bibnamehash}{ab1b0b8fabbed60617f344298fefc71f}
-      \strng{authorbibnamehash}{ab1b0b8fabbed60617f344298fefc71f}
-      \strng{authornamehash}{ab1b0b8fabbed60617f344298fefc71f}
-      \strng{authorfullhash}{ab1b0b8fabbed60617f344298fefc71f}
-      \strng{authorfullhashraw}{ab1b0b8fabbed60617f344298fefc71f}
+      \strng{namehash}{cee9cd2be3d5ed7a63805c61f8784404}
+      \strng{fullhash}{cee9cd2be3d5ed7a63805c61f8784404}
+      \strng{fullhashraw}{cee9cd2be3d5ed7a63805c61f8784404}
+      \strng{bibnamehash}{cee9cd2be3d5ed7a63805c61f8784404}
+      \strng{authorbibnamehash}{cee9cd2be3d5ed7a63805c61f8784404}
+      \strng{authornamehash}{cee9cd2be3d5ed7a63805c61f8784404}
+      \strng{authorfullhash}{cee9cd2be3d5ed7a63805c61f8784404}
+      \strng{authorfullhashraw}{cee9cd2be3d5ed7a63805c61f8784404}
       \field{extraname}{1}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
@@ -519,8 +596,6 @@
       \true{nocite}
     \endentry
     \entry{chung2023vlis}{inproceedings}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
       \name{author}{2}{}{%
         {{hash=cd085ea7b890d266a6057330bf8953f8}{%
            family={Chung},
@@ -533,14 +608,14 @@
            given={Youngjae},
            giveni={Y\bibinitperiod}}}%
       }
-      \strng{namehash}{ab1b0b8fabbed60617f344298fefc71f}
-      \strng{fullhash}{ab1b0b8fabbed60617f344298fefc71f}
-      \strng{fullhashraw}{ab1b0b8fabbed60617f344298fefc71f}
-      \strng{bibnamehash}{ab1b0b8fabbed60617f344298fefc71f}
-      \strng{authorbibnamehash}{ab1b0b8fabbed60617f344298fefc71f}
-      \strng{authornamehash}{ab1b0b8fabbed60617f344298fefc71f}
-      \strng{authorfullhash}{ab1b0b8fabbed60617f344298fefc71f}
-      \strng{authorfullhashraw}{ab1b0b8fabbed60617f344298fefc71f}
+      \strng{namehash}{cee9cd2be3d5ed7a63805c61f8784404}
+      \strng{fullhash}{cee9cd2be3d5ed7a63805c61f8784404}
+      \strng{fullhashraw}{cee9cd2be3d5ed7a63805c61f8784404}
+      \strng{bibnamehash}{cee9cd2be3d5ed7a63805c61f8784404}
+      \strng{authorbibnamehash}{cee9cd2be3d5ed7a63805c61f8784404}
+      \strng{authornamehash}{cee9cd2be3d5ed7a63805c61f8784404}
+      \strng{authorfullhash}{cee9cd2be3d5ed7a63805c61f8784404}
+      \strng{authorfullhashraw}{cee9cd2be3d5ed7a63805c61f8784404}
       \field{extraname}{2}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
@@ -552,8 +627,6 @@
       \true{nocite}
     \endentry
     \entry{lee2021acav100m}{inproceedings}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
       \name{author}{7}{}{%
         {{hash=93e8df296029c0f7709f5d83c195b1e0}{%
            family={Chung$\dagger$},
@@ -591,14 +664,14 @@
            given={Yale},
            giveni={Y\bibinitperiod}}}%
       }
-      \strng{namehash}{345f9348943312fbdcac669c84664e79}
-      \strng{fullhash}{345f9348943312fbdcac669c84664e79}
-      \strng{fullhashraw}{345f9348943312fbdcac669c84664e79}
-      \strng{bibnamehash}{345f9348943312fbdcac669c84664e79}
-      \strng{authorbibnamehash}{345f9348943312fbdcac669c84664e79}
-      \strng{authornamehash}{345f9348943312fbdcac669c84664e79}
-      \strng{authorfullhash}{345f9348943312fbdcac669c84664e79}
-      \strng{authorfullhashraw}{345f9348943312fbdcac669c84664e79}
+      \strng{namehash}{d963270bf284608cc5efc24a9277f2a9}
+      \strng{fullhash}{d963270bf284608cc5efc24a9277f2a9}
+      \strng{fullhashraw}{d963270bf284608cc5efc24a9277f2a9}
+      \strng{bibnamehash}{d963270bf284608cc5efc24a9277f2a9}
+      \strng{authorbibnamehash}{d963270bf284608cc5efc24a9277f2a9}
+      \strng{authornamehash}{d963270bf284608cc5efc24a9277f2a9}
+      \strng{authorfullhash}{d963270bf284608cc5efc24a9277f2a9}
+      \strng{authorfullhashraw}{d963270bf284608cc5efc24a9277f2a9}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -609,8 +682,6 @@
       \true{nocite}
     \endentry
     \entry{yu2021transitional}{inproceedings}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
       \name{author}{5}{}{%
         {{hash=93e8df296029c0f7709f5d83c195b1e0}{%
            family={Chung$\dagger$},
@@ -638,14 +709,14 @@
            given={Gunhee},
            giveni={G\bibinitperiod}}}%
       }
-      \strng{namehash}{e2c701a7c5d80e37bab1ae78fc8bb356}
-      \strng{fullhash}{e2c701a7c5d80e37bab1ae78fc8bb356}
-      \strng{fullhashraw}{e2c701a7c5d80e37bab1ae78fc8bb356}
-      \strng{bibnamehash}{e2c701a7c5d80e37bab1ae78fc8bb356}
-      \strng{authorbibnamehash}{e2c701a7c5d80e37bab1ae78fc8bb356}
-      \strng{authornamehash}{e2c701a7c5d80e37bab1ae78fc8bb356}
-      \strng{authorfullhash}{e2c701a7c5d80e37bab1ae78fc8bb356}
-      \strng{authorfullhashraw}{e2c701a7c5d80e37bab1ae78fc8bb356}
+      \strng{namehash}{e550f7a3954ccd1cc4c06e0a61ea692d}
+      \strng{fullhash}{e550f7a3954ccd1cc4c06e0a61ea692d}
+      \strng{fullhashraw}{e550f7a3954ccd1cc4c06e0a61ea692d}
+      \strng{bibnamehash}{e550f7a3954ccd1cc4c06e0a61ea692d}
+      \strng{authorbibnamehash}{e550f7a3954ccd1cc4c06e0a61ea692d}
+      \strng{authornamehash}{e550f7a3954ccd1cc4c06e0a61ea692d}
+      \strng{authorfullhash}{e550f7a3954ccd1cc4c06e0a61ea692d}
+      \strng{authorfullhashraw}{e550f7a3954ccd1cc4c06e0a61ea692d}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -657,6 +728,96 @@
     \endentry
   \enddatalist
   \datalist[entry]{none/global//global/global/global}
+    \entry{chung2026webstep}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=cd085ea7b890d266a6057330bf8953f8}{%
+           family={Chung},
+           familyi={C\bibinitperiod},
+           given={Jiwan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f13a623500d91be39733822b5c3c0189}{%
+           family={Byun},
+           familyi={B\bibinitperiod},
+           given={JiHyuk},
+           giveni={J\bibinitperiod}}}%
+        {{hash=919bdbb82e6940f3a8a29ffaa5b4c177}{%
+           family={Vineet},
+           familyi={V\bibinitperiod},
+           given={Vibhav},
+           giveni={V\bibinitperiod}}}%
+        {{hash=84d75ea672ebe26a483b0af3366044c8}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Seon\bibnamedelima Joo},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{4b221872ab3c17bf750051512e4972d4}
+      \strng{fullhash}{4b221872ab3c17bf750051512e4972d4}
+      \strng{fullhashraw}{4b221872ab3c17bf750051512e4972d4}
+      \strng{bibnamehash}{4b221872ab3c17bf750051512e4972d4}
+      \strng{authorbibnamehash}{4b221872ab3c17bf750051512e4972d4}
+      \strng{authornamehash}{4b221872ab3c17bf750051512e4972d4}
+      \strng{authorfullhash}{4b221872ab3c17bf750051512e4972d4}
+      \strng{authorfullhashraw}{4b221872ab3c17bf750051512e4972d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Conference on Language Modeling: COLM}
+      \field{title}{Where Did It Go Wrong? Process-Level Evaluation of Web Agents with Semantic State Tracking}
+      \field{year}{2026}
+      \true{nocite}
+    \endentry
+    \entry{chung2025don}{inproceedings}{}{}
+      \name{author}{6}{}{%
+        {{hash=93e8df296029c0f7709f5d83c195b1e0}{%
+           family={Chung$\dagger$},
+           familyi={C\bibinitperiod},
+           given={Jiwan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=93f5142041c56a52c41d5e47b96f8da9}{%
+           family={Kim$\dagger$},
+           familyi={K\bibinitperiod},
+           given={Junhyeok},
+           giveni={J\bibinitperiod}}}%
+        {{hash=171932d3ace06446fe95d4b54bcecd33}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Siyeol},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a9d27299f16d7baaf16502a4d7b27266}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Jaeyoung},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c25f07e73f3066a004a60e1e969de93b}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Min\bibnamedelima Soo},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=200883e8fe54d4ac8aca152db92a5d8d}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Youngjae},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{dc44e4bddde9a266f98adf182ba337e5}
+      \strng{fullhash}{dc44e4bddde9a266f98adf182ba337e5}
+      \strng{fullhashraw}{dc44e4bddde9a266f98adf182ba337e5}
+      \strng{bibnamehash}{dc44e4bddde9a266f98adf182ba337e5}
+      \strng{authorbibnamehash}{dc44e4bddde9a266f98adf182ba337e5}
+      \strng{authornamehash}{dc44e4bddde9a266f98adf182ba337e5}
+      \strng{authorfullhash}{dc44e4bddde9a266f98adf182ba337e5}
+      \strng{authorfullhashraw}{dc44e4bddde9a266f98adf182ba337e5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Conference on Language Modeling: COLM}
+      \field{title}{v1: Learning to Point Visual Tokens for Multimodal Grounded Reasoning}
+      \field{year}{2026}
+      \true{nocite}
+    \endentry
     \entry{chung2026geo}{inproceedings}{}{}
       \name{author}{2}{}{%
         {{hash=cd085ea7b890d266a6057330bf8953f8}{%
@@ -678,8 +839,8 @@
       \strng{authornamehash}{f381c3a182dc5b7ea7206290288b06d7}
       \strng{authorfullhash}{f381c3a182dc5b7ea7206290288b06d7}
       \strng{authorfullhashraw}{f381c3a182dc5b7ea7206290288b06d7}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Forty-third International Conference on Machine Learning: ICML}
@@ -688,8 +849,6 @@
       \true{nocite}
     \endentry
     \entry{chung2026teaching}{inproceedings}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
       \name{author}{6}{}{%
         {{hash=cd085ea7b890d266a6057330bf8953f8}{%
            family={Chung},
@@ -722,16 +881,16 @@
            given={Youngjae},
            giveni={Y\bibinitperiod}}}%
       }
-      \strng{namehash}{75ff552ab813a1af88e8b2eab32dcf74}
-      \strng{fullhash}{75ff552ab813a1af88e8b2eab32dcf74}
-      \strng{fullhashraw}{75ff552ab813a1af88e8b2eab32dcf74}
-      \strng{bibnamehash}{75ff552ab813a1af88e8b2eab32dcf74}
-      \strng{authorbibnamehash}{75ff552ab813a1af88e8b2eab32dcf74}
-      \strng{authornamehash}{75ff552ab813a1af88e8b2eab32dcf74}
-      \strng{authorfullhash}{75ff552ab813a1af88e8b2eab32dcf74}
-      \strng{authorfullhashraw}{75ff552ab813a1af88e8b2eab32dcf74}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \strng{namehash}{f76679738b09a7d407e0f16e034beced}
+      \strng{fullhash}{f76679738b09a7d407e0f16e034beced}
+      \strng{fullhashraw}{f76679738b09a7d407e0f16e034beced}
+      \strng{bibnamehash}{f76679738b09a7d407e0f16e034beced}
+      \strng{authorbibnamehash}{f76679738b09a7d407e0f16e034beced}
+      \strng{authornamehash}{f76679738b09a7d407e0f16e034beced}
+      \strng{authorfullhash}{f76679738b09a7d407e0f16e034beced}
+      \strng{authorfullhashraw}{f76679738b09a7d407e0f16e034beced}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{The Thirteenth International Conference on Learning Representations: ICLR}
@@ -740,8 +899,6 @@
       \true{nocite}
     \endentry
     \entry{chung2025anytoany}{inproceedings}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
       \name{author}{7}{}{%
         {{hash=cd085ea7b890d266a6057330bf8953f8}{%
            family={Chung},
@@ -779,16 +936,16 @@
            given={Youngjae},
            giveni={Y\bibinitperiod}}}%
       }
-      \strng{namehash}{93ddb1f19d866f5deb5e57680a5616b1}
-      \strng{fullhash}{93ddb1f19d866f5deb5e57680a5616b1}
-      \strng{fullhashraw}{93ddb1f19d866f5deb5e57680a5616b1}
-      \strng{bibnamehash}{93ddb1f19d866f5deb5e57680a5616b1}
-      \strng{authorbibnamehash}{93ddb1f19d866f5deb5e57680a5616b1}
-      \strng{authornamehash}{93ddb1f19d866f5deb5e57680a5616b1}
-      \strng{authorfullhash}{93ddb1f19d866f5deb5e57680a5616b1}
-      \strng{authorfullhashraw}{93ddb1f19d866f5deb5e57680a5616b1}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \strng{namehash}{71aff0087372e1d962a167ae0c69ae3b}
+      \strng{fullhash}{71aff0087372e1d962a167ae0c69ae3b}
+      \strng{fullhashraw}{71aff0087372e1d962a167ae0c69ae3b}
+      \strng{bibnamehash}{71aff0087372e1d962a167ae0c69ae3b}
+      \strng{authorbibnamehash}{71aff0087372e1d962a167ae0c69ae3b}
+      \strng{authornamehash}{71aff0087372e1d962a167ae0c69ae3b}
+      \strng{authorfullhash}{71aff0087372e1d962a167ae0c69ae3b}
+      \strng{authorfullhashraw}{71aff0087372e1d962a167ae0c69ae3b}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the Association for Computational Linguistics: ACL}
@@ -797,8 +954,6 @@
       \true{nocite}
     \endentry
     \entry{kim2025speaking}{inproceedings}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
       \name{author}{8}{}{%
         {{hash=93e8df296029c0f7709f5d83c195b1e0}{%
            family={Chung$\dagger$},
@@ -841,16 +996,16 @@
            given={Youngjae},
            giveni={Y\bibinitperiod}}}%
       }
-      \strng{namehash}{c79546e12e30878e58fc964c9f466b34}
-      \strng{fullhash}{c79546e12e30878e58fc964c9f466b34}
-      \strng{fullhashraw}{c79546e12e30878e58fc964c9f466b34}
-      \strng{bibnamehash}{c79546e12e30878e58fc964c9f466b34}
-      \strng{authorbibnamehash}{c79546e12e30878e58fc964c9f466b34}
-      \strng{authornamehash}{c79546e12e30878e58fc964c9f466b34}
-      \strng{authorfullhash}{c79546e12e30878e58fc964c9f466b34}
-      \strng{authorfullhashraw}{c79546e12e30878e58fc964c9f466b34}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \strng{namehash}{9b4d03eab3ccfec46f59fc459434f676}
+      \strng{fullhash}{9b4d03eab3ccfec46f59fc459434f676}
+      \strng{fullhashraw}{9b4d03eab3ccfec46f59fc459434f676}
+      \strng{bibnamehash}{9b4d03eab3ccfec46f59fc459434f676}
+      \strng{authorbibnamehash}{9b4d03eab3ccfec46f59fc459434f676}
+      \strng{authornamehash}{9b4d03eab3ccfec46f59fc459434f676}
+      \strng{authorfullhash}{9b4d03eab3ccfec46f59fc459434f676}
+      \strng{authorfullhashraw}{9b4d03eab3ccfec46f59fc459434f676}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the Association for Computational Linguistics: ACL}
@@ -859,8 +1014,6 @@
       \true{nocite}
     \endentry
     \entry{chung2025mass}{inproceedings}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
       \name{author}{4}{}{%
         {{hash=cd085ea7b890d266a6057330bf8953f8}{%
            family={Chung},
@@ -883,16 +1036,16 @@
            given={Youngjae},
            giveni={Y\bibinitperiod}}}%
       }
-      \strng{namehash}{a298f3d8e5e3b1f44ff2f6f52246cb20}
-      \strng{fullhash}{a298f3d8e5e3b1f44ff2f6f52246cb20}
-      \strng{fullhashraw}{a298f3d8e5e3b1f44ff2f6f52246cb20}
-      \strng{bibnamehash}{a298f3d8e5e3b1f44ff2f6f52246cb20}
-      \strng{authorbibnamehash}{a298f3d8e5e3b1f44ff2f6f52246cb20}
-      \strng{authornamehash}{a298f3d8e5e3b1f44ff2f6f52246cb20}
-      \strng{authorfullhash}{a298f3d8e5e3b1f44ff2f6f52246cb20}
-      \strng{authorfullhashraw}{a298f3d8e5e3b1f44ff2f6f52246cb20}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \strng{namehash}{fab6e793d9128414013fe57d6024d696}
+      \strng{fullhash}{fab6e793d9128414013fe57d6024d696}
+      \strng{fullhashraw}{fab6e793d9128414013fe57d6024d696}
+      \strng{bibnamehash}{fab6e793d9128414013fe57d6024d696}
+      \strng{authorbibnamehash}{fab6e793d9128414013fe57d6024d696}
+      \strng{authornamehash}{fab6e793d9128414013fe57d6024d696}
+      \strng{authorfullhash}{fab6e793d9128414013fe57d6024d696}
+      \strng{authorfullhashraw}{fab6e793d9128414013fe57d6024d696}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{The 39th Annual AAAI Conference on Artificial Intelligence: AAAI}
@@ -901,8 +1054,6 @@
       \true{nocite}
     \endentry
     \entry{choi2024}{inproceedings}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
       \name{author}{5}{}{%
         {{hash=93e8df296029c0f7709f5d83c195b1e0}{%
            family={Chung$\dagger$},
@@ -930,16 +1081,16 @@
            given={Youngjae},
            giveni={Y\bibinitperiod}}}%
       }
-      \strng{namehash}{056cf1bef294ed90095acf8a33e0db5f}
-      \strng{fullhash}{056cf1bef294ed90095acf8a33e0db5f}
-      \strng{fullhashraw}{056cf1bef294ed90095acf8a33e0db5f}
-      \strng{bibnamehash}{056cf1bef294ed90095acf8a33e0db5f}
-      \strng{authorbibnamehash}{056cf1bef294ed90095acf8a33e0db5f}
-      \strng{authornamehash}{056cf1bef294ed90095acf8a33e0db5f}
-      \strng{authorfullhash}{056cf1bef294ed90095acf8a33e0db5f}
-      \strng{authorfullhashraw}{056cf1bef294ed90095acf8a33e0db5f}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \strng{namehash}{efe55afa150d2fd2624318351110cd5d}
+      \strng{fullhash}{efe55afa150d2fd2624318351110cd5d}
+      \strng{fullhashraw}{efe55afa150d2fd2624318351110cd5d}
+      \strng{bibnamehash}{efe55afa150d2fd2624318351110cd5d}
+      \strng{authorbibnamehash}{efe55afa150d2fd2624318351110cd5d}
+      \strng{authornamehash}{efe55afa150d2fd2624318351110cd5d}
+      \strng{authorfullhash}{efe55afa150d2fd2624318351110cd5d}
+      \strng{authorfullhashraw}{efe55afa150d2fd2624318351110cd5d}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Advances in Neural Information Processing Systems, Datasets and Benchmarks: NeurIPS D\&B}
@@ -948,8 +1099,6 @@
       \true{nocite}
     \endentry
     \entry{chung2024selective}{inproceedings}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
       \name{author}{7}{}{%
         {{hash=93e8df296029c0f7709f5d83c195b1e0}{%
            family={Chung$\dagger$},
@@ -987,16 +1136,16 @@
            given={Youngjae},
            giveni={Y\bibinitperiod}}}%
       }
-      \strng{namehash}{a7acb147b8c38a9482a061559dd8d65c}
-      \strng{fullhash}{a7acb147b8c38a9482a061559dd8d65c}
-      \strng{fullhashraw}{a7acb147b8c38a9482a061559dd8d65c}
-      \strng{bibnamehash}{a7acb147b8c38a9482a061559dd8d65c}
-      \strng{authorbibnamehash}{a7acb147b8c38a9482a061559dd8d65c}
-      \strng{authornamehash}{a7acb147b8c38a9482a061559dd8d65c}
-      \strng{authorfullhash}{a7acb147b8c38a9482a061559dd8d65c}
-      \strng{authorfullhashraw}{a7acb147b8c38a9482a061559dd8d65c}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \strng{namehash}{8e71d5fa5f0a615f1b100f99e13fde2a}
+      \strng{fullhash}{8e71d5fa5f0a615f1b100f99e13fde2a}
+      \strng{fullhashraw}{8e71d5fa5f0a615f1b100f99e13fde2a}
+      \strng{bibnamehash}{8e71d5fa5f0a615f1b100f99e13fde2a}
+      \strng{authorbibnamehash}{8e71d5fa5f0a615f1b100f99e13fde2a}
+      \strng{authornamehash}{8e71d5fa5f0a615f1b100f99e13fde2a}
+      \strng{authorfullhash}{8e71d5fa5f0a615f1b100f99e13fde2a}
+      \strng{authorfullhashraw}{8e71d5fa5f0a615f1b100f99e13fde2a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the Conference on Empirical Methods in Natural Language Processing: EMNLP}
@@ -1005,8 +1154,6 @@
       \true{nocite}
     \endentry
     \entry{chung2024pun}{inproceedings}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
       \name{author}{5}{}{%
         {{hash=cd085ea7b890d266a6057330bf8953f8}{%
            family={Chung},
@@ -1028,22 +1175,22 @@
            familyi={L\bibinitperiod},
            given={Seungbeen},
            giveni={S\bibinitperiod}}}%
-        {{hash=aa928b78f6def6712d29845dcb749a9b}{%
-           family={Youngjae},
+        {{hash=200883e8fe54d4ac8aca152db92a5d8d}{%
+           family={Yu},
            familyi={Y\bibinitperiod},
-           given={Yu},
+           given={Youngjae},
            giveni={Y\bibinitperiod}}}%
       }
-      \strng{namehash}{fc499b0c4a60f5cf1e2d5cb8f93b98f6}
-      \strng{fullhash}{fc499b0c4a60f5cf1e2d5cb8f93b98f6}
-      \strng{fullhashraw}{fc499b0c4a60f5cf1e2d5cb8f93b98f6}
-      \strng{bibnamehash}{fc499b0c4a60f5cf1e2d5cb8f93b98f6}
-      \strng{authorbibnamehash}{fc499b0c4a60f5cf1e2d5cb8f93b98f6}
-      \strng{authornamehash}{fc499b0c4a60f5cf1e2d5cb8f93b98f6}
-      \strng{authorfullhash}{fc499b0c4a60f5cf1e2d5cb8f93b98f6}
-      \strng{authorfullhashraw}{fc499b0c4a60f5cf1e2d5cb8f93b98f6}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \strng{namehash}{a6d277fa4c65295311c9228aa178ba5a}
+      \strng{fullhash}{a6d277fa4c65295311c9228aa178ba5a}
+      \strng{fullhashraw}{a6d277fa4c65295311c9228aa178ba5a}
+      \strng{bibnamehash}{a6d277fa4c65295311c9228aa178ba5a}
+      \strng{authorbibnamehash}{a6d277fa4c65295311c9228aa178ba5a}
+      \strng{authornamehash}{a6d277fa4c65295311c9228aa178ba5a}
+      \strng{authorfullhash}{a6d277fa4c65295311c9228aa178ba5a}
+      \strng{authorfullhashraw}{a6d277fa4c65295311c9228aa178ba5a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the Conference on Empirical Methods in Natural Language Processing: EMNLP}
@@ -1052,8 +1199,6 @@
       \true{nocite}
     \endentry
     \entry{chung2023vlis}{inproceedings}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
       \name{author}{2}{}{%
         {{hash=cd085ea7b890d266a6057330bf8953f8}{%
            family={Chung},
@@ -1066,17 +1211,17 @@
            given={Youngjae},
            giveni={Y\bibinitperiod}}}%
       }
-      \strng{namehash}{ab1b0b8fabbed60617f344298fefc71f}
-      \strng{fullhash}{ab1b0b8fabbed60617f344298fefc71f}
-      \strng{fullhashraw}{ab1b0b8fabbed60617f344298fefc71f}
-      \strng{bibnamehash}{ab1b0b8fabbed60617f344298fefc71f}
-      \strng{authorbibnamehash}{ab1b0b8fabbed60617f344298fefc71f}
-      \strng{authornamehash}{ab1b0b8fabbed60617f344298fefc71f}
-      \strng{authorfullhash}{ab1b0b8fabbed60617f344298fefc71f}
-      \strng{authorfullhashraw}{ab1b0b8fabbed60617f344298fefc71f}
+      \strng{namehash}{cee9cd2be3d5ed7a63805c61f8784404}
+      \strng{fullhash}{cee9cd2be3d5ed7a63805c61f8784404}
+      \strng{fullhashraw}{cee9cd2be3d5ed7a63805c61f8784404}
+      \strng{bibnamehash}{cee9cd2be3d5ed7a63805c61f8784404}
+      \strng{authorbibnamehash}{cee9cd2be3d5ed7a63805c61f8784404}
+      \strng{authornamehash}{cee9cd2be3d5ed7a63805c61f8784404}
+      \strng{authorfullhash}{cee9cd2be3d5ed7a63805c61f8784404}
+      \strng{authorfullhashraw}{cee9cd2be3d5ed7a63805c61f8784404}
       \field{extraname}{1}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the Conference on Empirical Methods in Natural Language Processing: EMNLP}
@@ -1085,8 +1230,6 @@
       \true{nocite}
     \endentry
     \entry{chung2023long}{inproceedings}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
       \name{author}{2}{}{%
         {{hash=cd085ea7b890d266a6057330bf8953f8}{%
            family={Chung},
@@ -1099,14 +1242,14 @@
            given={Youngjae},
            giveni={Y\bibinitperiod}}}%
       }
-      \strng{namehash}{ab1b0b8fabbed60617f344298fefc71f}
-      \strng{fullhash}{ab1b0b8fabbed60617f344298fefc71f}
-      \strng{fullhashraw}{ab1b0b8fabbed60617f344298fefc71f}
-      \strng{bibnamehash}{ab1b0b8fabbed60617f344298fefc71f}
-      \strng{authorbibnamehash}{ab1b0b8fabbed60617f344298fefc71f}
-      \strng{authornamehash}{ab1b0b8fabbed60617f344298fefc71f}
-      \strng{authorfullhash}{ab1b0b8fabbed60617f344298fefc71f}
-      \strng{authorfullhashraw}{ab1b0b8fabbed60617f344298fefc71f}
+      \strng{namehash}{cee9cd2be3d5ed7a63805c61f8784404}
+      \strng{fullhash}{cee9cd2be3d5ed7a63805c61f8784404}
+      \strng{fullhashraw}{cee9cd2be3d5ed7a63805c61f8784404}
+      \strng{bibnamehash}{cee9cd2be3d5ed7a63805c61f8784404}
+      \strng{authorbibnamehash}{cee9cd2be3d5ed7a63805c61f8784404}
+      \strng{authornamehash}{cee9cd2be3d5ed7a63805c61f8784404}
+      \strng{authorfullhash}{cee9cd2be3d5ed7a63805c61f8784404}
+      \strng{authorfullhashraw}{cee9cd2be3d5ed7a63805c61f8784404}
       \field{extraname}{2}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
@@ -1118,9 +1261,7 @@
       \true{nocite}
     \endentry
     \entry{yu2023fusing}{inproceedings}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{10}{}{%
+      \name{author}{11}{}{%
         {{hash=93e8df296029c0f7709f5d83c195b1e0}{%
            family={Chung$\dagger$},
            familyi={C\bibinitperiod},
@@ -1171,15 +1312,20 @@
            familyi={K\bibinitperiod},
            given={Gunhee},
            giveni={G\bibinitperiod}}}%
+        {{hash=64d48b2f4b0370b6692c87cfc65f19b9}{%
+           family={Choi},
+           familyi={C\bibinitperiod},
+           given={Yejin},
+           giveni={Y\bibinitperiod}}}%
       }
-      \strng{namehash}{3ec5d4b51892301a5acdd472487b5d77}
-      \strng{fullhash}{3ec5d4b51892301a5acdd472487b5d77}
-      \strng{fullhashraw}{3ec5d4b51892301a5acdd472487b5d77}
-      \strng{bibnamehash}{3ec5d4b51892301a5acdd472487b5d77}
-      \strng{authorbibnamehash}{3ec5d4b51892301a5acdd472487b5d77}
-      \strng{authornamehash}{3ec5d4b51892301a5acdd472487b5d77}
-      \strng{authorfullhash}{3ec5d4b51892301a5acdd472487b5d77}
-      \strng{authorfullhashraw}{3ec5d4b51892301a5acdd472487b5d77}
+      \strng{namehash}{a8a3f93e0738a9008cab48fbfab64009}
+      \strng{fullhash}{a8a3f93e0738a9008cab48fbfab64009}
+      \strng{fullhashraw}{a8a3f93e0738a9008cab48fbfab64009}
+      \strng{bibnamehash}{a8a3f93e0738a9008cab48fbfab64009}
+      \strng{authorbibnamehash}{a8a3f93e0738a9008cab48fbfab64009}
+      \strng{authornamehash}{a8a3f93e0738a9008cab48fbfab64009}
+      \strng{authorfullhash}{a8a3f93e0738a9008cab48fbfab64009}
+      \strng{authorfullhashraw}{a8a3f93e0738a9008cab48fbfab64009}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -1190,8 +1336,6 @@
       \true{nocite}
     \endentry
     \entry{lee2021acav100m}{inproceedings}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
       \name{author}{7}{}{%
         {{hash=93e8df296029c0f7709f5d83c195b1e0}{%
            family={Chung$\dagger$},
@@ -1229,14 +1373,14 @@
            given={Yale},
            giveni={Y\bibinitperiod}}}%
       }
-      \strng{namehash}{345f9348943312fbdcac669c84664e79}
-      \strng{fullhash}{345f9348943312fbdcac669c84664e79}
-      \strng{fullhashraw}{345f9348943312fbdcac669c84664e79}
-      \strng{bibnamehash}{345f9348943312fbdcac669c84664e79}
-      \strng{authorbibnamehash}{345f9348943312fbdcac669c84664e79}
-      \strng{authornamehash}{345f9348943312fbdcac669c84664e79}
-      \strng{authorfullhash}{345f9348943312fbdcac669c84664e79}
-      \strng{authorfullhashraw}{345f9348943312fbdcac669c84664e79}
+      \strng{namehash}{d963270bf284608cc5efc24a9277f2a9}
+      \strng{fullhash}{d963270bf284608cc5efc24a9277f2a9}
+      \strng{fullhashraw}{d963270bf284608cc5efc24a9277f2a9}
+      \strng{bibnamehash}{d963270bf284608cc5efc24a9277f2a9}
+      \strng{authorbibnamehash}{d963270bf284608cc5efc24a9277f2a9}
+      \strng{authornamehash}{d963270bf284608cc5efc24a9277f2a9}
+      \strng{authorfullhash}{d963270bf284608cc5efc24a9277f2a9}
+      \strng{authorfullhashraw}{d963270bf284608cc5efc24a9277f2a9}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -1247,8 +1391,6 @@
       \true{nocite}
     \endentry
     \entry{yu2021transitional}{inproceedings}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
       \name{author}{5}{}{%
         {{hash=93e8df296029c0f7709f5d83c195b1e0}{%
            family={Chung$\dagger$},
@@ -1276,14 +1418,14 @@
            given={Gunhee},
            giveni={G\bibinitperiod}}}%
       }
-      \strng{namehash}{e2c701a7c5d80e37bab1ae78fc8bb356}
-      \strng{fullhash}{e2c701a7c5d80e37bab1ae78fc8bb356}
-      \strng{fullhashraw}{e2c701a7c5d80e37bab1ae78fc8bb356}
-      \strng{bibnamehash}{e2c701a7c5d80e37bab1ae78fc8bb356}
-      \strng{authorbibnamehash}{e2c701a7c5d80e37bab1ae78fc8bb356}
-      \strng{authornamehash}{e2c701a7c5d80e37bab1ae78fc8bb356}
-      \strng{authorfullhash}{e2c701a7c5d80e37bab1ae78fc8bb356}
-      \strng{authorfullhashraw}{e2c701a7c5d80e37bab1ae78fc8bb356}
+      \strng{namehash}{e550f7a3954ccd1cc4c06e0a61ea692d}
+      \strng{fullhash}{e550f7a3954ccd1cc4c06e0a61ea692d}
+      \strng{fullhashraw}{e550f7a3954ccd1cc4c06e0a61ea692d}
+      \strng{bibnamehash}{e550f7a3954ccd1cc4c06e0a61ea692d}
+      \strng{authorbibnamehash}{e550f7a3954ccd1cc4c06e0a61ea692d}
+      \strng{authornamehash}{e550f7a3954ccd1cc4c06e0a61ea692d}
+      \strng{authorfullhash}{e550f7a3954ccd1cc4c06e0a61ea692d}
+      \strng{authorfullhashraw}{e550f7a3954ccd1cc4c06e0a61ea692d}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -1298,9 +1440,57 @@
 
 \refsection{2}
   \datalist[entry]{cvyear/global//global/global/global}
+    \entry{yoon2026a11yn}{inproceedings}{}{}
+      \name{author}{6}{}{%
+        {{hash=db5fc4a794b47d4d5d5842ca3a03c329}{%
+           family={Yoon},
+           familyi={Y\bibinitperiod},
+           given={Janghan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f1c669cf720be906c49cf63d32707669}{%
+           family={Cho},
+           familyi={C\bibinitperiod},
+           given={Jaegwan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f768050f8f3cd975a843883bd9e45ebe}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Junhyeok},
+           giveni={J\bibinitperiod}}}%
+        {{hash=cd085ea7b890d266a6057330bf8953f8}{%
+           family={Chung},
+           familyi={C\bibinitperiod},
+           given={Jiwan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=90f390f4a82b7a1ddeeb07fb98175d85}{%
+           family={Jeon},
+           familyi={J\bibinitperiod},
+           given={Jaehyun},
+           giveni={J\bibinitperiod}}}%
+        {{hash=200883e8fe54d4ac8aca152db92a5d8d}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Youngjae},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{645fb1c931915613d261bbdaefab8122}
+      \strng{fullhash}{645fb1c931915613d261bbdaefab8122}
+      \strng{fullhashraw}{645fb1c931915613d261bbdaefab8122}
+      \strng{bibnamehash}{645fb1c931915613d261bbdaefab8122}
+      \strng{authorbibnamehash}{645fb1c931915613d261bbdaefab8122}
+      \strng{authornamehash}{645fb1c931915613d261bbdaefab8122}
+      \strng{authorfullhash}{645fb1c931915613d261bbdaefab8122}
+      \strng{authorfullhashraw}{645fb1c931915613d261bbdaefab8122}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Conference on Language Modeling: COLM}
+      \field{title}{A11YN: Aligning LLMs for Accessible Web UI Code Generation}
+      \field{year}{2026}
+      \true{nocite}
+    \endentry
     \entry{park2025explain}{inproceedings}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
       \name{author}{9}{}{%
         {{hash=12295c495424f399bc1feb70b10358d1}{%
            family={Park},
@@ -1348,14 +1538,14 @@
            given={Youngjae},
            giveni={Y\bibinitperiod}}}%
       }
-      \strng{namehash}{aad64d5be3c081a8b6a964c7fe85b89a}
-      \strng{fullhash}{aad64d5be3c081a8b6a964c7fe85b89a}
-      \strng{fullhashraw}{aad64d5be3c081a8b6a964c7fe85b89a}
-      \strng{bibnamehash}{aad64d5be3c081a8b6a964c7fe85b89a}
-      \strng{authorbibnamehash}{aad64d5be3c081a8b6a964c7fe85b89a}
-      \strng{authornamehash}{aad64d5be3c081a8b6a964c7fe85b89a}
-      \strng{authorfullhash}{aad64d5be3c081a8b6a964c7fe85b89a}
-      \strng{authorfullhashraw}{aad64d5be3c081a8b6a964c7fe85b89a}
+      \strng{namehash}{e85c6ed933a4fb14c9af95e1b448de6c}
+      \strng{fullhash}{e85c6ed933a4fb14c9af95e1b448de6c}
+      \strng{fullhashraw}{e85c6ed933a4fb14c9af95e1b448de6c}
+      \strng{bibnamehash}{e85c6ed933a4fb14c9af95e1b448de6c}
+      \strng{authorbibnamehash}{e85c6ed933a4fb14c9af95e1b448de6c}
+      \strng{authornamehash}{e85c6ed933a4fb14c9af95e1b448de6c}
+      \strng{authorfullhash}{e85c6ed933a4fb14c9af95e1b448de6c}
+      \strng{authorfullhashraw}{e85c6ed933a4fb14c9af95e1b448de6c}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -1366,8 +1556,6 @@
       \true{nocite}
     \endentry
     \entry{kim2025guidedog}{inproceedings}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
       \name{author}{8}{}{%
         {{hash=f768050f8f3cd975a843883bd9e45ebe}{%
            family={Kim},
@@ -1410,14 +1598,14 @@
            given={Youngjae},
            giveni={Y\bibinitperiod}}}%
       }
-      \strng{namehash}{00ba3db46fb56d782c1f16d84983cc86}
-      \strng{fullhash}{00ba3db46fb56d782c1f16d84983cc86}
-      \strng{fullhashraw}{00ba3db46fb56d782c1f16d84983cc86}
-      \strng{bibnamehash}{00ba3db46fb56d782c1f16d84983cc86}
-      \strng{authorbibnamehash}{00ba3db46fb56d782c1f16d84983cc86}
-      \strng{authornamehash}{00ba3db46fb56d782c1f16d84983cc86}
-      \strng{authorfullhash}{00ba3db46fb56d782c1f16d84983cc86}
-      \strng{authorfullhashraw}{00ba3db46fb56d782c1f16d84983cc86}
+      \strng{namehash}{ae77e042c94bddafa30b5684a0b6456c}
+      \strng{fullhash}{ae77e042c94bddafa30b5684a0b6456c}
+      \strng{fullhashraw}{ae77e042c94bddafa30b5684a0b6456c}
+      \strng{bibnamehash}{ae77e042c94bddafa30b5684a0b6456c}
+      \strng{authorbibnamehash}{ae77e042c94bddafa30b5684a0b6456c}
+      \strng{authornamehash}{ae77e042c94bddafa30b5684a0b6456c}
+      \strng{authorfullhash}{ae77e042c94bddafa30b5684a0b6456c}
+      \strng{authorfullhashraw}{ae77e042c94bddafa30b5684a0b6456c}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -1428,8 +1616,6 @@
       \true{nocite}
     \endentry
     \entry{choi2025canvas}{inproceedings}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
       \name{author}{12}{}{%
         {{hash=8a2e960aa4f33d855656d9210e72960c}{%
            family={Choi},
@@ -1495,14 +1681,14 @@
       \list{organization}{1}{%
         {IEEE}%
       }
-      \strng{namehash}{9e9cea335f076006fef8d4412e0e958b}
-      \strng{fullhash}{9e9cea335f076006fef8d4412e0e958b}
-      \strng{fullhashraw}{9e9cea335f076006fef8d4412e0e958b}
-      \strng{bibnamehash}{9e9cea335f076006fef8d4412e0e958b}
-      \strng{authorbibnamehash}{9e9cea335f076006fef8d4412e0e958b}
-      \strng{authornamehash}{9e9cea335f076006fef8d4412e0e958b}
-      \strng{authorfullhash}{9e9cea335f076006fef8d4412e0e958b}
-      \strng{authorfullhashraw}{9e9cea335f076006fef8d4412e0e958b}
+      \strng{namehash}{6654e1fba993181804671c5ccbd73eb5}
+      \strng{fullhash}{6654e1fba993181804671c5ccbd73eb5}
+      \strng{fullhashraw}{6654e1fba993181804671c5ccbd73eb5}
+      \strng{bibnamehash}{6654e1fba993181804671c5ccbd73eb5}
+      \strng{authorbibnamehash}{6654e1fba993181804671c5ccbd73eb5}
+      \strng{authornamehash}{6654e1fba993181804671c5ccbd73eb5}
+      \strng{authorfullhash}{6654e1fba993181804671c5ccbd73eb5}
+      \strng{authorfullhashraw}{6654e1fba993181804671c5ccbd73eb5}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -1515,8 +1701,6 @@
       \range{pages}{8}
     \endentry
     \entry{lee2024llms}{inproceedings}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
       \name{author}{12}{}{%
         {{hash=5daa3925e2aa7af9509e1c08966ae84e}{%
            family={Lee},
@@ -1579,14 +1763,14 @@
            given={Youngjae},
            giveni={Y\bibinitperiod}}}%
       }
-      \strng{namehash}{e68db751e9eca663e68b4d3dddfa2bf6}
-      \strng{fullhash}{e68db751e9eca663e68b4d3dddfa2bf6}
-      \strng{fullhashraw}{e68db751e9eca663e68b4d3dddfa2bf6}
-      \strng{bibnamehash}{e68db751e9eca663e68b4d3dddfa2bf6}
-      \strng{authorbibnamehash}{e68db751e9eca663e68b4d3dddfa2bf6}
-      \strng{authornamehash}{e68db751e9eca663e68b4d3dddfa2bf6}
-      \strng{authorfullhash}{e68db751e9eca663e68b4d3dddfa2bf6}
-      \strng{authorfullhashraw}{e68db751e9eca663e68b4d3dddfa2bf6}
+      \strng{namehash}{ac166596e67ad820fee3ecb7a07fadba}
+      \strng{fullhash}{ac166596e67ad820fee3ecb7a07fadba}
+      \strng{fullhashraw}{ac166596e67ad820fee3ecb7a07fadba}
+      \strng{bibnamehash}{ac166596e67ad820fee3ecb7a07fadba}
+      \strng{authorbibnamehash}{ac166596e67ad820fee3ecb7a07fadba}
+      \strng{authornamehash}{ac166596e67ad820fee3ecb7a07fadba}
+      \strng{authorfullhash}{ac166596e67ad820fee3ecb7a07fadba}
+      \strng{authorfullhashraw}{ac166596e67ad820fee3ecb7a07fadba}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -1597,19 +1781,17 @@
       \true{nocite}
     \endentry
     \entry{kim2025egospeak}{inproceedings}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
       \name{author}{8}{}{%
         {{hash=f768050f8f3cd975a843883bd9e45ebe}{%
            family={Kim},
            familyi={K\bibinitperiod},
            given={Junhyeok},
            giveni={J\bibinitperiod}}}%
-        {{hash=cb4a078105d17ec6c3d923b2589cb8b5}{%
+        {{hash=c25f07e73f3066a004a60e1e969de93b}{%
            family={Kim},
            familyi={K\bibinitperiod},
-           given={Minsoo},
-           giveni={M\bibinitperiod}}}%
+           given={Min\bibnamedelima Soo},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
         {{hash=cd085ea7b890d266a6057330bf8953f8}{%
            family={Chung},
            familyi={C\bibinitperiod},
@@ -1641,14 +1823,14 @@
            given={Youngjae},
            giveni={Y\bibinitperiod}}}%
       }
-      \strng{namehash}{2c398dd0997781f546143981b2adcef3}
-      \strng{fullhash}{2c398dd0997781f546143981b2adcef3}
-      \strng{fullhashraw}{2c398dd0997781f546143981b2adcef3}
-      \strng{bibnamehash}{2c398dd0997781f546143981b2adcef3}
-      \strng{authorbibnamehash}{2c398dd0997781f546143981b2adcef3}
-      \strng{authornamehash}{2c398dd0997781f546143981b2adcef3}
-      \strng{authorfullhash}{2c398dd0997781f546143981b2adcef3}
-      \strng{authorfullhashraw}{2c398dd0997781f546143981b2adcef3}
+      \strng{namehash}{6048604b15e3dd0612a9991778f616a3}
+      \strng{fullhash}{6048604b15e3dd0612a9991778f616a3}
+      \strng{fullhashraw}{6048604b15e3dd0612a9991778f616a3}
+      \strng{bibnamehash}{6048604b15e3dd0612a9991778f616a3}
+      \strng{authorbibnamehash}{6048604b15e3dd0612a9991778f616a3}
+      \strng{authornamehash}{6048604b15e3dd0612a9991778f616a3}
+      \strng{authorfullhash}{6048604b15e3dd0612a9991778f616a3}
+      \strng{authorfullhashraw}{6048604b15e3dd0612a9991778f616a3}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -1659,8 +1841,6 @@
       \true{nocite}
     \endentry
     \entry{nam2025iccv}{inproceedings}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
       \name{author}{5}{}{%
         {{hash=39076e6beb5f35f625fc3e2ada89bdd8}{%
            family={Nam},
@@ -1688,14 +1868,14 @@
            given={Youngjae},
            giveni={Y\bibinitperiod}}}%
       }
-      \strng{namehash}{fc3843e5541d84f1111421bec45c55ef}
-      \strng{fullhash}{fc3843e5541d84f1111421bec45c55ef}
-      \strng{fullhashraw}{fc3843e5541d84f1111421bec45c55ef}
-      \strng{bibnamehash}{fc3843e5541d84f1111421bec45c55ef}
-      \strng{authorbibnamehash}{fc3843e5541d84f1111421bec45c55ef}
-      \strng{authornamehash}{fc3843e5541d84f1111421bec45c55ef}
-      \strng{authorfullhash}{fc3843e5541d84f1111421bec45c55ef}
-      \strng{authorfullhashraw}{fc3843e5541d84f1111421bec45c55ef}
+      \strng{namehash}{3b49cea14c308d11f924fa44e119f808}
+      \strng{fullhash}{3b49cea14c308d11f924fa44e119f808}
+      \strng{fullhashraw}{3b49cea14c308d11f924fa44e119f808}
+      \strng{bibnamehash}{3b49cea14c308d11f924fa44e119f808}
+      \strng{authorbibnamehash}{3b49cea14c308d11f924fa44e119f808}
+      \strng{authornamehash}{3b49cea14c308d11f924fa44e119f808}
+      \strng{authorfullhash}{3b49cea14c308d11f924fa44e119f808}
+      \strng{authorfullhashraw}{3b49cea14c308d11f924fa44e119f808}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -1706,8 +1886,6 @@
       \true{nocite}
     \endentry
     \entry{lim2025visescape}{inproceedings}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
       \name{author}{6}{}{%
         {{hash=39b959ed098477ed4b0b5746dd33ca16}{%
            family={Lim},
@@ -1740,14 +1918,14 @@
            given={Youngjae},
            giveni={Y\bibinitperiod}}}%
       }
-      \strng{namehash}{91b8de9a4f27f77e9b48616966a9f444}
-      \strng{fullhash}{91b8de9a4f27f77e9b48616966a9f444}
-      \strng{fullhashraw}{91b8de9a4f27f77e9b48616966a9f444}
-      \strng{bibnamehash}{91b8de9a4f27f77e9b48616966a9f444}
-      \strng{authorbibnamehash}{91b8de9a4f27f77e9b48616966a9f444}
-      \strng{authornamehash}{91b8de9a4f27f77e9b48616966a9f444}
-      \strng{authorfullhash}{91b8de9a4f27f77e9b48616966a9f444}
-      \strng{authorfullhashraw}{91b8de9a4f27f77e9b48616966a9f444}
+      \strng{namehash}{7f2e640b77f7b33a33b8d71f47f2a7f0}
+      \strng{fullhash}{7f2e640b77f7b33a33b8d71f47f2a7f0}
+      \strng{fullhashraw}{7f2e640b77f7b33a33b8d71f47f2a7f0}
+      \strng{bibnamehash}{7f2e640b77f7b33a33b8d71f47f2a7f0}
+      \strng{authorbibnamehash}{7f2e640b77f7b33a33b8d71f47f2a7f0}
+      \strng{authornamehash}{7f2e640b77f7b33a33b8d71f47f2a7f0}
+      \strng{authorfullhash}{7f2e640b77f7b33a33b8d71f47f2a7f0}
+      \strng{authorfullhashraw}{7f2e640b77f7b33a33b8d71f47f2a7f0}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -1758,9 +1936,7 @@
       \true{nocite}
     \endentry
     \entry{chae2024language}{inproceedings}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{10}{}{%
+      \name{author}{11}{}{%
         {{hash=5adf35c08b0ae176835d34b15a904b38}{%
            family={Chae},
            familyi={C\bibinitperiod},
@@ -1811,15 +1987,20 @@
            familyi={Y\bibinitperiod},
            given={Youngjae},
            giveni={Y\bibinitperiod}}}%
+        {{hash=4400d17fdfab1c6fafec82253d4df6fb}{%
+           family={Yeo},
+           familyi={Y\bibinitperiod},
+           given={Jinyoung},
+           giveni={J\bibinitperiod}}}%
       }
-      \strng{namehash}{d68268b248b4dab477d21a37ca922966}
-      \strng{fullhash}{d68268b248b4dab477d21a37ca922966}
-      \strng{fullhashraw}{d68268b248b4dab477d21a37ca922966}
-      \strng{bibnamehash}{d68268b248b4dab477d21a37ca922966}
-      \strng{authorbibnamehash}{d68268b248b4dab477d21a37ca922966}
-      \strng{authornamehash}{d68268b248b4dab477d21a37ca922966}
-      \strng{authorfullhash}{d68268b248b4dab477d21a37ca922966}
-      \strng{authorfullhashraw}{d68268b248b4dab477d21a37ca922966}
+      \strng{namehash}{baa047741bd805dc4671254248ea0fd5}
+      \strng{fullhash}{baa047741bd805dc4671254248ea0fd5}
+      \strng{fullhashraw}{baa047741bd805dc4671254248ea0fd5}
+      \strng{bibnamehash}{baa047741bd805dc4671254248ea0fd5}
+      \strng{authorbibnamehash}{baa047741bd805dc4671254248ea0fd5}
+      \strng{authornamehash}{baa047741bd805dc4671254248ea0fd5}
+      \strng{authorfullhash}{baa047741bd805dc4671254248ea0fd5}
+      \strng{authorfullhashraw}{baa047741bd805dc4671254248ea0fd5}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -1830,8 +2011,6 @@
       \true{nocite}
     \endentry
     \entry{han2023reading}{inproceedings}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
       \name{author}{8}{}{%
         {{hash=87e1126cd2d4cb176392de60a2a1af6f}{%
            family={Han},
@@ -1874,14 +2053,14 @@
            given={Youngjae},
            giveni={Y\bibinitperiod}}}%
       }
-      \strng{namehash}{ce9af9042f377fd7469551f41db0ada7}
-      \strng{fullhash}{ce9af9042f377fd7469551f41db0ada7}
-      \strng{fullhashraw}{ce9af9042f377fd7469551f41db0ada7}
-      \strng{bibnamehash}{ce9af9042f377fd7469551f41db0ada7}
-      \strng{authorbibnamehash}{ce9af9042f377fd7469551f41db0ada7}
-      \strng{authornamehash}{ce9af9042f377fd7469551f41db0ada7}
-      \strng{authorfullhash}{ce9af9042f377fd7469551f41db0ada7}
-      \strng{authorfullhashraw}{ce9af9042f377fd7469551f41db0ada7}
+      \strng{namehash}{e9d09455c8e93cd6da07f0d0e20edc16}
+      \strng{fullhash}{e9d09455c8e93cd6da07f0d0e20edc16}
+      \strng{fullhashraw}{e9d09455c8e93cd6da07f0d0e20edc16}
+      \strng{bibnamehash}{e9d09455c8e93cd6da07f0d0e20edc16}
+      \strng{authorbibnamehash}{e9d09455c8e93cd6da07f0d0e20edc16}
+      \strng{authornamehash}{e9d09455c8e93cd6da07f0d0e20edc16}
+      \strng{authorfullhash}{e9d09455c8e93cd6da07f0d0e20edc16}
+      \strng{authorfullhashraw}{e9d09455c8e93cd6da07f0d0e20edc16}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -1892,8 +2071,6 @@
       \true{nocite}
     \endentry
     \entry{yu2020character}{inproceedings}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
       \name{author}{5}{}{%
         {{hash=200883e8fe54d4ac8aca152db92a5d8d}{%
            family={Yu},
@@ -1921,14 +2098,14 @@
            given={Gunhee},
            giveni={G\bibinitperiod}}}%
       }
-      \strng{namehash}{d8c26b922b7a1998efee2a613fc3bf59}
-      \strng{fullhash}{d8c26b922b7a1998efee2a613fc3bf59}
-      \strng{fullhashraw}{d8c26b922b7a1998efee2a613fc3bf59}
-      \strng{bibnamehash}{d8c26b922b7a1998efee2a613fc3bf59}
-      \strng{authorbibnamehash}{d8c26b922b7a1998efee2a613fc3bf59}
-      \strng{authornamehash}{d8c26b922b7a1998efee2a613fc3bf59}
-      \strng{authorfullhash}{d8c26b922b7a1998efee2a613fc3bf59}
-      \strng{authorfullhashraw}{d8c26b922b7a1998efee2a613fc3bf59}
+      \strng{namehash}{939193c900cb1f422d4dd61d6e68503d}
+      \strng{fullhash}{939193c900cb1f422d4dd61d6e68503d}
+      \strng{fullhashraw}{939193c900cb1f422d4dd61d6e68503d}
+      \strng{bibnamehash}{939193c900cb1f422d4dd61d6e68503d}
+      \strng{authorbibnamehash}{939193c900cb1f422d4dd61d6e68503d}
+      \strng{authornamehash}{939193c900cb1f422d4dd61d6e68503d}
+      \strng{authorfullhash}{939193c900cb1f422d4dd61d6e68503d}
+      \strng{authorfullhashraw}{939193c900cb1f422d4dd61d6e68503d}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -1940,9 +2117,57 @@
     \endentry
   \enddatalist
   \datalist[entry]{none/global//global/global/global}
+    \entry{yoon2026a11yn}{inproceedings}{}{}
+      \name{author}{6}{}{%
+        {{hash=db5fc4a794b47d4d5d5842ca3a03c329}{%
+           family={Yoon},
+           familyi={Y\bibinitperiod},
+           given={Janghan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f1c669cf720be906c49cf63d32707669}{%
+           family={Cho},
+           familyi={C\bibinitperiod},
+           given={Jaegwan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f768050f8f3cd975a843883bd9e45ebe}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Junhyeok},
+           giveni={J\bibinitperiod}}}%
+        {{hash=cd085ea7b890d266a6057330bf8953f8}{%
+           family={Chung},
+           familyi={C\bibinitperiod},
+           given={Jiwan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=90f390f4a82b7a1ddeeb07fb98175d85}{%
+           family={Jeon},
+           familyi={J\bibinitperiod},
+           given={Jaehyun},
+           giveni={J\bibinitperiod}}}%
+        {{hash=200883e8fe54d4ac8aca152db92a5d8d}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Youngjae},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{645fb1c931915613d261bbdaefab8122}
+      \strng{fullhash}{645fb1c931915613d261bbdaefab8122}
+      \strng{fullhashraw}{645fb1c931915613d261bbdaefab8122}
+      \strng{bibnamehash}{645fb1c931915613d261bbdaefab8122}
+      \strng{authorbibnamehash}{645fb1c931915613d261bbdaefab8122}
+      \strng{authornamehash}{645fb1c931915613d261bbdaefab8122}
+      \strng{authorfullhash}{645fb1c931915613d261bbdaefab8122}
+      \strng{authorfullhashraw}{645fb1c931915613d261bbdaefab8122}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Conference on Language Modeling: COLM}
+      \field{title}{A11YN: Aligning LLMs for Accessible Web UI Code Generation}
+      \field{year}{2026}
+      \true{nocite}
+    \endentry
     \entry{kim2025guidedog}{inproceedings}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
       \name{author}{8}{}{%
         {{hash=f768050f8f3cd975a843883bd9e45ebe}{%
            family={Kim},
@@ -1985,16 +2210,16 @@
            given={Youngjae},
            giveni={Y\bibinitperiod}}}%
       }
-      \strng{namehash}{00ba3db46fb56d782c1f16d84983cc86}
-      \strng{fullhash}{00ba3db46fb56d782c1f16d84983cc86}
-      \strng{fullhashraw}{00ba3db46fb56d782c1f16d84983cc86}
-      \strng{bibnamehash}{00ba3db46fb56d782c1f16d84983cc86}
-      \strng{authorbibnamehash}{00ba3db46fb56d782c1f16d84983cc86}
-      \strng{authornamehash}{00ba3db46fb56d782c1f16d84983cc86}
-      \strng{authorfullhash}{00ba3db46fb56d782c1f16d84983cc86}
-      \strng{authorfullhashraw}{00ba3db46fb56d782c1f16d84983cc86}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \strng{namehash}{ae77e042c94bddafa30b5684a0b6456c}
+      \strng{fullhash}{ae77e042c94bddafa30b5684a0b6456c}
+      \strng{fullhashraw}{ae77e042c94bddafa30b5684a0b6456c}
+      \strng{bibnamehash}{ae77e042c94bddafa30b5684a0b6456c}
+      \strng{authorbibnamehash}{ae77e042c94bddafa30b5684a0b6456c}
+      \strng{authornamehash}{ae77e042c94bddafa30b5684a0b6456c}
+      \strng{authorfullhash}{ae77e042c94bddafa30b5684a0b6456c}
+      \strng{authorfullhashraw}{ae77e042c94bddafa30b5684a0b6456c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the Association for Computational Linguistics: ACL}
@@ -2003,8 +2228,6 @@
       \true{nocite}
     \endentry
     \entry{park2025explain}{inproceedings}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
       \name{author}{9}{}{%
         {{hash=12295c495424f399bc1feb70b10358d1}{%
            family={Park},
@@ -2052,16 +2275,16 @@
            given={Youngjae},
            giveni={Y\bibinitperiod}}}%
       }
-      \strng{namehash}{aad64d5be3c081a8b6a964c7fe85b89a}
-      \strng{fullhash}{aad64d5be3c081a8b6a964c7fe85b89a}
-      \strng{fullhashraw}{aad64d5be3c081a8b6a964c7fe85b89a}
-      \strng{bibnamehash}{aad64d5be3c081a8b6a964c7fe85b89a}
-      \strng{authorbibnamehash}{aad64d5be3c081a8b6a964c7fe85b89a}
-      \strng{authornamehash}{aad64d5be3c081a8b6a964c7fe85b89a}
-      \strng{authorfullhash}{aad64d5be3c081a8b6a964c7fe85b89a}
-      \strng{authorfullhashraw}{aad64d5be3c081a8b6a964c7fe85b89a}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \strng{namehash}{e85c6ed933a4fb14c9af95e1b448de6c}
+      \strng{fullhash}{e85c6ed933a4fb14c9af95e1b448de6c}
+      \strng{fullhashraw}{e85c6ed933a4fb14c9af95e1b448de6c}
+      \strng{bibnamehash}{e85c6ed933a4fb14c9af95e1b448de6c}
+      \strng{authorbibnamehash}{e85c6ed933a4fb14c9af95e1b448de6c}
+      \strng{authornamehash}{e85c6ed933a4fb14c9af95e1b448de6c}
+      \strng{authorfullhash}{e85c6ed933a4fb14c9af95e1b448de6c}
+      \strng{authorfullhashraw}{e85c6ed933a4fb14c9af95e1b448de6c}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{The 40th Annual AAAI Conference on Artificial Intelligence: AAAI}
@@ -2070,8 +2293,6 @@
       \true{nocite}
     \endentry
     \entry{nam2025iccv}{inproceedings}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
       \name{author}{5}{}{%
         {{hash=39076e6beb5f35f625fc3e2ada89bdd8}{%
            family={Nam},
@@ -2099,16 +2320,16 @@
            given={Youngjae},
            giveni={Y\bibinitperiod}}}%
       }
-      \strng{namehash}{fc3843e5541d84f1111421bec45c55ef}
-      \strng{fullhash}{fc3843e5541d84f1111421bec45c55ef}
-      \strng{fullhashraw}{fc3843e5541d84f1111421bec45c55ef}
-      \strng{bibnamehash}{fc3843e5541d84f1111421bec45c55ef}
-      \strng{authorbibnamehash}{fc3843e5541d84f1111421bec45c55ef}
-      \strng{authornamehash}{fc3843e5541d84f1111421bec45c55ef}
-      \strng{authorfullhash}{fc3843e5541d84f1111421bec45c55ef}
-      \strng{authorfullhashraw}{fc3843e5541d84f1111421bec45c55ef}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \strng{namehash}{3b49cea14c308d11f924fa44e119f808}
+      \strng{fullhash}{3b49cea14c308d11f924fa44e119f808}
+      \strng{fullhashraw}{3b49cea14c308d11f924fa44e119f808}
+      \strng{bibnamehash}{3b49cea14c308d11f924fa44e119f808}
+      \strng{authorbibnamehash}{3b49cea14c308d11f924fa44e119f808}
+      \strng{authornamehash}{3b49cea14c308d11f924fa44e119f808}
+      \strng{authorfullhash}{3b49cea14c308d11f924fa44e119f808}
+      \strng{authorfullhashraw}{3b49cea14c308d11f924fa44e119f808}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the IEEE/CVF International Conference on Computer Vision: ICCV}
@@ -2117,8 +2338,6 @@
       \true{nocite}
     \endentry
     \entry{lim2025visescape}{inproceedings}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
       \name{author}{6}{}{%
         {{hash=39b959ed098477ed4b0b5746dd33ca16}{%
            family={Lim},
@@ -2151,16 +2370,16 @@
            given={Youngjae},
            giveni={Y\bibinitperiod}}}%
       }
-      \strng{namehash}{91b8de9a4f27f77e9b48616966a9f444}
-      \strng{fullhash}{91b8de9a4f27f77e9b48616966a9f444}
-      \strng{fullhashraw}{91b8de9a4f27f77e9b48616966a9f444}
-      \strng{bibnamehash}{91b8de9a4f27f77e9b48616966a9f444}
-      \strng{authorbibnamehash}{91b8de9a4f27f77e9b48616966a9f444}
-      \strng{authornamehash}{91b8de9a4f27f77e9b48616966a9f444}
-      \strng{authorfullhash}{91b8de9a4f27f77e9b48616966a9f444}
-      \strng{authorfullhashraw}{91b8de9a4f27f77e9b48616966a9f444}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \strng{namehash}{7f2e640b77f7b33a33b8d71f47f2a7f0}
+      \strng{fullhash}{7f2e640b77f7b33a33b8d71f47f2a7f0}
+      \strng{fullhashraw}{7f2e640b77f7b33a33b8d71f47f2a7f0}
+      \strng{bibnamehash}{7f2e640b77f7b33a33b8d71f47f2a7f0}
+      \strng{authorbibnamehash}{7f2e640b77f7b33a33b8d71f47f2a7f0}
+      \strng{authornamehash}{7f2e640b77f7b33a33b8d71f47f2a7f0}
+      \strng{authorfullhash}{7f2e640b77f7b33a33b8d71f47f2a7f0}
+      \strng{authorfullhashraw}{7f2e640b77f7b33a33b8d71f47f2a7f0}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the Conference on Empirical Methods in Natural Language Processing: EMNLP}
@@ -2169,19 +2388,17 @@
       \true{nocite}
     \endentry
     \entry{kim2025egospeak}{inproceedings}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
       \name{author}{8}{}{%
         {{hash=f768050f8f3cd975a843883bd9e45ebe}{%
            family={Kim},
            familyi={K\bibinitperiod},
            given={Junhyeok},
            giveni={J\bibinitperiod}}}%
-        {{hash=cb4a078105d17ec6c3d923b2589cb8b5}{%
+        {{hash=c25f07e73f3066a004a60e1e969de93b}{%
            family={Kim},
            familyi={K\bibinitperiod},
-           given={Minsoo},
-           giveni={M\bibinitperiod}}}%
+           given={Min\bibnamedelima Soo},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
         {{hash=cd085ea7b890d266a6057330bf8953f8}{%
            family={Chung},
            familyi={C\bibinitperiod},
@@ -2213,16 +2430,16 @@
            given={Youngjae},
            giveni={Y\bibinitperiod}}}%
       }
-      \strng{namehash}{2c398dd0997781f546143981b2adcef3}
-      \strng{fullhash}{2c398dd0997781f546143981b2adcef3}
-      \strng{fullhashraw}{2c398dd0997781f546143981b2adcef3}
-      \strng{bibnamehash}{2c398dd0997781f546143981b2adcef3}
-      \strng{authorbibnamehash}{2c398dd0997781f546143981b2adcef3}
-      \strng{authornamehash}{2c398dd0997781f546143981b2adcef3}
-      \strng{authorfullhash}{2c398dd0997781f546143981b2adcef3}
-      \strng{authorfullhashraw}{2c398dd0997781f546143981b2adcef3}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \strng{namehash}{6048604b15e3dd0612a9991778f616a3}
+      \strng{fullhash}{6048604b15e3dd0612a9991778f616a3}
+      \strng{fullhashraw}{6048604b15e3dd0612a9991778f616a3}
+      \strng{bibnamehash}{6048604b15e3dd0612a9991778f616a3}
+      \strng{authorbibnamehash}{6048604b15e3dd0612a9991778f616a3}
+      \strng{authornamehash}{6048604b15e3dd0612a9991778f616a3}
+      \strng{authorfullhash}{6048604b15e3dd0612a9991778f616a3}
+      \strng{authorfullhashraw}{6048604b15e3dd0612a9991778f616a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Findings of the Association for Computational Linguistics: NAACL Findings}
@@ -2231,8 +2448,6 @@
       \true{nocite}
     \endentry
     \entry{lee2024llms}{inproceedings}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
       \name{author}{12}{}{%
         {{hash=5daa3925e2aa7af9509e1c08966ae84e}{%
            family={Lee},
@@ -2295,16 +2510,16 @@
            given={Youngjae},
            giveni={Y\bibinitperiod}}}%
       }
-      \strng{namehash}{e68db751e9eca663e68b4d3dddfa2bf6}
-      \strng{fullhash}{e68db751e9eca663e68b4d3dddfa2bf6}
-      \strng{fullhashraw}{e68db751e9eca663e68b4d3dddfa2bf6}
-      \strng{bibnamehash}{e68db751e9eca663e68b4d3dddfa2bf6}
-      \strng{authorbibnamehash}{e68db751e9eca663e68b4d3dddfa2bf6}
-      \strng{authornamehash}{e68db751e9eca663e68b4d3dddfa2bf6}
-      \strng{authorfullhash}{e68db751e9eca663e68b4d3dddfa2bf6}
-      \strng{authorfullhashraw}{e68db751e9eca663e68b4d3dddfa2bf6}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \strng{namehash}{ac166596e67ad820fee3ecb7a07fadba}
+      \strng{fullhash}{ac166596e67ad820fee3ecb7a07fadba}
+      \strng{fullhashraw}{ac166596e67ad820fee3ecb7a07fadba}
+      \strng{bibnamehash}{ac166596e67ad820fee3ecb7a07fadba}
+      \strng{authorbibnamehash}{ac166596e67ad820fee3ecb7a07fadba}
+      \strng{authornamehash}{ac166596e67ad820fee3ecb7a07fadba}
+      \strng{authorfullhash}{ac166596e67ad820fee3ecb7a07fadba}
+      \strng{authorfullhashraw}{ac166596e67ad820fee3ecb7a07fadba}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Findings of the Association for Computational Linguistics: NAACL Findings}
@@ -2313,8 +2528,6 @@
       \true{nocite}
     \endentry
     \entry{choi2025canvas}{inproceedings}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
       \name{author}{12}{}{%
         {{hash=8a2e960aa4f33d855656d9210e72960c}{%
            family={Choi},
@@ -2380,16 +2593,16 @@
       \list{organization}{1}{%
         {IEEE}%
       }
-      \strng{namehash}{9e9cea335f076006fef8d4412e0e958b}
-      \strng{fullhash}{9e9cea335f076006fef8d4412e0e958b}
-      \strng{fullhashraw}{9e9cea335f076006fef8d4412e0e958b}
-      \strng{bibnamehash}{9e9cea335f076006fef8d4412e0e958b}
-      \strng{authorbibnamehash}{9e9cea335f076006fef8d4412e0e958b}
-      \strng{authornamehash}{9e9cea335f076006fef8d4412e0e958b}
-      \strng{authorfullhash}{9e9cea335f076006fef8d4412e0e958b}
-      \strng{authorfullhashraw}{9e9cea335f076006fef8d4412e0e958b}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \strng{namehash}{6654e1fba993181804671c5ccbd73eb5}
+      \strng{fullhash}{6654e1fba993181804671c5ccbd73eb5}
+      \strng{fullhashraw}{6654e1fba993181804671c5ccbd73eb5}
+      \strng{bibnamehash}{6654e1fba993181804671c5ccbd73eb5}
+      \strng{authorbibnamehash}{6654e1fba993181804671c5ccbd73eb5}
+      \strng{authornamehash}{6654e1fba993181804671c5ccbd73eb5}
+      \strng{authorfullhash}{6654e1fba993181804671c5ccbd73eb5}
+      \strng{authorfullhashraw}{6654e1fba993181804671c5ccbd73eb5}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{IEEE International Conference on Robotics and Automation: ICRA}
@@ -2400,9 +2613,7 @@
       \range{pages}{8}
     \endentry
     \entry{chae2024language}{inproceedings}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{10}{}{%
+      \name{author}{11}{}{%
         {{hash=5adf35c08b0ae176835d34b15a904b38}{%
            family={Chae},
            familyi={C\bibinitperiod},
@@ -2453,17 +2664,22 @@
            familyi={Y\bibinitperiod},
            given={Youngjae},
            giveni={Y\bibinitperiod}}}%
+        {{hash=4400d17fdfab1c6fafec82253d4df6fb}{%
+           family={Yeo},
+           familyi={Y\bibinitperiod},
+           given={Jinyoung},
+           giveni={J\bibinitperiod}}}%
       }
-      \strng{namehash}{d68268b248b4dab477d21a37ca922966}
-      \strng{fullhash}{d68268b248b4dab477d21a37ca922966}
-      \strng{fullhashraw}{d68268b248b4dab477d21a37ca922966}
-      \strng{bibnamehash}{d68268b248b4dab477d21a37ca922966}
-      \strng{authorbibnamehash}{d68268b248b4dab477d21a37ca922966}
-      \strng{authornamehash}{d68268b248b4dab477d21a37ca922966}
-      \strng{authorfullhash}{d68268b248b4dab477d21a37ca922966}
-      \strng{authorfullhashraw}{d68268b248b4dab477d21a37ca922966}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \strng{namehash}{baa047741bd805dc4671254248ea0fd5}
+      \strng{fullhash}{baa047741bd805dc4671254248ea0fd5}
+      \strng{fullhashraw}{baa047741bd805dc4671254248ea0fd5}
+      \strng{bibnamehash}{baa047741bd805dc4671254248ea0fd5}
+      \strng{authorbibnamehash}{baa047741bd805dc4671254248ea0fd5}
+      \strng{authornamehash}{baa047741bd805dc4671254248ea0fd5}
+      \strng{authorfullhash}{baa047741bd805dc4671254248ea0fd5}
+      \strng{authorfullhashraw}{baa047741bd805dc4671254248ea0fd5}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the Conference on Empirical Methods in Natural Language Processing: EMNLP}
@@ -2472,8 +2688,6 @@
       \true{nocite}
     \endentry
     \entry{han2023reading}{inproceedings}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
       \name{author}{8}{}{%
         {{hash=87e1126cd2d4cb176392de60a2a1af6f}{%
            family={Han},
@@ -2516,16 +2730,16 @@
            given={Youngjae},
            giveni={Y\bibinitperiod}}}%
       }
-      \strng{namehash}{ce9af9042f377fd7469551f41db0ada7}
-      \strng{fullhash}{ce9af9042f377fd7469551f41db0ada7}
-      \strng{fullhashraw}{ce9af9042f377fd7469551f41db0ada7}
-      \strng{bibnamehash}{ce9af9042f377fd7469551f41db0ada7}
-      \strng{authorbibnamehash}{ce9af9042f377fd7469551f41db0ada7}
-      \strng{authornamehash}{ce9af9042f377fd7469551f41db0ada7}
-      \strng{authorfullhash}{ce9af9042f377fd7469551f41db0ada7}
-      \strng{authorfullhashraw}{ce9af9042f377fd7469551f41db0ada7}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \strng{namehash}{e9d09455c8e93cd6da07f0d0e20edc16}
+      \strng{fullhash}{e9d09455c8e93cd6da07f0d0e20edc16}
+      \strng{fullhashraw}{e9d09455c8e93cd6da07f0d0e20edc16}
+      \strng{bibnamehash}{e9d09455c8e93cd6da07f0d0e20edc16}
+      \strng{authorbibnamehash}{e9d09455c8e93cd6da07f0d0e20edc16}
+      \strng{authornamehash}{e9d09455c8e93cd6da07f0d0e20edc16}
+      \strng{authorfullhash}{e9d09455c8e93cd6da07f0d0e20edc16}
+      \strng{authorfullhashraw}{e9d09455c8e93cd6da07f0d0e20edc16}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the Conference on Empirical Methods in Natural Language Processing: EMNLP}
@@ -2534,8 +2748,6 @@
       \true{nocite}
     \endentry
     \entry{yu2020character}{inproceedings}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
       \name{author}{5}{}{%
         {{hash=200883e8fe54d4ac8aca152db92a5d8d}{%
            family={Yu},
@@ -2563,14 +2775,14 @@
            given={Gunhee},
            giveni={G\bibinitperiod}}}%
       }
-      \strng{namehash}{d8c26b922b7a1998efee2a613fc3bf59}
-      \strng{fullhash}{d8c26b922b7a1998efee2a613fc3bf59}
-      \strng{fullhashraw}{d8c26b922b7a1998efee2a613fc3bf59}
-      \strng{bibnamehash}{d8c26b922b7a1998efee2a613fc3bf59}
-      \strng{authorbibnamehash}{d8c26b922b7a1998efee2a613fc3bf59}
-      \strng{authornamehash}{d8c26b922b7a1998efee2a613fc3bf59}
-      \strng{authorfullhash}{d8c26b922b7a1998efee2a613fc3bf59}
-      \strng{authorfullhashraw}{d8c26b922b7a1998efee2a613fc3bf59}
+      \strng{namehash}{939193c900cb1f422d4dd61d6e68503d}
+      \strng{fullhash}{939193c900cb1f422d4dd61d6e68503d}
+      \strng{fullhashraw}{939193c900cb1f422d4dd61d6e68503d}
+      \strng{bibnamehash}{939193c900cb1f422d4dd61d6e68503d}
+      \strng{authorbibnamehash}{939193c900cb1f422d4dd61d6e68503d}
+      \strng{authornamehash}{939193c900cb1f422d4dd61d6e68503d}
+      \strng{authorfullhash}{939193c900cb1f422d4dd61d6e68503d}
+      \strng{authorfullhashraw}{939193c900cb1f422d4dd61d6e68503d}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -2620,107 +2832,7 @@
       \field{year}{2026}
       \true{nocite}
     \endentry
-    \entry{chung2026webstep}{article}{}{}
-      \name{author}{4}{}{%
-        {{hash=cd085ea7b890d266a6057330bf8953f8}{%
-           family={Chung},
-           familyi={C\bibinitperiod},
-           given={Jiwan},
-           giveni={J\bibinitperiod}}}%
-        {{hash=d31d08a6f12eb946620e81d74dbe8939}{%
-           family={Byun},
-           familyi={B\bibinitperiod},
-           given={JiHuyk},
-           giveni={J\bibinitperiod}}}%
-        {{hash=919bdbb82e6940f3a8a29ffaa5b4c177}{%
-           family={Vineet},
-           familyi={V\bibinitperiod},
-           given={Vibhav},
-           giveni={V\bibinitperiod}}}%
-        {{hash=84d75ea672ebe26a483b0af3366044c8}{%
-           family={Kim},
-           familyi={K\bibinitperiod},
-           given={Seon\bibnamedelima Joo},
-           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-      }
-      \strng{namehash}{c727fec3f74eb771f1a8c3a8169c00b3}
-      \strng{fullhash}{c727fec3f74eb771f1a8c3a8169c00b3}
-      \strng{fullhashraw}{c727fec3f74eb771f1a8c3a8169c00b3}
-      \strng{bibnamehash}{c727fec3f74eb771f1a8c3a8169c00b3}
-      \strng{authorbibnamehash}{c727fec3f74eb771f1a8c3a8169c00b3}
-      \strng{authornamehash}{c727fec3f74eb771f1a8c3a8169c00b3}
-      \strng{authorfullhash}{c727fec3f74eb771f1a8c3a8169c00b3}
-      \strng{authorfullhashraw}{c727fec3f74eb771f1a8c3a8169c00b3}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{to be updated}
-      \field{title}{Where Did It Go Wrong? Process-Level Evaluation of Web Agents with Semantic State Tracking}
-      \field{year}{2026}
-      \true{nocite}
-      \verb{urlraw}
-      \verb https://jiwanchung.github.io/webstep/
-      \endverb
-      \verb{url}
-      \verb https://jiwanchung.github.io/webstep/
-      \endverb
-    \endentry
-    \entry{chung2025don}{article}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{6}{}{%
-        {{hash=cd085ea7b890d266a6057330bf8953f8}{%
-           family={Chung},
-           familyi={C\bibinitperiod},
-           given={Jiwan},
-           giveni={J\bibinitperiod}}}%
-        {{hash=f768050f8f3cd975a843883bd9e45ebe}{%
-           family={Kim},
-           familyi={K\bibinitperiod},
-           given={Junhyeok},
-           giveni={J\bibinitperiod}}}%
-        {{hash=171932d3ace06446fe95d4b54bcecd33}{%
-           family={Kim},
-           familyi={K\bibinitperiod},
-           given={Siyeol},
-           giveni={S\bibinitperiod}}}%
-        {{hash=a9d27299f16d7baaf16502a4d7b27266}{%
-           family={Lee},
-           familyi={L\bibinitperiod},
-           given={Jaeyoung},
-           giveni={J\bibinitperiod}}}%
-        {{hash=c25f07e73f3066a004a60e1e969de93b}{%
-           family={Kim},
-           familyi={K\bibinitperiod},
-           given={Min\bibnamedelima Soo},
-           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-        {{hash=200883e8fe54d4ac8aca152db92a5d8d}{%
-           family={Yu},
-           familyi={Y\bibinitperiod},
-           given={Youngjae},
-           giveni={Y\bibinitperiod}}}%
-      }
-      \strng{namehash}{97518c23e20c94c81524891f7b2f01f2}
-      \strng{fullhash}{97518c23e20c94c81524891f7b2f01f2}
-      \strng{fullhashraw}{97518c23e20c94c81524891f7b2f01f2}
-      \strng{bibnamehash}{97518c23e20c94c81524891f7b2f01f2}
-      \strng{authorbibnamehash}{97518c23e20c94c81524891f7b2f01f2}
-      \strng{authornamehash}{97518c23e20c94c81524891f7b2f01f2}
-      \strng{authorfullhash}{97518c23e20c94c81524891f7b2f01f2}
-      \strng{authorfullhashraw}{97518c23e20c94c81524891f7b2f01f2}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{arXiv preprint arXiv:2505.18842}
-      \field{title}{v1: Learning to Point Visual Tokens for Multimodal Grounded Reasoning}
-      \field{year}{2025}
-      \true{nocite}
-    \endentry
     \entry{chung2025what}{article}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
       \name{author}{5}{}{%
         {{hash=cd085ea7b890d266a6057330bf8953f8}{%
            family={Chung},
@@ -2748,14 +2860,14 @@
            given={Vibhav},
            giveni={V\bibinitperiod}}}%
       }
-      \strng{namehash}{0f1a9c107bf786d8651c2c75db3ee2a0}
-      \strng{fullhash}{0f1a9c107bf786d8651c2c75db3ee2a0}
-      \strng{fullhashraw}{0f1a9c107bf786d8651c2c75db3ee2a0}
-      \strng{bibnamehash}{0f1a9c107bf786d8651c2c75db3ee2a0}
-      \strng{authorbibnamehash}{0f1a9c107bf786d8651c2c75db3ee2a0}
-      \strng{authornamehash}{0f1a9c107bf786d8651c2c75db3ee2a0}
-      \strng{authorfullhash}{0f1a9c107bf786d8651c2c75db3ee2a0}
-      \strng{authorfullhashraw}{0f1a9c107bf786d8651c2c75db3ee2a0}
+      \strng{namehash}{386980320f9d1312b327add32f0e3932}
+      \strng{fullhash}{386980320f9d1312b327add32f0e3932}
+      \strng{fullhashraw}{386980320f9d1312b327add32f0e3932}
+      \strng{bibnamehash}{386980320f9d1312b327add32f0e3932}
+      \strng{authorbibnamehash}{386980320f9d1312b327add32f0e3932}
+      \strng{authornamehash}{386980320f9d1312b327add32f0e3932}
+      \strng{authorfullhash}{386980320f9d1312b327add32f0e3932}
+      \strng{authorfullhashraw}{386980320f9d1312b327add32f0e3932}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -2802,55 +2914,7 @@
       \field{year}{2026}
       \true{nocite}
     \endentry
-    \entry{chung2026webstep}{article}{}{}
-      \name{author}{4}{}{%
-        {{hash=cd085ea7b890d266a6057330bf8953f8}{%
-           family={Chung},
-           familyi={C\bibinitperiod},
-           given={Jiwan},
-           giveni={J\bibinitperiod}}}%
-        {{hash=d31d08a6f12eb946620e81d74dbe8939}{%
-           family={Byun},
-           familyi={B\bibinitperiod},
-           given={JiHuyk},
-           giveni={J\bibinitperiod}}}%
-        {{hash=919bdbb82e6940f3a8a29ffaa5b4c177}{%
-           family={Vineet},
-           familyi={V\bibinitperiod},
-           given={Vibhav},
-           giveni={V\bibinitperiod}}}%
-        {{hash=84d75ea672ebe26a483b0af3366044c8}{%
-           family={Kim},
-           familyi={K\bibinitperiod},
-           given={Seon\bibnamedelima Joo},
-           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-      }
-      \strng{namehash}{c727fec3f74eb771f1a8c3a8169c00b3}
-      \strng{fullhash}{c727fec3f74eb771f1a8c3a8169c00b3}
-      \strng{fullhashraw}{c727fec3f74eb771f1a8c3a8169c00b3}
-      \strng{bibnamehash}{c727fec3f74eb771f1a8c3a8169c00b3}
-      \strng{authorbibnamehash}{c727fec3f74eb771f1a8c3a8169c00b3}
-      \strng{authornamehash}{c727fec3f74eb771f1a8c3a8169c00b3}
-      \strng{authorfullhash}{c727fec3f74eb771f1a8c3a8169c00b3}
-      \strng{authorfullhashraw}{c727fec3f74eb771f1a8c3a8169c00b3}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{to be updated}
-      \field{title}{Where Did It Go Wrong? Process-Level Evaluation of Web Agents with Semantic State Tracking}
-      \field{year}{2026}
-      \true{nocite}
-      \verb{urlraw}
-      \verb https://jiwanchung.github.io/webstep/
-      \endverb
-      \verb{url}
-      \verb https://jiwanchung.github.io/webstep/
-      \endverb
-    \endentry
     \entry{chung2025what}{article}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
       \name{author}{5}{}{%
         {{hash=cd085ea7b890d266a6057330bf8953f8}{%
            family={Chung},
@@ -2878,72 +2942,20 @@
            given={Vibhav},
            giveni={V\bibinitperiod}}}%
       }
-      \strng{namehash}{0f1a9c107bf786d8651c2c75db3ee2a0}
-      \strng{fullhash}{0f1a9c107bf786d8651c2c75db3ee2a0}
-      \strng{fullhashraw}{0f1a9c107bf786d8651c2c75db3ee2a0}
-      \strng{bibnamehash}{0f1a9c107bf786d8651c2c75db3ee2a0}
-      \strng{authorbibnamehash}{0f1a9c107bf786d8651c2c75db3ee2a0}
-      \strng{authornamehash}{0f1a9c107bf786d8651c2c75db3ee2a0}
-      \strng{authorfullhash}{0f1a9c107bf786d8651c2c75db3ee2a0}
-      \strng{authorfullhashraw}{0f1a9c107bf786d8651c2c75db3ee2a0}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \strng{namehash}{386980320f9d1312b327add32f0e3932}
+      \strng{fullhash}{386980320f9d1312b327add32f0e3932}
+      \strng{fullhashraw}{386980320f9d1312b327add32f0e3932}
+      \strng{bibnamehash}{386980320f9d1312b327add32f0e3932}
+      \strng{authorbibnamehash}{386980320f9d1312b327add32f0e3932}
+      \strng{authornamehash}{386980320f9d1312b327add32f0e3932}
+      \strng{authorfullhash}{386980320f9d1312b327add32f0e3932}
+      \strng{authorfullhashraw}{386980320f9d1312b327add32f0e3932}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{arXiv preprint arXiv:2510.01719}
       \field{title}{What MLLMs Learn about When they Learn about Multimodal Reasoning: Perception, Reasoning, or their Integration?}
-      \field{year}{2025}
-      \true{nocite}
-    \endentry
-    \entry{chung2025don}{article}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{6}{}{%
-        {{hash=cd085ea7b890d266a6057330bf8953f8}{%
-           family={Chung},
-           familyi={C\bibinitperiod},
-           given={Jiwan},
-           giveni={J\bibinitperiod}}}%
-        {{hash=f768050f8f3cd975a843883bd9e45ebe}{%
-           family={Kim},
-           familyi={K\bibinitperiod},
-           given={Junhyeok},
-           giveni={J\bibinitperiod}}}%
-        {{hash=171932d3ace06446fe95d4b54bcecd33}{%
-           family={Kim},
-           familyi={K\bibinitperiod},
-           given={Siyeol},
-           giveni={S\bibinitperiod}}}%
-        {{hash=a9d27299f16d7baaf16502a4d7b27266}{%
-           family={Lee},
-           familyi={L\bibinitperiod},
-           given={Jaeyoung},
-           giveni={J\bibinitperiod}}}%
-        {{hash=c25f07e73f3066a004a60e1e969de93b}{%
-           family={Kim},
-           familyi={K\bibinitperiod},
-           given={Min\bibnamedelima Soo},
-           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-        {{hash=200883e8fe54d4ac8aca152db92a5d8d}{%
-           family={Yu},
-           familyi={Y\bibinitperiod},
-           given={Youngjae},
-           giveni={Y\bibinitperiod}}}%
-      }
-      \strng{namehash}{97518c23e20c94c81524891f7b2f01f2}
-      \strng{fullhash}{97518c23e20c94c81524891f7b2f01f2}
-      \strng{fullhashraw}{97518c23e20c94c81524891f7b2f01f2}
-      \strng{bibnamehash}{97518c23e20c94c81524891f7b2f01f2}
-      \strng{authorbibnamehash}{97518c23e20c94c81524891f7b2f01f2}
-      \strng{authornamehash}{97518c23e20c94c81524891f7b2f01f2}
-      \strng{authorfullhash}{97518c23e20c94c81524891f7b2f01f2}
-      \strng{authorfullhashraw}{97518c23e20c94c81524891f7b2f01f2}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{arXiv preprint arXiv:2505.18842}
-      \field{title}{v1: Learning to Point Visual Tokens for Multimodal Grounded Reasoning}
       \field{year}{2025}
       \true{nocite}
     \endentry
@@ -2953,8 +2965,6 @@
 \refsection{4}
   \datalist[entry]{cvyear/global//global/global/global}
     \entry{oh2025seal}{article}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
       \name{author}{7}{}{%
         {{hash=b2eafe9d169e1154882abb952e80e3dc}{%
            family={Oh},
@@ -2992,14 +3002,14 @@
            given={Youngjae},
            giveni={Y\bibinitperiod}}}%
       }
-      \strng{namehash}{235ea07c3158fb2ce36de232550990b2}
-      \strng{fullhash}{235ea07c3158fb2ce36de232550990b2}
-      \strng{fullhashraw}{235ea07c3158fb2ce36de232550990b2}
-      \strng{bibnamehash}{235ea07c3158fb2ce36de232550990b2}
-      \strng{authorbibnamehash}{235ea07c3158fb2ce36de232550990b2}
-      \strng{authornamehash}{235ea07c3158fb2ce36de232550990b2}
-      \strng{authorfullhash}{235ea07c3158fb2ce36de232550990b2}
-      \strng{authorfullhashraw}{235ea07c3158fb2ce36de232550990b2}
+      \strng{namehash}{1cd810252b78bcfbe0ae6119dc2752b2}
+      \strng{fullhash}{1cd810252b78bcfbe0ae6119dc2752b2}
+      \strng{fullhashraw}{1cd810252b78bcfbe0ae6119dc2752b2}
+      \strng{bibnamehash}{1cd810252b78bcfbe0ae6119dc2752b2}
+      \strng{authorbibnamehash}{1cd810252b78bcfbe0ae6119dc2752b2}
+      \strng{authornamehash}{1cd810252b78bcfbe0ae6119dc2752b2}
+      \strng{authorfullhash}{1cd810252b78bcfbe0ae6119dc2752b2}
+      \strng{authorfullhashraw}{1cd810252b78bcfbe0ae6119dc2752b2}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -3089,8 +3099,6 @@
   \enddatalist
   \datalist[entry]{none/global//global/global/global}
     \entry{oh2025seal}{article}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
       \name{author}{7}{}{%
         {{hash=b2eafe9d169e1154882abb952e80e3dc}{%
            family={Oh},
@@ -3128,14 +3136,14 @@
            given={Youngjae},
            giveni={Y\bibinitperiod}}}%
       }
-      \strng{namehash}{235ea07c3158fb2ce36de232550990b2}
-      \strng{fullhash}{235ea07c3158fb2ce36de232550990b2}
-      \strng{fullhashraw}{235ea07c3158fb2ce36de232550990b2}
-      \strng{bibnamehash}{235ea07c3158fb2ce36de232550990b2}
-      \strng{authorbibnamehash}{235ea07c3158fb2ce36de232550990b2}
-      \strng{authornamehash}{235ea07c3158fb2ce36de232550990b2}
-      \strng{authorfullhash}{235ea07c3158fb2ce36de232550990b2}
-      \strng{authorfullhashraw}{235ea07c3158fb2ce36de232550990b2}
+      \strng{namehash}{1cd810252b78bcfbe0ae6119dc2752b2}
+      \strng{fullhash}{1cd810252b78bcfbe0ae6119dc2752b2}
+      \strng{fullhashraw}{1cd810252b78bcfbe0ae6119dc2752b2}
+      \strng{bibnamehash}{1cd810252b78bcfbe0ae6119dc2752b2}
+      \strng{authorbibnamehash}{1cd810252b78bcfbe0ae6119dc2752b2}
+      \strng{authornamehash}{1cd810252b78bcfbe0ae6119dc2752b2}
+      \strng{authorfullhash}{1cd810252b78bcfbe0ae6119dc2752b2}
+      \strng{authorfullhashraw}{1cd810252b78bcfbe0ae6119dc2752b2}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}

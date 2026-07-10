@@ -44,6 +44,13 @@
   background:linear-gradient(to top, rgba(0,0,0,.65), rgba(0,0,0,0)); color:#fff; white-space:nowrap;
   overflow:hidden; text-overflow:ellipsis; text-shadow:0 1px 2px rgba(0,0,0,.6);
 }
+/* tiles with no cover art: center the title instead of bottom-anchoring it */
+.album.no-art .art{ display:flex; align-items:center; justify-content:center; }
+.album.no-art .title{
+  position:static; background:none; text-shadow:none;
+  white-space:normal; text-align:center; color:var(--muted);
+}
+
 /* optional mosaic variants */
 .album.wide{ grid-column:span 2; }
 .album.tall{ grid-row:span 2; }

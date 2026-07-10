@@ -122,6 +122,7 @@
 }
 
 \newcommand{\cvvenuebooktitle}{%
+  \iffieldequalstr{booktitle}{Conference on Language Modeling: COLM}{\textbf{\textcolor{cornflowerblue}{COLM}}}{%
   \iffieldequalstr{booktitle}{Proceedings of the Association for Computational Linguistics: ACL}{\textbf{\textcolor{cornflowerblue}{ACL}}}{%
   \iffieldequalstr{booktitle}{The Thirteenth International Conference on Learning Representations: ICLR}{\textbf{\textcolor{cornflowerblue}{ICLR}}}{%
   \iffieldequalstr{booktitle}{Forty-third International Conference on Machine Learning: ICML}{\textbf{\textcolor{cornflowerblue}{ICML}}}{%
@@ -135,18 +136,15 @@
   \iffieldequalstr{booktitle}{British Machine Vision Conference: BMVC}{\textbf{\textcolor{cornflowerblue}{BMVC}}}{%
   \iffieldequalstr{booktitle}{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition: CVPR}{\textbf{\textcolor{cornflowerblue}{CVPR}}}{%
   \iffieldequalstr{booktitle}{European Conference on Computer Vision: ECCV}{\textbf{\textcolor{cornflowerblue}{ECCV}}}{%
-  \printfield{booktitle}}}}}}}}}}}}}}%
+  \printfield{booktitle}}}}}}}}}}}}}}}%
 }
 
 \newcommand{\cvvenuejournal}{%
-  \iffieldequalstr{journaltitle}{arXiv preprint arXiv:2602.03282}{\textbf{\textcolor{cornflowerblue}{arXiv}}}{%
   \iffieldequalstr{journaltitle}{arXiv preprint arXiv:2605.07755}{\textbf{\textcolor{cornflowerblue}{arXiv}}}{%
   \iffieldequalstr{journaltitle}{arXiv preprint arXiv:2510.01719}{\textbf{\textcolor{cornflowerblue}{arXiv}}}{%
-  \iffieldequalstr{journaltitle}{arXiv preprint arXiv:2505.18842}{\textbf{\textcolor{cornflowerblue}{arXiv}}}{%
   \iffieldequalstr{journaltitle}{arXiv preprint arXiv:2501.09284}{\textbf{\textcolor{cornflowerblue}{arXiv}}}{%
   \iffieldequalstr{journaltitle}{arXiv preprint arXiv:2404.01954}{\textbf{\textcolor{cornflowerblue}{arXiv}}}{%
-  \iffieldequalstr{journaltitle}{to be updated}{\textbf{\textcolor{cornflowerblue}{Preprint}}}{%
-  \printfield{journaltitle}}}}}}}}%
+  \printfield{journaltitle}}}}}%
 }
 
 %%% CONVENIENCE FUNCTIONS GO HERE %%%
@@ -211,12 +209,12 @@
 
 \textbf{2026} &
 \textbf{Where Did It Go Wrong? Process-Level Evaluation of Web Agents with Semantic State Tracking} \\
-& \emph{Preprint}. \\
+& \emph{COLM 2026}. \\
 & Developed a controlled benchmark for diagnosing process-level failures in web agents, enabling fine-grained analysis of exploration, execution, and decision-making behaviors. \\[0.8em]
 
-\textbf{2025} &
+\textbf{2026} &
 \textbf{v1: Learning to Point Visual Tokens for Multimodal Grounded Reasoning} \\
-& \emph{Preprint}. \\
+& \emph{COLM 2026}. \\
 & Developed visual pointing mechanisms to improve grounded reasoning in multimodal LLMs, enhancing their ability to align visual evidence with multi-step reasoning. \\[0.8em]
 
 \textbf{2026} &
@@ -245,14 +243,14 @@ $\dagger \rightarrow$ Equal contribution
 
 \begin{refsection}[ref_conf.bib]
 \begin{refcontext}[sorting=cvyear]
-\nocite{chung2026geo,chung2026teaching,chung2025anytoany,kim2025speaking,chung2025mass,choi2024,chung2024selective,chung2024pun,chung2023vlis,chung2023long,yu2023fusing,lee2021acav100m,yu2021transitional}
+\nocite{chung2026webstep,chung2025don,chung2026geo,chung2026teaching,chung2025anytoany,kim2025speaking,chung2025mass,choi2024,chung2024selective,chung2024pun,chung2023vlis,chung2023long,yu2023fusing,lee2021acav100m,yu2021transitional}
 \printbibliography[heading=none,resetnumbers=true]
 \end{refcontext}
 \end{refsection}
 
 \begin{refsection}[ref_conf.bib]
 \begin{refcontext}[sorting=cvyear]
-\nocite{kim2025guidedog,park2025explain,nam2025iccv,lim2025visescape,kim2025egospeak,lee2024llms,choi2025canvas,chae2024language,han2023reading,yu2020character}
+\nocite{yoon2026a11yn,kim2025guidedog,park2025explain,nam2025iccv,lim2025visescape,kim2025egospeak,lee2024llms,choi2025canvas,chae2024language,han2023reading,yu2020character}
 \printbibliography[heading=none,resetnumbers=true]
 \end{refcontext}
 \end{refsection}
@@ -265,7 +263,7 @@ $\dagger \rightarrow$ Equal contribution
 
 \begin{refsection}[ref_preprint.bib]
 \begin{refcontext}[sorting=cvyear]
-\nocite{chung2026rethinking,chung2026webstep,chung2025what,chung2025don}
+\nocite{chung2026rethinking,chung2025what}
 \printbibliography[heading=none,resetnumbers=true]
 \end{refcontext}
 \end{refsection}

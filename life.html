@@ -7,7 +7,7 @@ title: Miscellaneous
 
 <div class="wrap" style="max-width:1200px;margin:56px auto;padding:0 20px;">
   <header style="display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-bottom:18px;">
-    <h4 margin-bottom: 40px;>Personal Life</h4>
+    <h4>Personal Life</h4>
   </header>
 
   Below are my personal favourites outside of research:<br><br>
@@ -19,7 +19,7 @@ title: Miscellaneous
 
 <div class="wrap" style="max-width:1200px;margin:56px auto;padding:0 20px;">
   <header style="display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-bottom:18px;">
-    <h4 margin-bottom: 40px;>Poetry</h4>
+    <h4>Poetry</h4>
     <!-- <p style="margin:0;color:var(--muted);">Data-driven via <code>_data/albums.yml</code></p> -->
   </header>
   {% include poem_gallery.html %}
@@ -27,9 +27,22 @@ title: Miscellaneous
 
 <div class="wrap" style="max-width:1200px;margin:56px auto;padding:0 20px;">
   <header style="display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-bottom:18px;">
-    <h4 margin-bottom: 40px;>Music</h4>
+    <h4>Music</h4>
     <!-- <p style="margin:0;color:var(--muted);">Data-driven via <code>_data/albums.yml</code></p> -->
   </header>
 
   {% include album_gallery.html %}
 </div>
+
+{% comment %}
+Film gallery: hidden until _data/films.yml has covers/links for every entry.
+Delete the surrounding comment/endcomment tags to publish it.
+
+<div class="wrap" style="max-width:1200px;margin:56px auto;padding:0 20px;">
+  <header style="display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-bottom:18px;">
+    <h4>Film</h4>
+  </header>
+
+  {% include film_gallery.html %}
+</div>
+{% endcomment %}
