@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.1.27)  10 JUL 2026 16:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.1.27)  21 AUG 2026 16:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1022,72 +1022,42 @@ LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 6
 File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
 ))
 (./education.tex
-LaTeX Font Info:    Trying to load font information for OT1+jkp on input line 1
-4.
-
-(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/ot1jkp.fd
-File: ot1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for OT1/jkp.
-)
-LaTeX Font Info:    Trying to load font information for U+jkpmia on input line 
-14.
-
-(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/ujkpmia.fd
-File: ujkpmia.fd 2006/08/15 v1.0
-)
-LaTeX Font Info:    Trying to load font information for U+jkpsya on input line 
-14.
-
-(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/ujkpsya.fd
-File: ujkpsya.fd 2006/08/15 v1.0
-)
-LaTeX Font Info:    Trying to load font information for U+jkpsyb on input line 
-14.
-
-(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/ujkpsyb.fd
-File: ujkpsyb.fd 2006/08/15 v1.0
-)
-LaTeX Font Info:    Trying to load font information for U+jkpsyc on input line 
-14.
-
-(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/ujkpsyc.fd
-File: ujkpsyc.fd 2006/08/15 v1.0
-)
-Overfull \hbox (11.99998pt too wide) in alignment at lines 13--20
+Overfull \hbox (11.99998pt too wide) in alignment at lines 3--10
 [] [] 
  []
 
 ) (./exp_research.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 []|\T1/jkp/m/n/10.95 Conducted re-search on di-ag-nos-ing mul-ti-modal rea-son-
-ing ca-pa-bil-i-ties in MLLMs
+ing ca-pa-bil-i-ties in
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
-\T1/jkp/m/n/10.95 (Math-Lens; arXiv 2025), with the col-lab-o-ra-tion later con
--tin-u-ing into on process-level
+\T1/jkp/m/n/10.95 MLLMs (Math-Lens; arXiv 2025), with the col-lab-o-ra-tion lat
+er con-tin-u-ing into
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
 []|\T1/jkp/m/n/10.95 Conducted re-search on ex-tend-ing mul-ti-modal LLMs be-yo
-nd language-only out-
+nd language-only
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
-\T1/jkp/m/n/10.95 puts, in-clud-ing em-bod-ied VLA, im-age gen-er-a-tion, and m
-ath-e-mat-i-cal rea-son-ing
+\T1/jkp/m/n/10.95 out-puts, in-clud-ing em-bod-ied VLA, im-age gen-er-a-tion, a
+nd math-e-mat-i-cal
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
 []|\T1/jkp/m/n/10.95 Contributed to Hy-per-CLOVA X LLM de-vel-op-ment and con-d
-ucted pre-lim-i-nary ex-
+ucted pre-lim-i-
  []
 
 
-Overfull \hbox (34.44313pt too wide) in alignment at lines 3--10
+Overfull \hbox (34.43596pt too wide) in alignment at lines 3--10
 [] [] 
  []
 
@@ -1156,8 +1126,8 @@ odal be-hav-ior in
 
 
 
-{/usr/local/texlive/2025basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/us
-r/local/texlive/2025basic/texmf-dist/fonts/enc/dvips/base/8r.enc}
+{/Users/jiwan/Library/texlive/2025basic/texmf-var/fonts/map/pdftex/updmap/pdfte
+x.map}{/usr/local/texlive/2025basic/texmf-dist/fonts/enc/dvips/base/8r.enc}
 pdfTeX warning (ext4): destination with the same identifier (name{.1}) has been
  already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1170,6 +1140,35 @@ nput line 240.
 (/usr/local/texlive/2025basic/texmf-dist/tex/latex/fontawesome/ufontawesomethre
 e.fd
 File: ufontawesomethree.fd 2016/05/22 Font definitions for U/fontawesomethree.
+)
+LaTeX Font Info:    Trying to load font information for OT1+jkp on input line 2
+41.
+ (/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/ot1jkp.fd
+File: ot1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for OT1/jkp.
+)
+LaTeX Font Info:    Trying to load font information for U+jkpmia on input line 
+241.
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/ujkpmia.fd
+File: ujkpmia.fd 2006/08/15 v1.0
+)
+LaTeX Font Info:    Trying to load font information for U+jkpsya on input line 
+241.
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/ujkpsya.fd
+File: ujkpsya.fd 2006/08/15 v1.0
+)
+LaTeX Font Info:    Trying to load font information for U+jkpsyb on input line 
+241.
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/ujkpsyb.fd
+File: ujkpsyb.fd 2006/08/15 v1.0
+)
+LaTeX Font Info:    Trying to load font information for U+jkpsyc on input line 
+241.
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/ujkpsyc.fd
+File: ujkpsyc.fd 2006/08/15 v1.0
 )
 \blx@maxsegment@1=\count463
 \blx@sectionciteorder@1=\count464
@@ -1233,25 +1232,24 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21631 strings out of 469005
- 366509 string characters out of 5454798
+ 21609 strings out of 469005
+ 366235 string characters out of 5454798
  1201686 words of memory out of 5000000
- 50008 multiletter control sequences out of 15000+600000
- 708213 words of font info for 129 fonts, out of 8000000 for 9000
+ 49992 multiletter control sequences out of 15000+600000
+ 686401 words of font info for 109 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 77i,10n,81p,693b,1602s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 77i,6n,81p,693b,1603s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/fontawesome/FontA
 wesome.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/kpfonts/
 jkpbit8a.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/kpfont
 s/jkpbn8a.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/kpfon
 ts/jkpmit8a.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/kpf
 onts/jkpmn8a.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/kp
-fonts/jkpmnc.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/kp
 fonts/jkpsy.pfb>
-Output written on main.pdf (5 pages, 96021 bytes).
+Output written on main.pdf (5 pages, 88171 bytes).
 PDF statistics:
- 157 PDF objects out of 1000 (max. 8388607)
- 134 compressed objects within 2 object streams
+ 152 PDF objects out of 1000 (max. 8388607)
+ 131 compressed objects within 2 object streams
  55 named destinations out of 1000 (max. 500000)
  65 words of extra memory for PDF output out of 10000 (max. 10000000)
 

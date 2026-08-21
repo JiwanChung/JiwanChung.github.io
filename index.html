@@ -52,6 +52,11 @@ title: Home
               <i class="fa-solid fa-file-pdf"></i>
             </a>
           {% endif %}
+          {% if paper.arxiv %}
+            <a class="action-btn" href="{{ paper.arxiv }}" target="_blank" title="arXiv">
+              <i class="ai ai-arxiv"></i>
+            </a>
+          {% endif %}
           {% if paper.code %}
             <a class="action-btn" href="{{ paper.code }}" target="_blank" title="Code">
               <i class="fa-brands fa-github"></i>
@@ -182,6 +187,11 @@ title: Home
                   <i class="fa-solid fa-file-pdf"></i>
                 </a>
               {% endif %}
+              {% if paper.arxiv %}
+                <a class="action-btn" href="{{ paper.arxiv }}" target="_blank" title="arXiv">
+                  <i class="ai ai-arxiv"></i>
+                </a>
+              {% endif %}
               {% if paper.code %}
                 <a class="action-btn" href="{{ paper.code }}" target="_blank" title="Code">
                   <i class="fa-brands fa-github"></i>
@@ -236,6 +246,11 @@ title: Home
               {% if paper.paper_pdf %}
                 <a class="action-btn" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank" title="Paper">
                   <i class="fa-solid fa-file-pdf"></i>
+                </a>
+              {% endif %}
+              {% if paper.arxiv %}
+                <a class="action-btn" href="{{ paper.arxiv }}" target="_blank" title="arXiv">
+                  <i class="ai ai-arxiv"></i>
                 </a>
               {% endif %}
               {% if paper.code %}

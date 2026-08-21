@@ -138,7 +138,7 @@ papers:
         year={2026}
       }
 
-  - title: "What MLLMs Learn When They Learn Multimodal Reasoning: Perception, Reasoning, or Integration?"
+  - title: "What MLLMs Learn about When they Learn about Multimodal Reasoning"
     authors: "<b>Jiwan Chung</b>, Neel Joshi, Pratyusha Sharma, Youngjae Yu, Vibhav Vineet"
     venue: "arXiv. 2025."
     paper_pdf: "https://arxiv.org/abs/2510.01719"
@@ -149,7 +149,7 @@ papers:
     keywords: ["multimodal reasoning", "perception", "geometry", "benchmark"]
     bibtex: |
       @article{chung2025whatmllms,
-        title={What MLLMs Learn When They Learn Multimodal Reasoning: Perception, Reasoning, or Integration?},
+        title={What MLLMs Learn about When they Learn about Multimodal Reasoning},
         author={Chung, Jiwan and Joshi, Neel and Sharma, Pratyusha and Yu, Youngjae and Vineet, Vibhav},
         journal={arXiv preprint arXiv:2510.01719},
         year={2025}
@@ -441,6 +441,7 @@ papers:
     authors: "<b>Jiwan Chung‡</b>, Youngjae Yu‡, Heeseung Yun, Jack Hessel, Jae Sung Park, Ximing Lu, Rowan Zellers, Prithviraj Ammanabrolu, Ronan Le Bras, Gunhee Kim, Yejin Choi"
     venue: "CVPR. 2023."
     paper_pdf: "https://openaccess.thecvf.com/content/CVPR2023/html/Yu_Fusing_Pre-Trained_Language_Models_With_Multimodal_Prompts_Through_Reinforcement_Learning_CVPR_2023_paper.html"
+    arxiv: "https://arxiv.org/abs/2205.12630"
     code: "https://github.com/JiwanChung/esper"
     selected: y
     type: conference
@@ -458,6 +459,7 @@ papers:
     authors: "<b>Jiwan Chung‡</b>, Sangho Lee‡, Youngjae Yu, Gunhee Kim, Thomas Breuel, Gal Chechik, Yale Song"
     venue: "ICCV. 2021."
     paper_pdf: "https://openaccess.thecvf.com/content/ICCV2021/html/Lee_ACAV100M_Automatic_Curation_of_Large-Scale_Datasets_for_Audio-Visual_Video_Representation_ICCV_2021_paper.html"
+    arxiv: "https://arxiv.org/abs/2101.10803"
     code: "https://github.com/sangho-vision/acav100m"
     webpage: "https://acav100m.github.io/"
     selected: y
