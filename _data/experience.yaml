@@ -1,10 +1,19 @@
 experiences:
 
+- place: "Yonsei University, CIP Lab"
+  location: Seoul, South Korea
+  time: "Sep. 2026 - Present"
+  title: "Postdoctoral Researcher"
+  supervisor: "PI: Seon Joo Kim"
+  logo: yonsei.png
+  width: 55
+  category: work
+
 - place: "Microsoft Research, AI Frontiers"
   location: Redmond, U.S.
   time: "May 2025 - Aug. 2025"
   title: "Research Intern"
-  summary: "Conducted research on diagnosing multimodal reasoning capabilities in MLLMs (MathLens; arXiv 2025), with the collaboration later continuing into on process-level evaluation of web agents (WebStep; 2026)."
+  summary: "Conducted research on diagnosing multimodal reasoning capabilities in MLLMs (MathLens; arXiv 2025), with the collaboration later continuing into process-level evaluation of web agents (WebStep; 2026)."
   logo: msr.jpeg
   width: 100
   category: work

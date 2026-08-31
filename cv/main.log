@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.1.27)  31 AUG 2026 09:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.1.27)  31 AUG 2026 18:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1028,36 +1028,42 @@ Overfull \hbox (11.99998pt too wide) in alignment at lines 3--10
 
 ) (./exp_research.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
+[]|\T1/jkp/m/n/10.95 Continuing re-search on mul-ti-modal in-tel-li-gence, with
+ a fo-cus on rea-son-ing,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
 []|\T1/jkp/m/n/10.95 Conducted re-search on di-ag-nos-ing mul-ti-modal rea-son-
 ing ca-pa-bil-i-ties in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
 \T1/jkp/m/n/10.95 MLLMs (Math-Lens; arXiv 2025), with the col-lab-o-ra-tion lat
 er con-tin-u-ing into
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
 []|\T1/jkp/m/n/10.95 Conducted re-search on ex-tend-ing mul-ti-modal LLMs be-yo
 nd language-only
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
 \T1/jkp/m/n/10.95 out-puts, in-clud-ing em-bod-ied VLA, im-age gen-er-a-tion, a
 nd math-e-mat-i-cal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--10
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
 []|\T1/jkp/m/n/10.95 Contributed to Hy-per-CLOVA X LLM de-vel-op-ment and con-d
 ucted pre-lim-i-
  []
 
 
-Overfull \hbox (34.43596pt too wide) in alignment at lines 3--10
+Overfull \hbox (34.43596pt too wide) in alignment at lines 3--12
 [] [] 
  []
 
@@ -1234,11 +1240,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  21609 strings out of 469005
  366235 string characters out of 5454798
- 1201686 words of memory out of 5000000
+ 1202686 words of memory out of 5000000
  49992 multiletter control sequences out of 15000+600000
  686401 words of font info for 109 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 77i,6n,81p,693b,1603s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 77i,6n,81p,693b,1602s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/fontawesome/FontA
 wesome.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/kpfonts/
 jkpbit8a.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/kpfont
@@ -1246,7 +1252,7 @@ s/jkpbn8a.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/kpfon
 ts/jkpmit8a.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/kpf
 onts/jkpmn8a.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/kp
 fonts/jkpsy.pfb>
-Output written on main.pdf (5 pages, 88171 bytes).
+Output written on main.pdf (5 pages, 88556 bytes).
 PDF statistics:
  152 PDF objects out of 1000 (max. 8388607)
  131 compressed objects within 2 object streams
