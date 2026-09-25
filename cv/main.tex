@@ -49,6 +49,8 @@
                         % t - title
     defernumbers=true,  % Delays the assignment of citation numbers until the end of the document, allowing for the correct order of citations within each bibliography section.
 ]{biblatex}
+% Keep each paper's title, authors, and venue on the same page.
+\AtBeginBibliography{\interlinepenalty=10000}
 \DeclareFieldFormat{labelnumber}{\null} % Makes the numbers invisible
 \DeclareSortingTemplate{cvyear}{
   \sort[direction=descending]{
@@ -122,6 +124,7 @@
 }
 
 \newcommand{\cvvenuebooktitle}{%
+  \iffieldequalstr{booktitle}{Advances in Neural Information Processing Systems: NeurIPS}{\textbf{\textcolor{cornflowerblue}{NeurIPS}}}{%
   \iffieldequalstr{booktitle}{Conference on Language Modeling: COLM}{\textbf{\textcolor{cornflowerblue}{COLM}}}{%
   \iffieldequalstr{booktitle}{Proceedings of the Association for Computational Linguistics: ACL}{\textbf{\textcolor{cornflowerblue}{ACL}}}{%
   \iffieldequalstr{booktitle}{The Thirteenth International Conference on Learning Representations: ICLR}{\textbf{\textcolor{cornflowerblue}{ICLR}}}{%
@@ -136,15 +139,13 @@
   \iffieldequalstr{booktitle}{British Machine Vision Conference: BMVC}{\textbf{\textcolor{cornflowerblue}{BMVC}}}{%
   \iffieldequalstr{booktitle}{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition: CVPR}{\textbf{\textcolor{cornflowerblue}{CVPR}}}{%
   \iffieldequalstr{booktitle}{European Conference on Computer Vision: ECCV}{\textbf{\textcolor{cornflowerblue}{ECCV}}}{%
-  \printfield{booktitle}}}}}}}}}}}}}}}%
+  \printfield{booktitle}}}}}}}}}}}}}}}}%
 }
 
 \newcommand{\cvvenuejournal}{%
-  \iffieldequalstr{journaltitle}{arXiv preprint arXiv:2605.07755}{\textbf{\textcolor{cornflowerblue}{arXiv}}}{%
-  \iffieldequalstr{journaltitle}{arXiv preprint arXiv:2510.01719}{\textbf{\textcolor{cornflowerblue}{arXiv}}}{%
   \iffieldequalstr{journaltitle}{arXiv preprint arXiv:2501.09284}{\textbf{\textcolor{cornflowerblue}{arXiv}}}{%
   \iffieldequalstr{journaltitle}{arXiv preprint arXiv:2404.01954}{\textbf{\textcolor{cornflowerblue}{arXiv}}}{%
-  \printfield{journaltitle}}}}}%
+  \printfield{journaltitle}}}%
 }
 
 %%% CONVENIENCE FUNCTIONS GO HERE %%%
@@ -162,15 +163,15 @@
 
 
 \DeclareBibliographyDriver{inproceedings}{%
-  \textbf{\printfield{title}}\newline % Paper title
-  \printnames{author}\newline % Authors
+  \textbf{\printfield{title}}\\* % Paper title
+  \printnames{author}\\* % Authors
   \cvvenuebooktitle\space % Conference Name
   \textbf{\printfield{year}}% Year
 }
 
 \DeclareBibliographyDriver{article}{%
-  \textbf{\printfield{title}}\newline % Paper title
-  \printnames{author}\newline % Authors
+  \textbf{\printfield{title}}\\* % Paper title
+  \printnames{author}\\* % Authors
   \cvvenuejournal\space % Journal / preprint venue
   \textbf{\printfield{year}}% Year
 }
@@ -243,14 +244,14 @@ $\dagger \rightarrow$ Equal contribution
 
 \begin{refsection}[ref_conf.bib]
 \begin{refcontext}[sorting=cvyear]
-\nocite{chung2026webstep,chung2025don,chung2026geo,chung2026teaching,chung2025anytoany,kim2025speaking,chung2025mass,choi2024,chung2024selective,chung2024pun,chung2023vlis,chung2023long,yu2023fusing,lee2021acav100m,yu2021transitional}
+\nocite{chung2025what,chung2026rethinking,chung2026webstep,chung2025don,chung2026geo,chung2026teaching,chung2025anytoany,kim2025speaking,chung2025mass,choi2024,chung2024selective,chung2024pun,chung2023vlis,chung2023long,yu2023fusing,lee2021acav100m,yu2021transitional}
 \printbibliography[heading=none,resetnumbers=true]
 \end{refcontext}
 \end{refsection}
 
 \begin{refsection}[ref_conf.bib]
 \begin{refcontext}[sorting=cvyear]
-\nocite{yoon2026a11yn,kim2025guidedog,park2025explain,nam2025iccv,lim2025visescape,kim2025egospeak,lee2024llms,choi2025canvas,chae2024language,han2023reading,yu2020character}
+\nocite{kim2026mixture,yoon2026a11yn,kim2025guidedog,park2025explain,nam2025iccv,lim2025visescape,kim2025egospeak,lee2024llms,choi2025canvas,chae2024language,han2023reading,yu2020character}
 \printbibliography[heading=none,resetnumbers=true]
 \end{refcontext}
 \end{refsection}
@@ -260,13 +261,6 @@ $\dagger \rightarrow$ Equal contribution
 \pdfbookmark[2]{Preprints}{pubs_preprint}
 \section*{Preprints}
 \label{pubs_preprint}
-
-\begin{refsection}[ref_preprint.bib]
-\begin{refcontext}[sorting=cvyear]
-\nocite{chung2026rethinking,chung2025what}
-\printbibliography[heading=none,resetnumbers=true]
-\end{refcontext}
-\end{refsection}
 
 \begin{refsection}[ref_preprint.bib]
 \begin{refcontext}[sorting=cvyear]

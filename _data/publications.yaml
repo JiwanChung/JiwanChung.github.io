@@ -1,4 +1,52 @@
 papers:
+  - title: "What MLLMs Learn When They Learn Multimodal Reasoning"
+    authors: "<b>Jiwan Chung</b>, Neel Joshi, Pratyusha Sharma, Youngjae Yu, Vibhav Vineet"
+    venue: "NeurIPS. 2026."
+    paper_pdf: "https://arxiv.org/abs/2510.01719"
+    note: "Work done as part of an internship in Microsoft"
+    selected: y
+    type: conference
+    year: 2026
+    keywords: ["multimodal reasoning", "perception", "geometry", "benchmark"]
+    bibtex: |
+      @inproceedings{chung2025whatmllms,
+        title={What MLLMs Learn When They Learn Multimodal Reasoning},
+        author={Chung, Jiwan and Joshi, Neel and Sharma, Pratyusha and Yu, Youngjae and Vineet, Vibhav},
+        booktitle={Advances in Neural Information Processing Systems: NeurIPS},
+        year={2026}
+      }
+
+  - title: "Rethinking State Tracking in Recurrent Models Through Error Control Dynamics"
+    authors: "<b>Jiwan Chung</b>, Heechan Choi, Seon Joo Kim"
+    venue: "NeurIPS. 2026."
+    paper_pdf: "https://arxiv.org/abs/2605.07755"
+    selected: y
+    type: conference
+    year: 2026
+    keywords: ["ssm", "state-tracking", "theory"]
+    bibtex: |
+      @inproceedings{chung2026rethinking,
+        title={Rethinking State Tracking in Recurrent Models Through Error Control Dynamics},
+        author={Chung, Jiwan and Choi, Heechan and Kim, Seon Joo},
+        booktitle={Advances in Neural Information Processing Systems: NeurIPS},
+        year={2026}
+      }
+
+  - title: "Mixture of Layers: Dynamic Layer Routing for Visual Reasoning"
+    authors: "Jeonghwan Kim‡, Sofia Stoica‡, <b>Jiwan Chung</b>, Ansel Blume, Hyeonjeong Ha, Zhenhailong Wang, Xin Luna Dong, Heng Ji"
+    venue: "NeurIPS. 2026."
+    selected: n
+    type: conference
+    year: 2026
+    keywords: ["visual reasoning", "representation learning", "VLM", "layer routing"]
+    bibtex: |
+      @inproceedings{kim2026mixture,
+        title={Mixture of Layers: Dynamic Layer Routing for Visual Reasoning},
+        author={Kim, Jeonghwan and Stoica, Sofia and Chung, Jiwan and Blume, Ansel and Ha, Hyeonjeong and Wang, Zhenhailong and Dong, Xin Luna and Ji, Heng},
+        booktitle={Advances in Neural Information Processing Systems: NeurIPS},
+        year={2026}
+      }
+
   - title: "Where Did It Go Wrong? Process-Level Evaluation of Web Agents with Semantic State Tracking"
     authors: "<b>Jiwan Chung</b>, JiHyuk Byun, Vibhav Vineet, Seon Joo Kim"
     venue: "COLM. 2026."
@@ -53,22 +101,6 @@ papers:
         author={Yoon, Janghan and Cho, Jaegwan and Kim, Junhyeok and Chung, Jiwan and Jeon, Jaehyun and Yu, Youngjae},
         booktitle={Conference on Language Modeling: COLM},
         year={2026}
-      }
-
-  - title: "Rethinking State Tracking in Recurrent Models Through Error Control Dynamics"
-    authors: "<b>Jiwan Chung</b>, Heechan Choi, Seon Joo Kim"
-    venue: "arXiv. 2026."
-    paper_pdf: "https://arxiv.org/abs/2605.07755"
-    selected: y
-    type: preprint
-    year: 2026
-    keywords: ["ssm", "state-tracking", "theory"]
-    bibtex: |
-      @article{chung2026rethinking,
-        title={Rethinking State Tracking in Recurrent Models Through Error Control Dynamics}, 
-        author={Chung, Jiwan and Choi, Heechan and Kim Seon Joo},
-        journal={arXiv preprint arXiv:2605.07755},
-        year={2026},
       }
 
   - title: "Global Geometry Is Not Enough for Vision Representations"
@@ -136,23 +168,6 @@ papers:
         author={Park, Jaewoo and Park, Jungyang and Jang, Dongju and Chung, Jiwan and Yoo, Byungwoo and Shin, Jaewoo and Park, Seonjoon and Kim, Taehyeong and Yu, Youngjae},
         booktitle={AAAI},
         year={2026}
-      }
-
-  - title: "What MLLMs Learn about When they Learn about Multimodal Reasoning"
-    authors: "<b>Jiwan Chung</b>, Neel Joshi, Pratyusha Sharma, Youngjae Yu, Vibhav Vineet"
-    venue: "arXiv. 2025."
-    paper_pdf: "https://arxiv.org/abs/2510.01719"
-    note: "Work done as part of an internship in Microsoft"
-    selected: y
-    type: preprint
-    year: 2025
-    keywords: ["multimodal reasoning", "perception", "geometry", "benchmark"]
-    bibtex: |
-      @article{chung2025whatmllms,
-        title={What MLLMs Learn about When they Learn about Multimodal Reasoning},
-        author={Chung, Jiwan and Joshi, Neel and Sharma, Pratyusha and Yu, Youngjae and Vineet, Vibhav},
-        journal={arXiv preprint arXiv:2510.01719},
-        year={2025}
       }
 
   - title: "SEAL: Entangled White-box Watermarks on Low-Rank Adaptation"

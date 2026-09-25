@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.1.27)  14 SEP 2026 14:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.1.27)  26 SEP 2026 00:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -894,57 +894,57 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 122.
-Package hyperref Info: Option `breaklinks' set `true' on input line 122.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 122.
+Package hyperref Info: Option `colorlinks' set `true' on input line 124.
+Package hyperref Info: Option `breaklinks' set `true' on input line 124.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 124.
 \@quotelevel=\count455
 \@quotereset=\count456
 
 (./main.aux (./colors.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 179.
+LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 180.
 LaTeX Font Info:    Trying to load font information for OML+jkp on input line 1
-79.
+80.
 
 (/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/omljkp.fd
 File: omljkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 179.
-LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 179.
+LaTeX Font Info:    ... okay on input line 180.
+LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 180.
 LaTeX Font Info:    Trying to load font information for OMS+jkp on input line 1
-79.
+80.
 
 (/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/omsjkp.fd
 File: omsjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 179.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 179.
-LaTeX Font Info:    ... okay on input line 179.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 179.
-LaTeX Font Info:    ... okay on input line 179.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 179.
-LaTeX Font Info:    ... okay on input line 179.
-LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 179.
+LaTeX Font Info:    ... okay on input line 180.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 180.
+LaTeX Font Info:    ... okay on input line 180.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 180.
+LaTeX Font Info:    ... okay on input line 180.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 180.
+LaTeX Font Info:    ... okay on input line 180.
+LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 180.
 LaTeX Font Info:    Trying to load font information for OMX+jkp on input line 1
-79.
+80.
 
 (/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/omxjkp.fd
 File: omxjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 179.
-LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 179.
+LaTeX Font Info:    ... okay on input line 180.
+LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 180.
 LaTeX Font Info:    Trying to load font information for U+jkpexa on input line 
-179.
+180.
 
 (/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/ujkpexa.fd
 File: ujkpexa.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 179.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 179.
-LaTeX Font Info:    ... okay on input line 179.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 179.
-LaTeX Font Info:    ... okay on input line 179.
+LaTeX Font Info:    ... okay on input line 180.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 180.
+LaTeX Font Info:    ... okay on input line 180.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 180.
+LaTeX Font Info:    ... okay on input line 180.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -994,9 +994,9 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 
 (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 179.
-Package biblatex Info: Reference segment=0 on input line 179.
-Package hyperref Info: Link coloring ON on input line 179.
+Package biblatex Info: Reference section=0 on input line 180.
+Package biblatex Info: Reference segment=0 on input line 180.
+Package hyperref Info: Link coloring ON on input line 180.
 
 (/usr/local/texlive/2025basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1040,8 +1040,8 @@ ing ca-pa-bil-i-ties in
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
-\T1/jkp/m/n/10.95 MLLMs (Math-Lens; arXiv 2025), with the col-lab-o-ra-tion lat
-er con-tin-u-ing into
+\T1/jkp/m/n/10.95 MLLMs (Math-Lens; NeurIPS 2026), with the col-lab-o-ra-tion l
+ater con-tin-u-ing
  []
 
 
@@ -1068,61 +1068,61 @@ Overfull \hbox (34.43596pt too wide) in alignment at lines 3--12
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 211--212
+Underfull \hbox (badness 10000) in paragraph at lines 212--213
 []|\T1/jkp/b/n/10.95 Where Did It Go Wrong? Process-Level Eval-u-a-tion of Web 
 Agents with
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 213--213
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
 []|\T1/jkp/m/n/10.95 Developed a con-trolled bench-mark for di-ag-nos-ing proce
 ss-level fail-ures in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 213--213
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
 \T1/jkp/m/n/10.95 web agents, en-abling fine-grained anal-y-sis of ex-plo-ratio
 n, ex-e-cu-tion, and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--218
+Underfull \hbox (badness 10000) in paragraph at lines 219--219
 []|\T1/jkp/m/n/10.95 Developed vi-sual point-ing mech-a-nisms to im-prove groun
 ded rea-son-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--218
+Underfull \hbox (badness 10000) in paragraph at lines 219--219
 \T1/jkp/m/n/10.95 in mul-ti-modal LLMs, en-hanc-ing their abil-ity to align vi-
 sual ev-i-dence with
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--223
+Underfull \hbox (badness 10000) in paragraph at lines 224--224
 []|\T1/jkp/m/n/10.95 Introduced a train-ing ob-jec-tive that teaches dis-crete 
 au-tore-gres-sive lan-guage
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--223
+Underfull \hbox (badness 10000) in paragraph at lines 224--224
 \T1/jkp/m/n/10.95 mod-els to rep-re-sent met-ric dis-tance, im-prov-ing their a
 bil-ity to cap-ture spa-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 226--227
+Underfull \hbox (badness 10000) in paragraph at lines 227--228
 []|\T1/jkp/b/n/10.95 Are Any-to-Any Mod-els More Con-sis-tent Across Modal-ity 
 Trans-fers Than
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--229
+Underfull \hbox (badness 10000) in paragraph at lines 229--230
 []|\T1/jkp/m/n/10.95 Developed a bench-mark for eval-u-at-ing con-sis-tency acr
 oss mul-ti-modal trans-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--229
+Underfull \hbox (badness 10000) in paragraph at lines 229--230
 \T1/jkp/m/n/10.95 fer path-ways, en-abling fine-grained di-ag-no-sis of cross-m
 odal be-hav-ior in
  []
@@ -1138,91 +1138,86 @@ pdfTeX warning (ext4): destination with the same identifier (name{.1}) has been
  already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.230 \end{longtable}
+l.231 \end{longtable}
                      ]
 LaTeX Font Info:    Trying to load font information for U+fontawesomethree on i
-nput line 240.
+nput line 241.
 
 (/usr/local/texlive/2025basic/texmf-dist/tex/latex/fontawesome/ufontawesomethre
 e.fd
 File: ufontawesomethree.fd 2016/05/22 Font definitions for U/fontawesomethree.
 )
 LaTeX Font Info:    Trying to load font information for OT1+jkp on input line 2
-41.
+42.
  (/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/ot1jkp.fd
 File: ot1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for OT1/jkp.
 )
 LaTeX Font Info:    Trying to load font information for U+jkpmia on input line 
-241.
+242.
 
 (/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/ujkpmia.fd
 File: ujkpmia.fd 2006/08/15 v1.0
 )
 LaTeX Font Info:    Trying to load font information for U+jkpsya on input line 
-241.
+242.
 
 (/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/ujkpsya.fd
 File: ujkpsya.fd 2006/08/15 v1.0
 )
 LaTeX Font Info:    Trying to load font information for U+jkpsyb on input line 
-241.
+242.
 
 (/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/ujkpsyb.fd
 File: ujkpsyb.fd 2006/08/15 v1.0
 )
 LaTeX Font Info:    Trying to load font information for U+jkpsyc on input line 
-241.
+242.
 
 (/usr/local/texlive/2025basic/texmf-dist/tex/latex/kpfonts/ujkpsyc.fd
 File: ujkpsyc.fd 2006/08/15 v1.0
 )
 \blx@maxsegment@1=\count463
 \blx@sectionciteorder@1=\count464
-Package biblatex Info: Reference section=1 on input line 244.
-Package biblatex Info: Setting label 'refsection:1' on input line 244.
+Package biblatex Info: Reference section=1 on input line 245.
+Package biblatex Info: Setting label 'refsection:1' on input line 245.
 
-Overfull \hbox (3.42644pt too wide) in paragraph at lines 247--247
+Overfull \hbox (3.42644pt too wide) in paragraph at lines 248--248
 []\T1/jkp/b/it/10.95 Where Did It Go Wrong? Process-Level Eval-u-a-tion of Web 
 Agents with Se-man-tic State Track- 
  []
 
 [2{/usr/local/texlive/2025basic/texmf-dist/fonts/enc/dvips/fontawesome/fontawes
-omethree.enc}]
-Package biblatex Info: Reference section=0 on input line 249.
+omethree.enc}] [3]
+Package biblatex Info: Reference section=0 on input line 250.
 \blx@maxsegment@2=\count465
 \blx@sectionciteorder@2=\count466
-Package biblatex Info: Reference section=2 on input line 251.
-Package biblatex Info: Setting label 'refsection:2' on input line 251.
- [3]
-Overfull \hbox (22.74217pt too wide) in paragraph at lines 254--254
+Package biblatex Info: Reference section=2 on input line 252.
+Package biblatex Info: Setting label 'refsection:2' on input line 252.
+
+Overfull \hbox (22.74217pt too wide) in paragraph at lines 255--255
 []\T1/jkp/b/it/10.95 GuideDog: A Real-World Ego-cen-tric Mul-ti-modal Dataset f
 or Blind and Low-Vision Accessibility- 
  []
 
 
-Overfull \hbox (15.95316pt too wide) in paragraph at lines 254--254
+Overfull \hbox (15.95316pt too wide) in paragraph at lines 255--255
  \T1/jkp/m/n/10.95 Jun-hyeok Kim, Min Soo Kim\T1/jkp/b/n/10.95 , Ji-wan Chung\T
 1/jkp/m/n/10.95 , Jung-bin Cho, Jisoo Kim, Sung-woong Kim, Gyeongbo 
  []
 
-Package biblatex Info: Reference section=0 on input line 256.
+[4]
+Package biblatex Info: Reference section=0 on input line 257.
 \blx@maxsegment@3=\count467
 \blx@sectionciteorder@3=\count468
-Package biblatex Info: Reference section=3 on input line 264.
-Package biblatex Info: Setting label 'refsection:3' on input line 264.
-[4]
-Package biblatex Info: Reference section=0 on input line 269.
-\blx@maxsegment@4=\count469
-\blx@sectionciteorder@4=\count470
-Package biblatex Info: Reference section=4 on input line 271.
-Package biblatex Info: Setting label 'refsection:4' on input line 271.
+Package biblatex Info: Reference section=3 on input line 265.
+Package biblatex Info: Setting label 'refsection:3' on input line 265.
 
-Overfull \hbox (2.23288pt too wide) in paragraph at lines 274--274
+Overfull \hbox (2.23288pt too wide) in paragraph at lines 268--268
  \T1/jkp/m/n/10.95 Giyeong Oh, Sae-jin Kim, Woohyun Cho, Sangkyu Lee\T1/jkp/b/n
 /10.95 , Ji-wan Chung\T1/jkp/m/n/10.95 , Dokyung Song & Young- 
  []
 
-Package biblatex Info: Reference section=0 on input line 276.
+Package biblatex Info: Reference section=0 on input line 270.
 (./awards.tex
 Overfull \hbox (17.99998pt too wide) in alignment at lines 1--5
 [] [] 
@@ -1238,13 +1233,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21609 strings out of 469005
- 366235 string characters out of 5454798
- 1202686 words of memory out of 5000000
- 49992 multiletter control sequences out of 15000+600000
+ 21596 strings out of 469005
+ 366096 string characters out of 5454798
+ 1203712 words of memory out of 5000000
+ 49978 multiletter control sequences out of 15000+600000
  686401 words of font info for 109 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 77i,6n,81p,693b,1602s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 77i,5n,81p,693b,1557s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/fontawesome/FontA
 wesome.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/kpfonts/
 jkpbit8a.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/kpfont
@@ -1252,10 +1247,10 @@ s/jkpbn8a.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/kpfon
 ts/jkpmit8a.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/kpf
 onts/jkpmn8a.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/kp
 fonts/jkpsy.pfb>
-Output written on main.pdf (5 pages, 88556 bytes).
+Output written on main.pdf (5 pages, 88912 bytes).
 PDF statistics:
- 152 PDF objects out of 1000 (max. 8388607)
- 131 compressed objects within 2 object streams
- 55 named destinations out of 1000 (max. 500000)
+ 153 PDF objects out of 1000 (max. 8388607)
+ 132 compressed objects within 2 object streams
+ 56 named destinations out of 1000 (max. 500000)
  65 words of extra memory for PDF output out of 10000 (max. 10000000)
 
