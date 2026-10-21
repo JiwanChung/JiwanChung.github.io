@@ -224,7 +224,7 @@ papers:
     paper_pdf: "https://arxiv.org/abs/2505.24211"
     data: "https://huggingface.co/datasets/jiwan-chung/ACON"
     selected: y
-    featured: y
+    featured: n
     featured_summary: "Developed a benchmark for evaluating consistency across multimodal transfer pathways, enabling fine-grained diagnosis of <strong>cross-modal behavior in any-to-any (omnimodal) LLMs</strong>."
     type: conference
     year: 2025
