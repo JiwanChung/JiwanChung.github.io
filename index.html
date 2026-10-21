@@ -32,10 +32,8 @@ title: Home
 
 <div class="docs-section" id="featured-research">
   <h4>Featured Research</h4>
-  {% assign featured_titles = "Where Did It Go Wrong? Process-Level Evaluation of Web Agents with Semantic State Tracking||v1: Learning to Point Visual Tokens for Multimodal Grounded Reasoning||Teaching Metric Distance to Discrete Autoregressive Language Models||Are Any-to-Any Models More Consistent Across Modality Transfers Than Specialists?" | split: "||" %}
-  {% for featured_title in featured_titles %}
-    {% assign featured_papers = site.data.publications.papers | where: "title", featured_title %}
-    {% for paper in featured_papers %}
+  {% assign featured_papers = site.data.publications.papers | where: "featured", "y" %}
+  {% for paper in featured_papers %}
     <div class="paper-card featured-paper-card" data-type="{{ paper.type }}" data-year="{{ paper.year }}">
       <div class="paper-year-badge">{{ paper.year }}</div>
       <div class="paper-type-indicator {{ paper.type }}"></div>
@@ -80,7 +78,6 @@ title: Home
         </div>
       </div>
     </div>
-    {% endfor %}
   {% endfor %}
 </div>
 

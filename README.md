@@ -27,16 +27,15 @@ Add an entry to `_data/publications.yaml`. Fields:
 - `title`, `authors` (wrap your own name in `<b>…</b>`), `venue`, `year`
 - `type` — `conference` or `preprint`; drives the color dot and the type filter
 - `selected` — `y` puts it in the *First Author* tab, `n` leaves it in *Archive*
+- `featured` — `y` puts it in the homepage *Featured Research* cards, in file
+  order; `featured_summary` is the one-line blurb shown on that card
 - `keywords` — feeds the d3 keyword map
 - `bibtex` — optional, renders a copy button
 - `paper_pdf`, `code`, `data`, `model`, `webpage`, `video` — each renders an icon
   link if present
 
-Two couplings to know about:
+One coupling to know about:
 
-- **Featured cards** on the homepage are matched by *exact title string* in the
-  hardcoded list at `index.html:35`. Retitle a paper and it silently drops off
-  the homepage.
 - **The keyword map** (`libs/custom/my_js.js`) shows the top 30 keywords and
   bins them into six colored categories by substring match (`my_js.js:110-130`).
   A keyword matching no category still renders, just uncategorized.

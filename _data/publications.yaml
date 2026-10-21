@@ -21,6 +21,8 @@ papers:
     venue: "NeurIPS. 2026."
     paper_pdf: "https://arxiv.org/abs/2605.07755"
     selected: y
+    featured: y
+    featured_summary: "Showed that affine recurrent models such as <strong>state-space models and linear attention cannot correct state-tracking errors</strong>, explaining why they learn finite-horizon solutions and predicting the horizon at which tracking collapses."
     type: conference
     year: 2026
     keywords: ["ssm", "state-tracking", "theory"]
