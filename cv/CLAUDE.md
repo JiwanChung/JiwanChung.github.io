@@ -11,9 +11,10 @@ custom drivers).
 - `./build.sh clean` — remove aux/pdf
 - `./build.sh full` — clean then build; use when changing `\nocite{}`, sorting,
   or the custom drivers, since stale `.bbl` can mask the change
-- `./build.sh publish` — full build, then copy `main.pdf` to
-  `../assets/papers/cv.pdf` (the path the website serves). Use this when
-  shipping a new CV; otherwise the served PDF drifts from the source.
+
+This CV is no longer served: the website's `assets/papers/cv.pdf` is the
+two-page CV from `~/projects/cv/manual`. There is deliberately no `publish`
+step here, so a build never overwrites the served PDF.
 
 Output is `main.pdf`. Build runs biber, so the `.bcf` → biber → `.bbl` cycle has
 to complete; one `latexmk` invocation handles that.

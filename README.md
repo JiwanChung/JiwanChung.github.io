@@ -27,43 +27,43 @@ Add an entry to `_data/publications.yaml`. Fields:
 - `title`, `authors` (wrap your own name in `<b>…</b>`), `venue`, `year`
 - `type` — `conference` or `preprint`; drives the color dot and the type filter
 - `selected` — `y` puts it in the *First Author* tab, `n` leaves it in *Archive*
-- `featured` — `y` puts it in the homepage *Featured Research* cards, in file
-  order; `featured_summary` is the one-line blurb shown on that card
-- `keywords` — feeds the d3 keyword map
+- `featured_rank` — a number puts it in the homepage *Featured Research* cards,
+  ordered by that number; omit it to leave the paper unfeatured.
+  `featured_summary` is the one-line blurb shown on that card
+- `short_name` — optional label shown before the title (e.g. `MathLens`), for
+  papers referred to by that name elsewhere on the site
+- `note` — optional italic line shown under the venue
+- `keywords` — rendered as clickable chips that filter the publication list
 - `bibtex` — optional, renders a copy button
 - `paper_pdf`, `code`, `data`, `model`, `webpage`, `video` — each renders an icon
   link if present
 
-One coupling to know about:
-
-- **The keyword map** (`libs/custom/my_js.js`) shows the top 30 keywords and
-  bins them into six colored categories by substring match (`my_js.js:110-130`).
-  A keyword matching no category still renders, just uncategorized.
+Entries in `_data/experience.yaml` need `category: work` (shown under
+*Research Experience*) or `category: education` (shown under *Education*); an
+entry with any other category renders nowhere.
 
 The website and the CV are **separate stores**. A paper added here does not
 appear in the CV PDF, and vice versa.
 
 ## CV
 
-`cv/` holds a LaTeX CV that builds into `assets/papers/cv.pdf` — the PDF this
-site links from the Vitæ section. It's excluded from the Jekyll build, so the
-`.tex` sources never ship.
+`assets/papers/cv.pdf` — the PDF this site links from the header CV button and
+the nav bar — is the generic two-page CV from `~/projects/cv/manual`, not built
+in this repo. To update it, build that CV there (see its README) and copy
+`Jiwan_Chung_CV.pdf` over `assets/papers/cv.pdf`.
 
-Build and ship a new CV with `cv/build.sh publish`. That's the only variant that
-copies the PDF into `assets/`; a plain `build.sh` leaves the served PDF stale.
-
-Adding a publication to the CV takes three coordinated edits, and skipping any
-of them fails quietly. See `cv/CLAUDE.md` before touching it.
+`cv/` holds the older multi-page academic CV. It is no longer served, and its
+`build.sh` has no `publish` step, so building it never touches the site.
 
 ## Layout
 
 ```
 _data/       content (yaml)
 _layouts/    page shells; default.html has the nav, head, footer
-_includes/   gallery + analytics partials
+_includes/   gallery, analytics, and experience-entry partials
 _posts/      blog posts
 _poems/      poems collection
-libs/custom/ my_css.css, my_js.js (keyword map, filters, bibtex toast)
+libs/custom/ my_css.css, my_js.js (filters, bibtex toast)
 libs/external/ vendored deps
 cv/          LaTeX CV -> assets/papers/cv.pdf
 ```
@@ -80,11 +80,9 @@ version of the site and is excluded from the build in `_config.yml`.
 - CSS
   - [Skeleton](http://getskeleton.com)
   - Tabs: [Skeleton Tabs](https://github.com/nathancahill/skeleton-tabs)
-  - Experience: [Timeline](https://codepen.io/NilsWe/pen/FemfK)
   - Icons: [Font Awesome](http://fontawesome.io/), [Academicons](https://jpswalsh.github.io/academicons/)
 - JS
   - [jQuery (3.1.1)](https://jquery.com/)
-  - [D3 (v7)](https://d3js.org/) — research keyword map
   - [KaTeX](https://katex.org/) — math rendering
 
 Based on [Martin Saveski](https://web.media.mit.edu/~msaveski/)'s

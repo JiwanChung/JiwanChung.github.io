@@ -1,0 +1,23 @@
+<div class="paper" style="margin-bottom: 40px;">
+    <div class="row" style="margin: inherit;">
+      <div class="three columns">
+        <div class="figure">
+          {% if include.exp.logo %}
+            <img src="/assets/logos/{{ include.exp.logo }}" width="{{ include.exp.width }}%" style="display: block; margin: auto; padding-bottom: 3%; max-width: 200px;">
+          {% else %}
+            <img src="/assets/logos/default.png" width="{{ include.exp.width }}%" style="display: block; margin: auto; padding-bottom: 3%; max-width: 200px;">
+          {% endif %}
+        </div>
+      </div>
+      <div class="nine columns">
+        <p><b>{{ include.exp.place }} <b style="float:right;"><i>{{ include.exp.location }}</i></b></b></p>
+        <p>{{ include.exp.title }} <b style="float:right;"><i>{{ include.exp.time }}</i></b></p>
+        {% if include.exp.supervisor %}
+          <p>{{ include.exp.supervisor }}</p>
+        {% endif %}
+        {% if include.exp.summary %}
+          <p>{{ include.exp.summary }}</p>
+        {% endif %}
+      </div>
+  </div>
+</div>

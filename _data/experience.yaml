@@ -40,15 +40,25 @@ experiences:
 - place: "Yonsei University"
   location: Seoul, South Korea
   time: "Mar. 2023 - Aug. 2026"
-  title: "Ph.D. Student"
+  title: "Ph.D., Artificial Intelligence"
   supervisor: "Advisor: Seon Joo Kim"
   logo: yonsei.png
   width: 55
+  category: education
 
 - place: "Seoul National University"
   location: Seoul, South Korea
   time: "Mar. 2019 - Feb. 2023"
-  title: "M.Sc. Student"
+  title: "M.S., Computer Engineering"
   supervisor: "Advisor: Gunhee Kim"
   logo: snu.png
   width: 55
+  category: education
+
+- place: "Yonsei University"
+  location: Seoul, South Korea
+  time: "2014 - 2018"
+  title: "B.Sc., Computer Science and Philosophy (Double Major)"
+  logo: yonsei.png
+  width: 55
+  category: education

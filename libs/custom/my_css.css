@@ -80,6 +80,19 @@ h4 { letter-spacing: .1rem; }
   color: white;
   transform: translateY(-2px);
 }
+.social-link.cv-link {
+  width: auto;
+  padding: 0 12px;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+.main-description .email a {
+  color: inherit;
+  text-decoration: none;
+}
+.main-description .email a:hover { color: #2563eb; }
 
 /* ================ Section Titles ================ */
 .section-title {
@@ -99,85 +112,6 @@ h4 { letter-spacing: .1rem; }
   margin-left: 10px;
 }
 .scholar-link:hover { text-decoration: underline; }
-
-/* ================ NEURAL MAP ================ */
-#neural-map-container {
-  position: relative;
-  width: 100%;
-  height: 420px;
-  background: #f8fafc; /* Cleaner solid/subtle background */
-  border: 1px solid #e2e8f0;
-  border-radius: 12px; /* Softer corners */
-  overflow: hidden;
-  cursor: grab;
-  box-shadow: inset 0 0 20px rgba(0,0,0,0.02); /* Inner depth */
-}
-#neural-map-container:active { cursor: grabbing; }
-#neural-map-container svg { display: block; }
-.neural-map-controls {
-  position: absolute;
-  bottom: 12px;
-  right: 12px;
-  display: flex;
-  gap: 6px;
-  z-index: 10;
-}
-.neural-map-controls button {
-  width: 32px;
-  height: 32px;
-  border: 1px solid var(--border);
-  border-radius: 8px; /* Softer buttons */
-  background: rgba(255, 255, 255, 0.9);
-  color: var(--text-secondary);
-  cursor: pointer;
-  font-size: 16px;
-  transition: all 0.2s;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-}
-.neural-map-controls button:hover {
-  background: var(--primary);
-  color: white;
-  border-color: var(--primary);
-  transform: translateY(-1px);
-}
-#neural-tooltip {
-  position: absolute;
-  padding: 8px 14px;
-  background: rgba(255, 255, 255, 0.98);
-  border: 1px solid var(--border);
-  border-radius: 6px;
-  color: var(--text-primary);
-  font-size: 13px;
-  font-weight: 500;
-  pointer-events: none;
-  opacity: 0;
-  transition: opacity 0.2s;
-  z-index: 100;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-  backdrop-filter: blur(4px);
-}
-.neural-node {
-  cursor: pointer;
-  transition: all 0.3s ease;
-  filter: drop-shadow(0 3px 6px rgba(0,0,0,0.15)); /* Nice depth */
-}
-.neural-node:hover {
-  filter: drop-shadow(0 5px 12px rgba(0,0,0,0.25)) brightness(1.1);
-}
-.neural-node.active circle {
-  stroke: var(--text-primary);
-  stroke-width: 3;
-}
-.neural-link {
-  stroke: #cbd5e1; /* Simpler solid color often looks cleaner than gradient */
-  stroke-opacity: 0.4;
-  transition: all 0.2s;
-}
-.neural-link.highlighted {
-  stroke-opacity: 0.8;
-  stroke: var(--text-primary);
-  stroke-width: 2px;
-}
 
 /* ================ FILTER BAR ================ */
 .filter-bar {
@@ -363,6 +297,25 @@ h4 { letter-spacing: .1rem; }
   color: #2563eb;
   font-style: bold;
   font-weight: 500;
+  margin-bottom: 10px;
+}
+.paper-short-name {
+  display: inline-block;
+  margin-right: 6px;
+  padding: 1px 6px;
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #2563eb;
+  vertical-align: 1px;
+}
+.paper-note {
+  font-size: 13px;
+  font-style: italic;
+  color: #6b7280;
+  margin-top: -6px;
   margin-bottom: 10px;
 }
 .paper-keywords {
@@ -689,6 +642,4 @@ h4 { letter-spacing: .1rem; }
   .filter-divider { width: 100%; height: 1px; }
   .year-slider-container { width: 100%; }
   .bibtex-toast { width: calc(100vw - 20px); right: 10px; bottom: 10px; }
-  #neural-map-container { height: 450px; }
-  .neural-map-controls { bottom: 10px; right: 10px; }
 }
